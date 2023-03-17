@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
-* main - We are into standard error
-* Return: We shal return 1
+* main - Output to stderr
+* Return: return 1 for error
 */
 int main(void)
 {
