@@ -15,7 +15,7 @@ int main(void)
 		{
 			putchar(s + '0');
 			putchar(b + '0');
-			if(s == 8 && b == 9)
+			if (s == 8 && b == 9)
 			{
 				break;
 			}
