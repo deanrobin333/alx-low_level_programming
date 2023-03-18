@@ -8,30 +8,22 @@ int main(void)
 {
 	int s;
 	int b;
-	int S;
-	int B;
 
-	for (s = 0; s <= 9; s++)
+	for (s = 0; s < 99; s++)
 	{
-		for (b = 0; b <= 8; b++)
+		for (b = 0; b < 100; b++)
 		{
-			for (S = 0; S <= 9; S++)
+			putchar((s / 10) + '0');
+			putchar((s % 10) + '0');
+			putchar(' ');
+			putchar((b / 10) + '0');
+			putchar((b % 10) + '0');
+			if (s == 98 && b == 99)
 			{
-				for (B = 0; B <= 9; B++)
-				{
-					putchar(s + '0');
-					putchar(b + '0');
-					putchar(' ');
-					putchar(S + '0');
-					putchar(B + '0');
-					if (s == 9 && b == 8 && S == 9 && B == 9)
-					{
-						break;
-					}
-					putchar(',');
-					putchar(' ');
-				}
+			break;
 			}
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
