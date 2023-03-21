@@ -10,7 +10,8 @@ int _putchar(char c);
 void print_alphabet(void);
 
 
-/*function descriptions */
+/**
+ * putchar function descriptions
 
 
 int _putchar(char c)
@@ -18,10 +19,11 @@ int _putchar(char c)
         return (write(1, &c, 1));
 }
 
+*/
 
 /**
  * print_alphabet - prints the letters of the alphabet
- */
+
 
 void print_alphabet(void)
 {
@@ -32,4 +34,4 @@ void print_alphabet(void)
                 _putchar(i);
         }
 }
-
+*/
