@@ -6,3 +6,5 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 
+int _putchar(char c);
+
