@@ -12,6 +12,6 @@ int main(void)
 
 	for (i = 'a'; i < 'z'; i++)
 	{
-		_putchar(i);
+		print_alphabet(i);
 	}
 }
