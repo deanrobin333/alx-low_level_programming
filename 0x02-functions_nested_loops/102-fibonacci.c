@@ -12,7 +12,14 @@ int main() {
             first = second;
             second = next;
         }
-        printf("%lu, ", next);
+	if(i < 49)
+	{
+        	printf("%lu, ", next);
+	}
+	else
+	{
+	        printf("%lu", next);
+	}
     }
 	printf("\n");
 
