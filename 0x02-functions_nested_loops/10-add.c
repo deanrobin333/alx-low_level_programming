@@ -3,6 +3,8 @@
 
 /**
  * add - adding two integers
+ * @numb1: first integer
+ * @numb2: second integer
  * Return: Always 0
  */
 
