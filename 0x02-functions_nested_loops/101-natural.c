@@ -8,13 +8,14 @@ int main(void)
 {
 	int i;
 	int s;
+
 	for (i = 0; i <= 1024; i++)
 	{
-		if((i % 3 == 0) || (i % 5 == 0))
+		if ((i % 3 == 0) || (i % 5 == 0))
 		{
 			s += i;
 		}
 	}
-	printf("%d\n",s);
+	printf("%d\n", s);
 	return (0);
 }
