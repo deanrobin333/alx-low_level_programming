@@ -10,15 +10,17 @@
 
 int print_last_digit(int n)
 {
-	int post;
 	int last;
 
 	if (n < 0)
-		post = -n;
-	else
-		post = n;
-	
-	last = post % 10;
+		n = -n;
 
-	return (_putchar(last + '0'));
+	last = n % 10;
+
+	if (last < 0)
+		last = -last;
+
+	putchar(last + '0');
+
+	return(last);
 }
