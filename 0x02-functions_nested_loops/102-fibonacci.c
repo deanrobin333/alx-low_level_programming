@@ -2,7 +2,7 @@
 
 int main() {
     int i;
-    unsigned long long first = 1, second = 2, next;
+    unsigned long first = 1, second = 2, next;
 
     for (i = 0; i < 50; i++) {
         if (i <= 1) {
@@ -12,7 +12,7 @@ int main() {
             first = second;
             second = next;
         }
-        printf("%llu, ", next);
+        printf("%lu, ", next);
     }
 	printf("\n");
 
