@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * _isupper - Check for upper characters
+ * @c: character to be checked
  * Return: Always 0
  */
 
