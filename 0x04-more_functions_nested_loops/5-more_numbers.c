@@ -9,16 +9,23 @@
 
 void more_numbers(void)
 {
+	int start = 0;
+	int end = 14;
 	int i;
-	int j;
 
-	for (i = 0; i <= 10; i++)
+	for (i = 1; i <= 10; i++)
 	{
-		for (j = 0; j <= 14; j++)
+		while (start <= end)
 		{
-			printf("%d", j);
+			_putchar(start > 9 ? (start / 10) + '0' : start + '0');
+			if (start > 9)
+			{
+				_putchar((start % 10) + '0');
+			}
+			start++;
 		}
-	printf("\n");
+		start = 0;
+		_putchar('\n');
 	}
 }
 
