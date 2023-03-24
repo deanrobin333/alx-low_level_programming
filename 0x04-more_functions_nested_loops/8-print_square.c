@@ -3,26 +3,28 @@
 
 /**
  * print_square - prints square
- * @n: number of times to print line
+ * @size: number of times to print line
  */
 
-void print_square(int n)
+void print_square(int size)
 {
 
-	int i;
-	int j;
+	int count = 0;
+	int start;
 
-	for (i = 0; i <= n; i++)
-	{
-		if (n <= 0)
-		{
-			putchar('a');
-		}
-		for (j = 0; j <= n; j++)
-		{
-				_putchar('#');
-		}
+	if (size <= 0)
 		_putchar('\n');
+	else
+	{
+		for (start = 0; start < size; start++)
+		{
+			while (count < size)
+			{
+				_putchar('#');
+				count++;
+			}
+			count = 0;
+			_putchar('\n');
+		}
 	}
-	_putchar('\n');
 }
