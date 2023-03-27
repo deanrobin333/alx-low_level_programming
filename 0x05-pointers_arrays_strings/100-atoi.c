@@ -30,6 +30,5 @@ int _atoi(char *s)
 			break;
 		}
 	}
-	_putchar('\n');
 	return (numb * sign);
 }
