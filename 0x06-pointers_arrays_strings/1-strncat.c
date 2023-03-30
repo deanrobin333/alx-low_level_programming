@@ -16,7 +16,12 @@ char *_strncat(char *dest, char *src, int n)
 	char *joined = dest;
 	int i;
 	int len = strlen(src);
+	unsigned int nSize = n;
 
+	if (sizeof(src) > nSize)
+	{
+		src[strlen(src)] = 0;
+	}
 	if (n < len)
 	{
 		for (i = 0; src[i] < src[n] ; i++)
