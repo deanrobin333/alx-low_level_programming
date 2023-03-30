@@ -15,7 +15,7 @@ char *_strncat(char *dest, char *src, int n)
 {
 	int i;
 	int len = strlen(src);
-	
+
 	if (n < len)
 	{
 		for (i = 0; src[i] < src[n] ; i++)
