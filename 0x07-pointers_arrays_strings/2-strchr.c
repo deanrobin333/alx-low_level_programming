@@ -11,18 +11,13 @@
 char *_strchr(char *s, char c)
 {
 	int i;
-	char *found_chr;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (s[i] == c)
 		{
-			found_chr = &s[i];
-			break;
-		}
-		else
-		{
+			return (&s[i]);
 		}
 	}
-	return (found_chr);
+	return (NULL);
 }
