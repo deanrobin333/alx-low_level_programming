@@ -50,7 +50,3 @@ int is_palindrome(char *s)
 		return (1);
 	return (pal_char(s, 0, _strlen(s)));
 }
-
-
-
-
