@@ -3,9 +3,9 @@
 
 /**
  * _sqrt_numb - gives us i which is the square root
- * @n: number to perform square root
+ * @n: number to compare with i, to get square root.
  * @i: Square of i, gives us n
- * Return: sqrt numb
+ * Return: sqrt_numb
  */
 
 int _sqrt_numb(int n, int i)
