@@ -7,35 +7,35 @@
  * @argv: array containing arguments
  * Return: always 0, 1 for error.
  */
+
 int main(int argc, char *argv[])
 {
-	int num, j, result;
-	int coins[] = {25, 10, 5, 2, 1};
+	int i;
+	int cents[] = {25, 10, 5, 2, 1};
+	int change;
+	int argument;
 
 	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
+	change = 0;
+	argument = atoi(argv[1]);
 
-	num = atoi(argv[1]);
-	result = 0;
-
-	if (num < 0)
+	if (argument < 0)
 	{
 		printf("0\n");
 		return (0);
 	}
-
-	for (j = 0; j < 5 && num >= 0; j++)
+	for (i = 0; i < 5 && argument >= 0; i++)
 	{
-		while (num >= coins[j])
+		while (argument >= cents[i])
 		{
-			result++;
-			num -= coins[j];
+			change++;
+			argument -= cents[i];
 		}
 	}
-
-	printf("%d\n", result);
+	printf("%d\n", change);
 	return (0);
 }
