@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - using argv to print results of multiplication of arguments
+ * main - using argv to print results of multiplication of two arguments
  * @argc: size of array
  * @argv: array containing commands
  * Return: always 0.
