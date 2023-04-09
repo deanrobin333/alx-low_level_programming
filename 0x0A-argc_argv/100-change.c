@@ -12,14 +12,17 @@ int main(int argc, char *argv[])
 {
 	int i;
 	int cents[] = {25, 10, 5, 2, 1};
-	int change = 0;
-	int argument = atoi(argv[1]);
+	int change;
+	int argument;
 
 	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
+	change = 0;
+	argument = atoi(argv[1]);
+
 	if (argument < 0)
 	{
 		printf("0\n");
