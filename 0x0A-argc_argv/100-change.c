@@ -30,10 +30,9 @@ int main(int argc, char *argv[])
 	}
 	for (i = 0; i < 5 && argument >= 0; i++)
 	{
-		while (argument >= cents[i])
+		for (; argument >= cents[i]; argument -= cents[i])
 		{
 			change++;
-			argument -= cents[i];
 		}
 	}
 	printf("%d\n", change);
