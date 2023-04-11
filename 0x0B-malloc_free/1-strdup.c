@@ -22,6 +22,10 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
+	if (copied == NULL)
+	{
+		return (NULL);
+	}
 	else
 	{
 		for (i = 0; str[i] != '\0'; i++)
