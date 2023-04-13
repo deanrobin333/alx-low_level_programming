@@ -32,20 +32,20 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 	for (i = 0; s1[i] != '\0'; i++)
 	{
-		joined[i] += s1[i];
+		joined[i] = s1[i];
 	}
 	if (n >= strlen(s2))
 	{
 		for (i = 0; s2[i] != '\0'; i++)
 		{
-			joined[strlen(joined)] += s2[i];
+			joined[i + strlen(s1)] = s2[i];
 		}
 	}
 	else
 	{
 		for (i = 0; i < j; i++)
 		{
-			joined[strlen(joined)] += s2[i];
+			joined[i + strlen(s1)] = s2[i];
 		}
 
 	}
