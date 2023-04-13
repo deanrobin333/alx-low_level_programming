@@ -35,7 +35,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		{
 			joined[i] += s1[i];
 		}
-		if (n >= strlen(s2) + 1)
+		if (n >= strlen(s2))
 		{
 			for (i = 0; s2[i] != '\0'; i++)
 			{
@@ -51,5 +51,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 		}
 	}
+	joined[strlen(joined)] = '\0';
 	return (joined);
 }
