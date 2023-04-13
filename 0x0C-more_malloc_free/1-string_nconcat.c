@@ -11,7 +11,6 @@
  * Return: pointer to concatenated string
  */
 
-
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	int i, length;
