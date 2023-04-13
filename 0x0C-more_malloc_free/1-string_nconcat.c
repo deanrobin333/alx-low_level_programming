@@ -49,6 +49,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		}
 
 	}
-	joined[strlen(joined)] = '\0';
+	joined[length] = '\0';
 	return (joined);
 }
