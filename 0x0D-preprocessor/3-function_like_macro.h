@@ -1,5 +1,3 @@
 #ifndef ABS_X_
-#define ABS(x) ((abs(x)))
-#include <stdlib.h>
-
+#define ABS(x) (((x) < 0) ? -(x) : (x))
 #endif
