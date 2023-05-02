@@ -15,7 +15,7 @@ size_t free_listint_safe(listint_t **h)
 	listint_t *current;
 
 	if (h == NULL || *h == NULL)
-		return (1);
+		return (0);
 	while (*h)
 	{
 		freed = *h - (*h)->next;
