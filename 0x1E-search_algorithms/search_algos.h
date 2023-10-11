@@ -23,4 +23,9 @@ int exponential_search(int *array, size_t size, int value);
 /* helper function */
 int _binary_search(int *array, size_t left, size_t right, int value);
 
+/* 11. Advanced binary search -- 104-advanced_binary.c */
+int advanced_binary(int *array, size_t size, int value);
+/* helper function */
+int recursive_search(int *array, size_t size, int value);
+
 #endif
