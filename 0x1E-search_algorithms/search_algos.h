@@ -12,4 +12,7 @@ int binary_search(int *array, size_t size, int value);
 int binary_search_helper(int *array, size_t l, size_t r, int value);
 void print_array(int *array, size_t l, size_t r);
 
+/* 7. Jump search -- 100-jump.c */
+int jump_search(int *array, size_t size, int value);
+
 #endif
