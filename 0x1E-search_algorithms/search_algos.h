@@ -18,4 +18,9 @@ int jump_search(int *array, size_t size, int value);
 /* 9. Interpolation search -- 102-interpolation.c */
 int interpolation_search(int *array, size_t size, int value);
 
+/* 10. Exponential search -- 103-exponential.c */
+int exponential_search(int *array, size_t size, int value);
+/* helper function */
+int _binary_search(int *array, size_t left, size_t right, int value);
+
 #endif
