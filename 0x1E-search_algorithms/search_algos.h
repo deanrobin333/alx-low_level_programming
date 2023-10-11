@@ -20,6 +20,24 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
+/**
+ * struct skiplist_s - Singly linked list with an express lane
+ *
+ * @n: Integer
+ * @index: Index of the node in the list
+ * @next: Pointer to the next node
+ * @express: Pointer to the next node in the express lane
+ *
+ * Description: singly linked list node structure with an express lane
+ * 13. Linear search in a skip list -- 106-linear_skip.c
+ */
+typedef struct skiplist_s
+{
+	int n;
+	size_t index;
+	struct skiplist_s *next;
+	struct skiplist_s *express;
+} skiplist_t;
 
 /* Linear search -- 0-linear.c */
 int linear_search(int *array, size_t size, int value);
@@ -48,5 +66,8 @@ int recursive_search(int *array, size_t size, int value);
 
 /* 12. Jump search in a singly linked list -- 105-jump_list.c */
 listint_t *jump_list(listint_t *list, size_t size, int value);
+
+/* 13. Linear search in a skip list -- 106-linear_skip.c */
+skiplist_t *linear_skip(skiplist_t *list, int value);
 
 #endif
