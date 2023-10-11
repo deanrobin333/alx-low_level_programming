@@ -15,4 +15,7 @@ void print_array(int *array, size_t l, size_t r);
 /* 7. Jump search -- 100-jump.c */
 int jump_search(int *array, size_t size, int value);
 
+/* 9. Interpolation search -- 102-interpolation.c */
+int interpolation_search(int *array, size_t size, int value);
+
 #endif
