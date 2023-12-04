@@ -9,7 +9,7 @@
 	- [1. The last digit](#1)
 	- [2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game](#2)
 	- [3. alphABET](#3)
-	- [](#4)
+	- [4. When I was having that alphabet soup, I never thought that it would pay off](#4)
 	- [](#5)
 	- [](#6)
 	- [](#7)
@@ -115,13 +115,18 @@
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
-**t**
+**4. When I was having that alphabet soup, I never thought that it would pay off**
+- Write a program that prints the alphabet in lowercase, followed by a new line.
+    - Print all the letters except `q` and `e`
+    - You can only use the `putchar` function (every other function (`printf`, `puts`, etc…) is forbidden)
+    - All your code should be in the `main` function
+    - You can only use `putchar` twice in your code
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x01-variables_if_else_while`
-    - File: ``
+    - File: `4-print_alphabt.c`
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
