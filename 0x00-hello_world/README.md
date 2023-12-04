@@ -9,7 +9,7 @@
 	- [1. Compiler](#1)
 	- [2. Assembler](#2)
 	- [3. Name](#3)
-	- [](#4)
+	- [4. Hello, puts](#4)
 	- [](#5)
 	- [](#6)
 	- [](#7)
@@ -138,13 +138,17 @@ done
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
-**t**
+**4. Hello, puts**
+- Write a C program that prints exactly `"Programming is like building a multilingual puzzle`, followed by a new line.
+    - Use the function `puts`
+    - You are not allowed to use `printf`
+    - Your program should end with the value `0`
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x00-hello_world`
-    - File: ``
+    - File: `4-puts.c`
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
