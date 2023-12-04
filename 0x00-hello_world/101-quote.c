@@ -10,7 +10,7 @@ int main(void)
 	char w[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 	long int len = sizeof(w);
 
-	write(1, w, len);
+	write(2, w, len);
 
 	return (0);
 }
