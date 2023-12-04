@@ -7,7 +7,7 @@
 - [Tasks](#tasks)
 	- [0. Positive anything is better than negative nothing](#0)
 	- [1. The last digit](#1)
-	- [](#2)
+	- [2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game](#2)
 	- [](#3)
 	- [](#4)
 	- [](#5)
@@ -87,13 +87,17 @@
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
-**t**
+**2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game**
+- Write a program that prints the alphabet in lowercase, followed by a new line.
+    - You can only use the `putchar` function (every other function (`printf`, `puts`, etc…) is forbidden)
+    - All your code should be in the `main` function
+    - You can only use `putchar` twice in your code
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x01-variables_if_else_while`
-    - File: ``
+    - File: `2-print_alphabet.c`
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
