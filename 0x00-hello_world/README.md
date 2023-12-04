@@ -6,7 +6,7 @@
 - [Project Description](#project-description)
 - [Tasks](#tasks)
 	- [0. Preprocessor](#0)
-	- [](#1)
+	- [1. Compiler](#1)
 	- [](#2)
 	- [](#3)
 	- [](#4)
@@ -94,13 +94,19 @@ done
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
-**t**
+**1. Compiler**
+- Write a script that compiles a C file but does not link.
+
+    - The C file name will be saved in the variable `$CFILE`
+    - The output file should be named the same as the C file, but with the extension `.o` instead of `.c`.
+        - Example: if the C file is `main.c`, the output file should be `main.o`
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x00-hello_world`
-    - File: ``
+    - File: `1-compiler`
+	- Example file: `main.c`
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
