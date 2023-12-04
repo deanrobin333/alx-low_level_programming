@@ -90,7 +90,7 @@ done
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x00-hello_world`
     - File: `0-preprocessor`
-	- Supporting file: `main.c`
+	- Example file: `main.c`
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
