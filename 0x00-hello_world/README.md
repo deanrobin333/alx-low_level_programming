@@ -12,7 +12,7 @@
 	- [4. Hello, puts](#4)
 	- [5. Hello, printf](#5)
 	- [6. Size is not grandeur, and territory does not make a nation](#6)
-	- [](#7)
+	- [7. Intel](#7)
 	- [](#8)
 ---
 ## Author Details
@@ -203,13 +203,18 @@ done
 ---
 #### 7
 ###### [Table of Contents](#table-of-contents)
-**t**
+**7. Intel**
+- Write a script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
+    - The C file name will be saved in the variable `$CFILE`.
+    - The output file should be named the same as the C file, but with the extension `.s` instead of `.c`.
+        - Example: if the C file is `main.c`, the output file should be `main.s`
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x00-hello_world`
-    - File: ``
+    - File: `100-intel`
+	- Example file: `main.c`
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
