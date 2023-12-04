@@ -11,7 +11,7 @@
 	- [3. Name](#3)
 	- [4. Hello, puts](#4)
 	- [5. Hello, printf](#5)
-	- [](#6)
+	- [6. Size is not grandeur, and territory does not make a nation](#6)
 	- [](#7)
 	- [](#8)
 ---
@@ -167,13 +167,39 @@ done
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
-**t**
+**6. Size is not grandeur, and territory does not make a nation**
+- Write a C program that prints the size of various types on the computer it is compiled and run on.
+
+    - You should produce the exact same output as in the example
+    - Warnings are allowed
+    - Your program should return `0`
+    - You might have to install the package `libc6-dev-i386` on your Linux to test the `-m32` `gcc` option
+
+    ```
+    julien@ubuntu:~/c/0x00$ gcc 6-size.c -m32 -o size32 2> /tmp/32
+    julien@ubuntu:~/c/0x00$ gcc 6-size.c -m64 -o size64 2> /tmp/64
+    julien@ubuntu:~/c/0x00$ ./size32
+    Size of a char: 1 byte(s)
+    Size of an int: 4 byte(s)
+    Size of a long int: 4 byte(s)
+    Size of a long long int: 8 byte(s)
+    Size of a float: 4 byte(s)
+    julien@ubuntu:~/c/0x00$ ./size64
+    Size of a char: 1 byte(s)
+    Size of an int: 4 byte(s)
+    Size of a long int: 8 byte(s)
+    Size of a long long int: 8 byte(s)
+    Size of a float: 4 byte(s)
+    julien@ubuntu:~/c/0x00$ echo $?
+    0
+    julien@ubuntu:~/c/0x00$
+    ```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x00-hello_world`
-    - File: ``
+    - File: `6-size.c`
 ---
 #### 7
 ###### [Table of Contents](#table-of-contents)
