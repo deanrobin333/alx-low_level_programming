@@ -8,7 +8,7 @@
 	- [0. Preprocessor](#0)
 	- [1. Compiler](#1)
 	- [2. Assembler](#2)
-	- [](#3)
+	- [3. Name](#3)
 	- [](#4)
 	- [](#5)
 	- [](#6)
@@ -125,13 +125,16 @@ done
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
-**t**
+**3. Name**
+- Write a script that compiles a C file and creates an executable named `cisfun`.
+    - The C file name will be saved in the variable `$CFILE`
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x00-hello_world`
-    - File: ``
+    - File: `3-name`
+	- Example file: `main.c`
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
