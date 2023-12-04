@@ -13,7 +13,7 @@
 	- [5. Hello, printf](#5)
 	- [6. Size is not grandeur, and territory does not make a nation](#6)
 	- [7. Intel](#7)
-	- [](#8)
+	- [8. UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity](#8)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -218,13 +218,17 @@ done
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
-**t**
+**8. UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity**
+- Write a C program that prints exactly `and that piece of art is useful" - Dora Korpar, 2015-10-19`, followed by a new line, to the standard error.
+    - You are not allowed to use any functions listed in the NAME section of the man (3) `printf` or man (3) `puts`
+    - Your program should return 1
+    - Your program should compile without any warnings when using the `-Wall` `gcc` option
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x00-hello_world`
-    - File: ``
+    - File: `101-quote.c`
 ---
 
 
