@@ -1,3 +1,40 @@
-#C language
-We are now starting C language
-Date: Thursday 16th March 2023
+# **ALX LOW LEVEL PROGRAMMING**
+---
+## Table of Contents
+- [Author Details](#author-details)
+- [Projects](#tasks)
+	- [0. 0x00. C - Hello, World](#0)
+	- [1. ](#1)
+---
+## Author Details
+- *Dean Robin Otsyeno - deanrobin777@gmail.com*
+
+## Project
+#### 0
+###### [Table of Contents](#table-of-contents)
+### [0. 0x00. C - Hello, World](./0x00-hello_world)
+- Why C programming is awesome
+- Who invented C
+- Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
+- What happens when you type `gcc main.c`
+- What is an entry point
+- What is `main`
+- How to print text using `printf`, `puts` and `putchar`
+- How to get the size of a specific type using the unary operator `sizeof`
+- How to compile using `gcc`
+- What is the default program name when compiling with `gcc`
+- What is the official C coding style and how to check your code with `betty-style`
+- How to find the right header to include in your source code when using a standard library function
+- How does the `main` function influence the return value of the program
+---
+#### 1
+###### [Table of Contents](#table-of-contents)
+### [1. ](./)
+
+---
+
+
+<br></br>
+<div align="right">
+  <sub style="font-style: italic"> Dean Robin Otsyeno - deanrobin777@gmail.com</sub>
+</div>
