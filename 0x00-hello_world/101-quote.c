@@ -12,5 +12,5 @@ int main(void)
 
 	write(2, w, len);
 
-	return (0);
+	return (1);
 }
