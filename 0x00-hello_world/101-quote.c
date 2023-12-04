@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	char w[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	char w[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 	long int len = sizeof(w);
 
 	write(2, w, len);
