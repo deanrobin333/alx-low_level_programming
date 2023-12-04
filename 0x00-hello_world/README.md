@@ -7,7 +7,7 @@
 - [Tasks](#tasks)
 	- [0. Preprocessor](#0)
 	- [1. Compiler](#1)
-	- [](#2)
+	- [2. Assembler](#2)
 	- [](#3)
 	- [](#4)
 	- [](#5)
@@ -110,13 +110,18 @@ done
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
-**t**
+**2. Assembler**
+- Write a script that generates the assembly code of a C code and save it in an output file.
+    - The C file name will be saved in the variable `$CFILE`
+    - The output file should be named the same as the C file, but with the extension `.s` instead of `.c`.
+        - Example: if the C file is `main.c`, the output file should be `main.s`
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x00-hello_world`
-    - File: ``
+    - File: `2-assembler`
+	- Example file: `main.c`
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
