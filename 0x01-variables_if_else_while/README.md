@@ -14,7 +14,7 @@
 	- [6. Numberz](#6)
 	- [7. Smile in the mirror](#7)
 	- [8. Hexadecimal](#8)
-	- [](#9)
+	- [9. Patience, persistence and perspiration make an unbeatable combination for success](#9)
 	- [](#10)
 	- [](#11)
 	- [](#12)
@@ -163,6 +163,11 @@
     - You can only use the `putchar` function (every other function (`printf`, `puts`, etc…) is forbidden)
     - All your code should be in the `main` function
     - You can only use `putchar` twice in your code
+```
+julien@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 7-print_tebahpla.c -o 7-print_tebahpla
+julien@ubuntu:~/0x01$ ./7-print_tebahpla
+zyxwvutsrqponmlkjihgfedcba
+```
 
 <br></br>
 - Repo
@@ -177,6 +182,11 @@
     - You can only use the `putchar` function (every other function (`printf`, `puts`, etc…) is forbidden)
     - All your code should be in the `main` function
     - You can only use `putchar` three times in your code
+```
+julien@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 8-print_base16.c -o 8-print_base16
+julien@ubuntu:~/0x01$ ./8-print_base16
+0123456789abcdef
+```
 
 <br></br>
 - Repo
@@ -186,13 +196,25 @@
 ---
 #### 9
 ###### [Table of Contents](#table-of-contents)
-**t**
+**9. Patience, persistence and perspiration make an unbeatable combination for success**
+- Write a program that prints all possible combinations of single-digit numbers.
+    - Numbers must be separated by `,`, followed by a space
+    - Numbers should be printed in ascending order
+    - You can only use the `putchar` function (every other function (`printf`, `puts`, etc…) is forbidden)
+    - All your code should be in the `main` function
+    - You can only use `putchar` four times maximum in your code
+    - You are not allowed to use any variable of type `char`
+```
+julien@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 9-print_comb.c -o 9-print_comb
+julien@ubuntu:~/0x01$ ./9-print_comb | cat -e
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9$
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x01-variables_if_else_while`
-    - File: ``
+    - File: `9-print_comb.c`
 ---
 #### 10
 ###### [Table of Contents](#table-of-contents)
