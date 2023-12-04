@@ -12,7 +12,7 @@
 	- [4. When I was having that alphabet soup, I never thought that it would pay off](#4)
 	- [5. Numbers](#5)
 	- [6. Numberz](#6)
-	- [](#7)
+	- [7. Smile in the mirror](#7)
 	- [](#8)
 	- [](#9)
 	- [](#10)
@@ -158,13 +158,17 @@
 ---
 #### 7
 ###### [Table of Contents](#table-of-contents)
-**t**
+**7. Smile in the mirror**
+- Write a program that prints the lowercase alphabet in reverse, followed by a new line.
+    - You can only use the `putchar` function (every other function (`printf`, `puts`, etc…) is forbidden)
+    - All your code should be in the `main` function
+    - You can only use `putchar` twice in your code
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x01-variables_if_else_while`
-    - File: ``
+    - File: `7-print_tebahpla.c`
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
