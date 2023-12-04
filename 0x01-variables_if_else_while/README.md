@@ -13,7 +13,7 @@
 	- [5. Numbers](#5)
 	- [6. Numberz](#6)
 	- [7. Smile in the mirror](#7)
-	- [](#8)
+	- [8. Hexadecimal](#8)
 	- [](#9)
 	- [](#10)
 	- [](#11)
@@ -172,13 +172,17 @@
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
-**t**
+**8. Hexadecimal**
+- Write a program that prints all the numbers of base 16 in lowercase, followed by a new line.
+    - You can only use the `putchar` function (every other function (`printf`, `puts`, etc…) is forbidden)
+    - All your code should be in the `main` function
+    - You can only use `putchar` three times in your code
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x01-variables_if_else_while`
-    - File: ``
+    - File: `8-print_base16.c`
 ---
 #### 9
 ###### [Table of Contents](#table-of-contents)
