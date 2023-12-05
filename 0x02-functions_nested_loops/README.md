@@ -15,7 +15,7 @@
 	- [7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important](#7)
 	- [8. I'm federal agent Jack Bauer, and today is the longest day of my life](#8)
 	- [9. Learn your times table](#9)
-	- [](#10)
+	- [10. a + b](#10)
 	- [](#11)
 	- [](#12)
 	- [](#13)
@@ -267,13 +267,23 @@ ulien@ubuntu:~/0x02$ ./9-times_table | cat -e
 ---
 #### 10
 ###### [Table of Contents](#table-of-contents)
-**t**
+**10. a + b**
+- Write a function that adds two integers and returns the result.
+    
+    - Prototype: `int add(int, int);`
+
+```
+julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 10-main.c 10-add.c -o 10-add
+julien@ubuntu:~/0x02$ ./10-add 
+98
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x02-functions_nested_loops`
-    - File: ``
+    - File: `10-add.c`
+	- Example file: `10-main.c`
 ---
 #### 11
 ###### [Table of Contents](#table-of-contents)

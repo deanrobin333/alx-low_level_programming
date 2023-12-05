@@ -27,7 +27,7 @@ void times_table(void)
 		for (second = 0; second <= 9; second++)
 		{
 			multi = first * second;
-			if (second == 0)
+			if (first == 0)
 			{
 				_putchar(multi + '0');
 			}
