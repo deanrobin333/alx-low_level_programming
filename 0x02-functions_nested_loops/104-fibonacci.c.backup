@@ -3,12 +3,6 @@
 /**
  * main - prints the first 98 fibonacci numbers, starting with 1 and 2
  * Return: 0
- *
- * so from the 1st to the 92, number it prints well.
- *		technically 'unsigned long next' handles 90 numbers,
- *		since the first and second are hardcorded.
- * so we need the 93rd to the 98th number.
- * we get this by iterating backwards. to get the 6 numbers from 98 to 93.
  */
 
 int main(void)
@@ -37,14 +31,14 @@ int main(void)
 	s1 = (second / support);
 	s2 = (second % support);
 
-	for (i = 92; i <= 98; ++i)
+	for (i = 91; i <= 98; ++i)
 	{
+		printf(", %lu", s1 + (s2 / support));
+		printf("%lu", s2 % support);
 		s1 = s1 + f1;
 		f1 = s1 - f1;
 		s2 = s2 + f2;
 		f2 = s2 - f2;
-		printf(", %lu", s1 + (s2 / support));
-		printf("%lu", s2 % support);
 	}
 
 	printf("\n");
