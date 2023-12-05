@@ -8,7 +8,7 @@
 	- [0. \_putchar](#0)
 	- [1. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game](#1)
 	- [2. 10 x alphabet](#2)
-	- [](#3)
+	- [3. islower](#3)
 	- [](#4)
 	- [](#5)
 	- [](#6)
@@ -84,13 +84,19 @@
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
-**t**
+**3. islower**
+- Write a function that checks for lowercase character.
+    - Prototype: `int _islower(int c);`
+    - Returns `1` if `c` is lowercase
+    - Returns `0` otherwise
+- FYI: The standard library provides a similar function: `islower`. Run `man islower` to learn more.
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x02-functions_nested_loops`
-    - File: ``
+    - File: `3-islower.c`
+	- Example file: `3-main.c`
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
