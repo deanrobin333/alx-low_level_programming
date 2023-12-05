@@ -6,7 +6,8 @@
 	- [0. 0x00. C - Hello, World](#0)
 	- [1. 0x01. C - Variables, if, else, while](#1)
 	- [2. 0x02. C - Functions, nested loops](#2)
-	- [3. ](#3)
+	- [3. 0x03. C - Debugging](#3)
+	- [4. ](#4)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -62,7 +63,14 @@
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
-### [3. ](./)
+### [3. 0x03. C - Debugging](./0x03-debugging)
+- What is debugging
+- What are some methods of debugging manually
+- How to read the error messages
+---
+#### 4
+###### [Table of Contents](#table-of-contents)
+### [4. ](./)
 
 ---
 
