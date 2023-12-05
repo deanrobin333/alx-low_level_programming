@@ -28,8 +28,6 @@ void times_table(void)
 		{
 			multi = first * second;
 			if (second == 0)
-				/**
-				 */
 			{
 				_putchar(multi + '0');
 			}
