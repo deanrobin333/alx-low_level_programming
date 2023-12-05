@@ -9,8 +9,12 @@
 int main(void)
 {
 	int i;
-	unsigned long first = 1, second = 2, next, sum;
-
+	unsigned long first = 1, second = 2, next, sum = 0;
+	/**
+	 * we could have started "i = 1" in for loop
+	 *		(since we dont need 1, as we are using even numbers)
+	 * and skipped the first if statement (gotten rid of the whole if statement
+	 * and started by assigning next to the sum of first and second"
 	for (i = 0; i < 50 ; i++)
 	{
 		if (i <= 1)
