@@ -13,7 +13,7 @@
 	- [5. Sign](#5)
 	- [6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you](#6)
 	- [7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important](#7)
-	- [](#8)
+	- [8. I'm federal agent Jack Bauer, and today is the longest day of my life](#8)
 	- [](#9)
 	- [](#10)
 	- [](#11)
@@ -211,13 +211,25 @@ julien@ubuntu:~/0x02$ ./4-isalpha
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
-**t**
+**8. I'm federal agent Jack Bauer, and today is the longest day of my life**
+- Write a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+
+    - Prototype: `void jack_bauer(void);`
+    - You can listen to [this soundtrack](https://www.youtube.com/watch?v=btAfXqgMkPs "this soundtrack") while coding :)
+```
+julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 8-main.c 8-24_hours.c -o 8-24
+julien@ubuntu:~/0x02$ ./8-24 | head -3
+00:00
+00:01
+00:02
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x02-functions_nested_loops`
-    - File: ``
+    - File: `8-24_hours.c`
+	- Example file: `8-main.c`
 ---
 #### 9
 ###### [Table of Contents](#table-of-contents)
