@@ -9,7 +9,7 @@
 	- [1. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game](#1)
 	- [2. 10 x alphabet](#2)
 	- [3. islower](#3)
-	- [](#4)
+	- [4. isalpha](#4)
 	- [](#5)
 	- [](#6)
 	- [](#7)
@@ -74,6 +74,20 @@
 - Write a function that prints 10 times the alphabet, in lowercase, followed by a new line.
     - Prototype: `void print_alphabet_x10(void);`
     - You can only use `_putchar` twice in your code
+    ```
+    julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 2-main.c 2-print_alphabet_x10.c -o 2-alphabet_x10
+    julien@ubuntu:~/0x02$ ./2-alphabet_x10 
+    abcdefghijklmnopqrstuvwxyz
+    abcdefghijklmnopqrstuvwxyz
+    abcdefghijklmnopqrstuvwxyz
+    abcdefghijklmnopqrstuvwxyz
+    abcdefghijklmnopqrstuvwxyz
+    abcdefghijklmnopqrstuvwxyz
+    abcdefghijklmnopqrstuvwxyz
+    abcdefghijklmnopqrstuvwxyz
+    abcdefghijklmnopqrstuvwxyz
+    abcdefghijklmnopqrstuvwxyz
+    ```
 
 <br></br>
 - Repo
@@ -90,7 +104,11 @@
     - Returns `1` if `c` is lowercase
     - Returns `0` otherwise
 - FYI: The standard library provides a similar function: `islower`. Run `man islower` to learn more.
-
+```
+julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 3-main.c 3-islower.c -o 3-islower
+julien@ubuntu:~/0x02$ ./3-islower
+011 
+``` 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
@@ -100,13 +118,25 @@
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
-**t**
+**4. isalpha**
+- Write a function that checks for alphabetic character.
 
+    - Prototype: `int _isalpha(int c);`
+    - Returns `1` if `c` is a letter, lowercase or uppercase
+    - Returns `0` otherwise
+
+- FYI: The standard library provides a similar function: `isalpha`. Run `man isalpha` to learn more.
+```
+julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 4-main.c 4-isalpha.c -o 4-isalpha
+julien@ubuntu:~/0x02$ ./4-isalpha 
+1110
+```
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x02-functions_nested_loops`
-    - File: ``
+    - File: `4-isalpha.c`
+	- Example file: `4-main.c`
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
