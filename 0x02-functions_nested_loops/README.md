@@ -12,7 +12,7 @@
 	- [4. isalpha](#4)
 	- [5. Sign](#5)
 	- [6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you](#6)
-	- [](#7)
+	- [7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important](#7)
 	- [](#8)
 	- [](#9)
 	- [](#10)
@@ -191,13 +191,23 @@ julien@ubuntu:~/0x02$ ./4-isalpha
 ---
 #### 7
 ###### [Table of Contents](#table-of-contents)
-**t**
+**7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important**
+- Write a function that prints the last digit of a number
+    - Prototype: `int print_last_digit(int);`
+    - Returns the value of the last digit
+
+	```
+	julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 7-main.c 7-print_last_digit.c -o 7-last_digit
+	julien@ubuntu:~/0x02$ ./7-last_digit
+	8044
+	```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x02-functions_nested_loops`
-    - File: ``
+    - File: `7-print_last_digit.c`
+	- Example file: `7-main.c`
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
