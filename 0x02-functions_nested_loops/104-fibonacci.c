@@ -7,8 +7,16 @@
  * so from the 1st to the 92, number it prints well.
  *		technically 'unsigned long next' handles 90 numbers,
  *		since the first and second are hardcorded.
+ *
  * so we need the 93rd to the 98th number.
- * we get this by iterating backwards. to get the 6 numbers from 98 to 93.
+ *
+ * we get this by splitting the first and second into
+ *		high (f1 and s1) and
+ *		low (f2 and s2) parts using the support constant (1,000,000,000).
+ *
+ * then we print them using: "for (i = 92; i <= 98; ++i)
+ *		by doing ++i, we dont print the 92nd value
+ *		we then print the 93rd to the 98th value
  */
 
 int main(void)
