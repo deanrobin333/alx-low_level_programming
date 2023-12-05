@@ -7,7 +7,7 @@
 - [Tasks](#tasks)
 	- [0. \_putchar](#0)
 	- [1. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game](#1)
-	- [](#2)
+	- [2. 10 x alphabet](#2)
 	- [](#3)
 	- [](#4)
 	- [](#5)
@@ -66,16 +66,21 @@
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x02-functions_nested_loops`
     - File: `1-alphabet.c`
+	- Example file: `1-main.c`
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
-**t**
+**2. 10 x alphabet**
+- Write a function that prints 10 times the alphabet, in lowercase, followed by a new line.
+    - Prototype: `void print_alphabet_x10(void);`
+    - You can only use `_putchar` twice in your code
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x02-functions_nested_loops`
-    - File: ``
+    - File: `2-print_alphabet_x10.c`
+	- Example file: `2-main.c`
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
