@@ -10,7 +10,7 @@
 	- [2. 10 x alphabet](#2)
 	- [3. islower](#3)
 	- [4. isalpha](#4)
-	- [](#5)
+	- [5. Sign](#5)
 	- [](#6)
 	- [](#7)
 	- [](#8)
@@ -140,13 +140,29 @@ julien@ubuntu:~/0x02$ ./4-isalpha
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
-**t**
+**5. Sign**
+- Write a function that prints the sign of a number.
+    
+    - Prototype: `int print_sign(int n);`
+    - Returns `1` and prints `+` if `n` is greater than zero
+    - Returns `0` and prints `0` if `n` is zero
+    - Returns `-1` and prints `-` if `n` is less than zero
+        
+	```
+	julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 5-main.c 5-sign.c -o 5-sign
+	julien@ubuntu:~/0x02$ ./5-sign 
+	+, 1
+	0, 0
+	+, 1
+	-, /
+	```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x02-functions_nested_loops`
-    - File: ``
+    - File: `5-sign.c`
+	- Example file: `5-main.c`
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
