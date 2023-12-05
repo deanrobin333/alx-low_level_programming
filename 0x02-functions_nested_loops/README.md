@@ -18,7 +18,7 @@
 	- [10. a + b](#10)
 	- [11. 98 Battery Street, the OG](#11)
 	- [12. The World looks like a multiplication-table, or a mathematical equation, which, turn it how you will, balances itself](#12)
-	- [](#13)
+	- [13. Nature made the natural numbers; All else is the work of women](#13)
 	- [](#14)
 	- [](#15)
 	- [](#16)
@@ -390,13 +390,15 @@ $
 ---
 #### 13
 ###### [Table of Contents](#table-of-contents)
-**t**
+**13. Nature made the natural numbers; All else is the work of women**
+- If we list all the natural numbers below `10` that are multiples of `3` or `5`, we get `3`, `5`, `6` and `9`. The sum of these multiples is `23`. Write a program that computes and prints the sum of all the multiples of `3` or `5` below `1024` (excluded), followed by a new line.
+    - You are allowed to use the standard library
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x02-functions_nested_loops`
-    - File: ``
+    - File: `101-natural.c`
 ---
 #### 14
 ###### [Table of Contents](#table-of-contents)
