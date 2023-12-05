@@ -19,7 +19,7 @@
 	- [11. 98 Battery Street, the OG](#11)
 	- [12. The World looks like a multiplication-table, or a mathematical equation, which, turn it how you will, balances itself](#12)
 	- [13. Nature made the natural numbers; All else is the work of women](#13)
-	- [](#14)
+	- [14. In computer class, the first assignment was to write a program to print the first 100 Fibonacci numbers. Instead, I wrote a program that would steal passwords of students. My teacher gave me an A](#14)
 	- [](#15)
 	- [](#16)
 ---
@@ -402,13 +402,16 @@ $
 ---
 #### 14
 ###### [Table of Contents](#table-of-contents)
-**t**
+**14. In computer class, the first assignment was to write a program to print the first 100 Fibonacci numbers. Instead, I wrote a program that would steal passwords of students. My teacher gave me an A**
+- Write a program that prints the first 50 Fibonacci numbers, starting with `1` and `2`, followed by a new line.
+    - The numbers must be separated by comma, followed by a space `,`
+    - You are allowed to use the standard library
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x02-functions_nested_loops`
-    - File: ``
+    - File: `102-fibonacci.c`
 ---
 #### 15
 ###### [Table of Contents](#table-of-contents)
