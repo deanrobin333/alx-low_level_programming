@@ -14,7 +14,7 @@
 	- [6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you](#6)
 	- [7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important](#7)
 	- [8. I'm federal agent Jack Bauer, and today is the longest day of my life](#8)
-	- [](#9)
+	- [9. Learn your times table](#9)
 	- [](#10)
 	- [](#11)
 	- [](#12)
@@ -237,13 +237,33 @@ julien@ubuntu:~/0x02$ ./8-24 | tail -3
 ---
 #### 9
 ###### [Table of Contents](#table-of-contents)
-**t**
+**9. Learn your times table**
+- Write a function that prints the 9 times table, starting with 0.
+    - Prototype: `void times_table(void);`
+    - Format: see example
+        
+```
+julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 9-main.c 9-times_table.c -o 9-times_table
+ulien@ubuntu:~/0x02$ ./9-times_table | cat -e
+0,  0,  0,  0,  0,  0,  0,  0,  0,  0$
+0,  1,  2,  3,  4,  5,  6,  7,  8,  9$
+0,  2,  4,  6,  8, 10, 12, 14, 16, 18$
+0,  3,  6,  9, 12, 15, 18, 21, 24, 27$
+0,  4,  8, 12, 16, 20, 24, 28, 32, 36$
+0,  5, 10, 15, 20, 25, 30, 35, 40, 45$
+0,  6, 12, 18, 24, 30, 36, 42, 48, 54$
+0,  7, 14, 21, 28, 35, 42, 49, 56, 63$
+0,  8, 16, 24, 32, 40, 48, 56, 64, 72$
+0,  9, 18, 27, 36, 45, 54, 63, 72, 81$
+```
+
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x02-functions_nested_loops`
-    - File: ``
+    - File: `9-times_table.c`
+	- Example file: `9-main.c`
 ---
 #### 10
 ###### [Table of Contents](#table-of-contents)
