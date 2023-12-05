@@ -11,7 +11,7 @@
 	- [3. islower](#3)
 	- [4. isalpha](#4)
 	- [5. Sign](#5)
-	- [](#6)
+	- [6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you](#6)
 	- [](#7)
 	- [](#8)
 	- [](#9)
@@ -166,13 +166,28 @@ julien@ubuntu:~/0x02$ ./4-isalpha
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
-**t**
+**6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you**
+- Write a function that computes the absolute value of an integer.
+
+    - Prototype: `int _abs(int);`
+
+- FYI: The standard library provides a similar function: `abs`. Run `man abs` to learn more.
+	```
+	julien@ubuntu:~/0x02$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-main.c 6-abs.c -o 6-abs
+	julien@ubuntu:~/0x02$ ./6-abs
+	1
+	0
+	1
+	98
+	```
+
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x02-functions_nested_loops`
-    - File: ``
+    - File: `6-abs.c`
+	- Example file: `6-main.c`
 ---
 #### 7
 ###### [Table of Contents](#table-of-contents)
