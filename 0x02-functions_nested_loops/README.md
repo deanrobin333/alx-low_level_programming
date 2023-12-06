@@ -22,6 +22,7 @@
 	- [14. In computer class, the first assignment was to write a program to print the first 100 Fibonacci numbers. Instead, I wrote a program that would steal passwords of students. My teacher gave me an A](#14)
 	- [15. Even Liber Abbaci](#15)
 	- [16. In computer class, the first assignment was to write a program to print the first 100 Fibonacci numbers. Instead, I wrote a program that would steal passwords of students. My teacher gave me an A+](#16)
+	- [!!. Bonus - personal explainer code of task 16](#17)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -442,6 +443,20 @@ $
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x02-functions_nested_loops`
     - File: `104-fibonacci.c`
+---
+#### 17
+###### [Table of Contents](#table-of-contents)
+**!!. Bonus - personal explainer code of task 16**
+- When you compile and ran this code, it will break down in detail how the splitting of task 16 happens, in file `104-fibonacci.c`
+- You can test using various number of examples, by changing basic parameters
+- Running as it is will show you how the next 3 fibonacci sequences from the 92nd are gotten
+
+
+<br></br>
+- Repo
+    - GitHub repository: `alx-low_level_programming`
+    - Directory: `0x02-functions_nested_loops`
+    - File: `104-fibonacci_98_explainer.c`
 ---
 
 
