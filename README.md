@@ -7,7 +7,8 @@
 	- [1. 0x01. C - Variables, if, else, while](#1)
 	- [2. 0x02. C - Functions, nested loops](#2)
 	- [3. 0x03. C - Debugging](#3)
-	- [4. ](#4)
+	- [4. 0x04. C - More functions, more nested loops](#4)
+	- [5. ](#5)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -70,7 +71,19 @@
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
-### [4. ](./)
+### [4. 0x04. C - More functions, more nested loops](./0x04-more_functions_nested_loops)
+- - What are nested loops and how to use them
+    - What is a function and how do you use functions
+    - What is the difference between a declaration and a definition of a function
+    - What is a prototype
+    - Scope of variables
+    - What are the `gcc` flags `-Wall -Werror -pedantic -Wextra -std=gnu89`
+    - What are header files and how to to use them with `#include`
+
+---
+#### 5
+###### [Table of Contents](#table-of-contents)
+### [5. ](./)
 
 ---
 
