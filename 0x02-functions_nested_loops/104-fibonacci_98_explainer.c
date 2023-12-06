@@ -9,8 +9,12 @@
  ***********where problems begin, for the last 6 numbers************
  *
  * 19740274219868223167, 31940434634990099905, 51680708854858323072, 83621143489848422977, 135301852344706746049, 218922995834555169026
- *
- *
+ */
+/**
+ * script by Dean Robin Otsyeno
+ * contact: deanrobin777@gmail.com
+ */
+/*
  * You can use it as it is, but to view smaller numbers; Try by setting:
  *		first = 1597
  *		second 2584
