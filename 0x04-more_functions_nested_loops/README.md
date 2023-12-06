@@ -9,7 +9,7 @@
 	- [1. isdigit](#1)
 	- [2. Collaboration is multiplication](#2)
 	- [3. The numbers speak for themselves](#3)
-	- [](#4)
+	- [4. I believe in numbers and signs](#4)
 	- [](#5)
 	- [](#6)
 	- [](#7)
@@ -130,13 +130,25 @@ julien@ubuntu:~/0x04$ ./3-print_numbers | cat -e
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
-**t**
+**4. I believe in numbers and signs**
+- Write a function that prints the numbers, from `0` to `9`, followed by a new line.
+
+    - Prototype: `void print_most_numbers(void);`
+    - Do not print `2` and `4`
+    - You can only use `_putchar` twice in your code
+
+```
+julien@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 4-main.c 4-print_most_numbers.c -o 4-print_most_numbers
+julien@ubuntu:~/0x04$ ./4-print_most_numbers
+01356789
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x04-more_functions_nested_loops`
-    - File: ``
+    - File: `4-print_most_numbers.c`
+	- Example file: `4-main.c`
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
