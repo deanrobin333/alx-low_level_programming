@@ -8,7 +8,7 @@
 	- [0. isupper](#0)
 	- [1. isdigit](#1)
 	- [2. Collaboration is multiplication](#2)
-	- [](#3)
+	- [3. The numbers speak for themselves](#3)
 	- [](#4)
 	- [](#5)
 	- [](#6)
@@ -109,13 +109,24 @@ julien@ubuntu:~/0x04$ ./2-mul
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
-**t**
+**3. The numbers speak for themselves**
+- Write a function that prints the numbers, from `0` to `9`, followed by a new line.
+
+    - Prototype: `void print_numbers(void);`
+    - You can only use `_putchar` twice in your code
+
+```
+julien@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 3-main.c 3-print_numbers.c -o 3-print_numbers
+julien@ubuntu:~/0x04$ ./3-print_numbers | cat -e
+0123456789$
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x04-more_functions_nested_loops`
-    - File: ``
+    - File: `3-print_numbers.c`
+	- Example file: `3-main.c`
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
