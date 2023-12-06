@@ -6,7 +6,7 @@
 - [Project Description](#project-description)
 - [Tasks](#tasks)
 	- [0. isupper](#0)
-	- [](#1)
+	- [1. isdigit](#1)
 	- [](#2)
 	- [](#3)
 	- [](#4)
@@ -64,13 +64,27 @@ a: 0
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
-**t**
+**1. isdigit**
+- Write a function that checks for a digit (`0` through `9`).
+
+    - Prototype: `int _isdigit(int c);`
+    - Returns `1` if `c` is a digit
+    - Returns `0` otherwise
+
+- FYI: The standard library provides a similar function: isdigit. Run man isdigit to learn more.
+```
+julien@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-isdigit.c -o 1-isdigit
+julien@ubuntu:~/0x04$ ./1-isdigit
+0: 1
+a: 0
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x04-more_functions_nested_loops`
-    - File: ``
+    - File: `1-isdigit.c`
+	- Example file: `1-main.c`
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
