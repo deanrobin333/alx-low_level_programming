@@ -7,7 +7,7 @@
 - [Tasks](#tasks)
 	- [0. isupper](#0)
 	- [1. isdigit](#1)
-	- [](#2)
+	- [2. Collaboration is multiplication](#2)
 	- [](#3)
 	- [](#4)
 	- [](#5)
@@ -88,13 +88,24 @@ a: 0
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
-**t**
+**2. Collaboration is multiplication**
+- Write a function that multiplies two integers.
+
+    - Prototype: `int mul(int a, int b);`
+
+```
+julien@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-mul.c -o 2-mul
+julien@ubuntu:~/0x04$ ./2-mul
+100352
+-1646592
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x04-more_functions_nested_loops`
-    - File: ``
+    - File: `2-mul.c`
+	- Example file: `2-main.c`
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
