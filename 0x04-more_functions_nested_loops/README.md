@@ -12,7 +12,7 @@
 	- [4. I believe in numbers and signs](#4)
 	- [5. Numbers constitute the only universal language](#5)
 	- [](#6)
-	- [](#7)
+	- [6. The shortest distance between two points is a straight line](#7)
 	- [](#8)
 	- [](#9)
 	- [](#10)
@@ -174,13 +174,30 @@ julien@ubuntu:~/0x04$ ./5-more_numbers | head -2
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
-**t**
+**6. The shortest distance between two points is a straight line**
+- Write a function that draws a straight line in the terminal.
+    
+    - Prototype: `void print_line(int n);`
+    - You can only use `_putchar` function to print
+    - Where `n` is the number of times the character `_` should be printed
+    - The line should end with a `\n`
+    - If `n` is `0` or less, the function should only print `\n`
+
+```
+julien@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 6-main.c 6-print_line.c -o 6-lines
+julien@ubuntu:~/0x04$ ./6-lines | cat -e
+$
+__$
+__________$
+$
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x04-more_functions_nested_loops`
-    - File: ``
+    - File: `6-print_line.c`
+	- Example file: `6-main.c`
 ---
 #### 7
 ###### [Table of Contents](#table-of-contents)
