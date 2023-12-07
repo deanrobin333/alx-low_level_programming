@@ -11,8 +11,8 @@
 	- [3. The numbers speak for themselves](#3)
 	- [4. I believe in numbers and signs](#4)
 	- [5. Numbers constitute the only universal language](#5)
-	- [](#6)
-	- [6. The shortest distance between two points is a straight line](#7)
+	- [6. The shortest distance between two points is a straight line](#6)
+	- [7. I feel like I am diagonally parked in a parallel universe](#7)
 	- [](#8)
 	- [](#9)
 	- [](#10)
@@ -201,13 +201,40 @@ $
 ---
 #### 7
 ###### [Table of Contents](#table-of-contents)
-**t**
+**7. I feel like I am diagonally parked in a parallel universe**
+- Write a function that draws a diagonal line on the terminal.
+
+    - Prototype: `void print_diagonal(int n);`
+    - You can only use `_putchar` function to print
+    - Where `n` is the number of times the character `\` should be printed
+    - The diagonal should end with a `\n`
+    - If `n` is `0` or less, the function should only print a `\n`
+
+```
+julien@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 7-main.c 7-print_diagonal.c -o 7-diagonals
+julien@ubuntu:~/0x04$ ./7-diagonals | cat -e
+$
+\$
+ \$
+\$
+ \$
+  \$
+   \$
+    \$
+     \$
+      \$
+       \$
+        \$
+         \$
+$
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x04-more_functions_nested_loops`
-    - File: ``
+    - File: `7-print_diagonal.c`
+	- Example file: `7-main.c`
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
