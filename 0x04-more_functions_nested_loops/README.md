@@ -17,7 +17,7 @@
 	- [9. Fizz-Buzz](#9)
 	- [10. Triangles](#10)
 	- [11. The problem of distinguishing prime numbers from composite numbers and of resolving the latter into their prime factors is known to be one of the most important and useful in arithmetic](#11)
-	- [](#12)
+	- [12. Numbers have life; they're not just symbols on paper](#12)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -362,13 +362,31 @@ $
 ---
 #### 12
 ###### [Table of Contents](#table-of-contents)
-**t**
+**12. Numbers have life; they're not just symbols on paper**
+- Write a function that prints an integer.
+    
+    - Prototype: `void print_number(int n);`
+    - You can only use `_putchar` function to print
+    - You are not allowed to use `long`
+    - You are not allowed to use arrays or pointers
+    - You are not allowed to hard-code special values
+
+```
+julien@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 101-main.c 101-print_number.c -o 101-print_numbers
+julien@ubuntu:~/0x04$ ./101-print_numbers 
+98
+402
+1024
+0
+-98
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x04-more_functions_nested_loops`
-    - File: ``
+    - File: `101-print_number.c`
+	- Example file: `101-main.c`
 ---
 
 
