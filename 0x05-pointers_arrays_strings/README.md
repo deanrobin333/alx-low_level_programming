@@ -6,7 +6,7 @@
 - [Project Description](#project-description)
 - [Tasks](#tasks)
 	- [0. 98 Battery st.](#0)
-	- [](#1)
+	- [1. Don't swap horses in crossing a stream](#1)
 	- [](#2)
 	- [](#3)
 	- [](#4)
@@ -59,13 +59,24 @@ n=98
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
-**t**
+**1. Don't swap horses in crossing a stream**
+- Write a function that swaps the values of two integers.
+
+    - Prototype: `void swap_int(int *a, int *b);`
+
+```
+julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-swap.c -o 1-swap
+julien@ubuntu:~/0x05$ ./1-swap
+a=98, b=42
+a=42, b=98
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x05-pointers_arrays_strings`
-    - File: ``
+    - File: `1-swap.c`
+	- Example file: `1-main.c`
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
