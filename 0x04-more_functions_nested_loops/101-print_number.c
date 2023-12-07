@@ -14,37 +14,16 @@
 
 void print_number(int n)
 {
-	int divided, remainder;
-
 	if (n < 0)
 	{
 		_putchar('-');
 		n = n * -1;
 	}
-
-	if (n <= 9)
-		_putchar(n + '0');
-	if (n >= 10 && n <= 99)
+	if (n / 10 != 0)
 	{
-		_putchar((n / 10) + '0');
-		_putchar((n % 10) + '0');
+		/* perform recursion until it gets to 0 */
+		print_number(n / 10);
 	}
-	if (n >= 100 && n <= 999)
-	{
-		divided = n / 100;
-		remainder = n % 100;
-		_putchar(divided + '0');
-		_putchar((remainder / 10) + '0');
-		_putchar((remainder % 10) + '0');
-
-	}
-	if (n >= 1000 && n <= 9999)
-	{
-		divided = n / 100;
-		_putchar((divided / 10) + '0');
-		_putchar((divided % 10) + '0');
-		remainder = n % 100;
-		_putchar((remainder / 10) + '0');
-		_putchar((remainder % 10) + '0');
-	}
+	/* we print from the last going to the first one by one */
+	_putchar((n % 10) + '0');
 }
