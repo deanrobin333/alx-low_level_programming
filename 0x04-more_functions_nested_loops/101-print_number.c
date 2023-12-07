@@ -14,16 +14,20 @@
 
 void print_number(int n)
 {
+	int numb;
+
 	if (n < 0)
 	{
 		_putchar('-');
-		n = n * -1;
+		numb = n * -1;
 	}
-	if (n / 10 != 0)
+	else
+		numb = n;
+	if (numb / 10 != 0)
 	{
 		/* perform recursion until it gets to 0 */
-		print_number(n / 10);
+		print_number(numb / 10);
 	}
 	/* we print from the last going to the first one by one */
-	_putchar((n % 10) + '0');
+	_putchar((numb % 10) + '0');
 }
