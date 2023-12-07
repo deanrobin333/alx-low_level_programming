@@ -15,7 +15,7 @@
 	- [7. I feel like I am diagonally parked in a parallel universe](#7)
 	- [8. You are so much sunshine in every square inch](#8)
 	- [9. Fizz-Buzz](#9)
-	- [](#10)
+	- [10. Triangles](#10)
 	- [](#11)
 	- [](#12)
 ---
@@ -296,13 +296,55 @@ julien@ubuntu:~/0x04$ ./9-fizz_buzz
 ---
 #### 10
 ###### [Table of Contents](#table-of-contents)
-**t**
+**10. Triangles**
+- Write a function that prints a triangle, followed by a new line.
+
+    - Prototype: `void print_triangle(int size);`
+    - You can only use `_putchar` function to print
+    - Where `size` is the size of the triangle
+    - If `size` is `0` or less, the function should print only a new line
+    - Use the character `#` to print the triangle
+
+```
+julien@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 10-main.c 10-print_triangle.c -o 10-triangles
+julien@ubuntu:~/0x04$ ./10-triangles
+ #
+##
+         #
+        ##
+       ###
+      ####
+     #####
+    ######
+   #######
+  ########
+ #########
+##########
+#
+
+julien@ubuntu:~/0x04$ ./10-triangles | tr ' ' . | cat -e
+.#$
+##$
+.........#$
+........##$
+.......###$
+......####$
+.....#####$
+....######$
+...#######$
+..########$
+.#########$
+##########$
+#$
+$
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x04-more_functions_nested_loops`
-    - File: ``
+    - File: `10-print_triangle.c`
+	- Example file: `10-main.c`
 ---
 #### 11
 ###### [Table of Contents](#table-of-contents)
