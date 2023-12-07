@@ -10,7 +10,7 @@
 	- [2. Collaboration is multiplication](#2)
 	- [3. The numbers speak for themselves](#3)
 	- [4. I believe in numbers and signs](#4)
-	- [](#5)
+	- [5. Numbers constitute the only universal language](#5)
 	- [](#6)
 	- [](#7)
 	- [](#8)
@@ -152,13 +152,25 @@ julien@ubuntu:~/0x04$ ./4-print_most_numbers
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
-**t**
+**5. Numbers constitute the only universal language**
+- Write a function that prints 10 times the numbers, from `0` to `14`, followed by a new line.
+
+    - Prototype: `void more_numbers(void);`
+    - You can only use `_putchar` three times in your code
+
+```
+julien@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 5-main.c 5-more_numbers.c -o 5-more_numbers
+julien@ubuntu:~/0x04$ ./5-more_numbers | head -2
+01234567891011121314
+01234567891011121314
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x04-more_functions_nested_loops`
-    - File: ``
+    - File: `5-more_numbers.c`
+	- Example file: `5-main.c`
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
