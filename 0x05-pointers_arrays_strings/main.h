@@ -6,4 +6,7 @@ int _strlen(char *s);
 void _puts(char *str);
 int _putchar(char c);
 
+/* Defined in 4-print_rev.c */
+void print_rev(char *s);
+
 #endif /* _MAIN_H_ */

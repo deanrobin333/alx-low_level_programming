@@ -9,7 +9,7 @@
 	- [1. Don't swap horses in crossing a stream](#1)
 	- [2. This report, by its very length, defends itself against the risk of being read](#2)
 	- [3. I do not fear computers. I fear the lack of them](#3)
-	- [](#4)
+	- [4. I can only go one way. I've not got a reverse gear](#4)
 	- [](#5)
 	- [](#6)
 	- [](#7)
@@ -117,13 +117,24 @@ I do not fear computers. I fear the lack of them - Isaac Asimov
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
-**t**
+**4. I can only go one way. I've not got a reverse gear**
+- Write a function that prints a string, in reverse, followed by a new line.
+
+    - Prototype: `void print_rev(char *s);`
+- similar function - `strrev`
+
+```
+julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 4-main.c 4-print_rev.c -o 4-print_rev
+julien@ubuntu:~/0x05$ ./4-print_rev
+vomisA caasI - meht fo kcal eht raef I .sretupmoc raef ton od I
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x05-pointers_arrays_strings`
-    - File: ``
+    - File: `4-print_rev.c`
+	- Example file: `4-main.c`
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
