@@ -16,7 +16,7 @@
 	- [8. You are so much sunshine in every square inch](#8)
 	- [9. Fizz-Buzz](#9)
 	- [10. Triangles](#10)
-	- [](#11)
+	- [11. The problem of distinguishing prime numbers from composite numbers and of resolving the latter into their prime factors is known to be one of the most important and useful in arithmetic](#11)
 	- [](#12)
 ---
 ## Author Details
@@ -348,13 +348,17 @@ $
 ---
 #### 11
 ###### [Table of Contents](#table-of-contents)
-**t**
+**11. The problem of distinguishing prime numbers from composite numbers and of resolving the latter into their prime factors is known to be one of the most important and useful in arithmetic**
+- The prime factors of `1231952` are `2`, `2`, `2`, `2`, `37` and `2081`.
+- Write a program that finds and prints the largest prime factor of the number `612852475143`, followed by a new line.
+    - You are allowed to use the standard library
+    - Your program will be compiled with this command: `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-prime_factor.c -o 100-prime_factor -lm`
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x04-more_functions_nested_loops`
-    - File: ``
+    - File: `100-prime_factor.c`
 ---
 #### 12
 ###### [Table of Contents](#table-of-contents)
