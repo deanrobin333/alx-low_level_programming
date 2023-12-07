@@ -13,7 +13,7 @@
 	- [5. Numbers constitute the only universal language](#5)
 	- [6. The shortest distance between two points is a straight line](#6)
 	- [7. I feel like I am diagonally parked in a parallel universe](#7)
-	- [](#8)
+	- [8. You are so much sunshine in every square inch](#8)
 	- [](#9)
 	- [](#10)
 	- [](#11)
@@ -238,13 +238,38 @@ $
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
-**t**
+**8. You are so much sunshine in every square inch**
+- Write a function that prints a square, followed by a new line.
+
+    - Prototype: `void print_square(int size);`
+    - You can only use `_putchar` function to print
+    - Where `size` is the size of the square
+    - If `size` is `0` or less, the function should print only a new line
+    - Use the character `#` to print the square
+
+```
+julien@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 8-main.c 8-print_square.c -o 8-squares
+julien@ubuntu:~/0x04$ ./8-squares
+##
+##
+##########
+##########
+##########
+##########
+##########
+##########
+##########
+##########
+##########
+##########
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x04-more_functions_nested_loops`
-    - File: ``
+    - File: `8-print_square.c`
+	- Example file: `8-main.c`
 ---
 #### 9
 ###### [Table of Contents](#table-of-contents)
