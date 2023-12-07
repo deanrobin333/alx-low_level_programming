@@ -11,7 +11,7 @@ int main(void)
 	long i;
 	long max_f;
 	long numb = 612852475143;
-	long square = sqrt(numb);
+	double square = sqrt(numb);
 
 	for (i = 1; i <= square; i++)
 	{
