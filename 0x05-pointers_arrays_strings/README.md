@@ -8,7 +8,7 @@
 	- [0. 98 Battery st.](#0)
 	- [1. Don't swap horses in crossing a stream](#1)
 	- [2. This report, by its very length, defends itself against the risk of being read](#2)
-	- [](#3)
+	- [3. I do not fear computers. I fear the lack of them](#3)
 	- [](#4)
 	- [](#5)
 	- [](#6)
@@ -96,13 +96,24 @@ a=42, b=98
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
-**t**
+**3. I do not fear computers. I fear the lack of them**
+- Write a function that prints a string, followed by a new line, to `stdout`.
+
+    - Prototype: `void _puts(char *str);`
+- FYI: The standard library provides a similar function: `puts`. Run `man puts` to learn more.
+
+```
+julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 3-main.c 3-puts.c -o 3-puts
+julien@ubuntu:~/0x05$ ./3-puts
+I do not fear computers. I fear the lack of them - Isaac Asimov
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x05-pointers_arrays_strings`
-    - File: ``
+    - File: `3-puts.c`
+	- Example file: `3-main.c`
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
