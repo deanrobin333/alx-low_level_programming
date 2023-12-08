@@ -20,17 +20,16 @@ char *_strncpy(char *dest, char *src, int n)
 
 	if (n < len_s)
 	{
-		for (i = 0; i < n; i++)
+		for (i = 0; i < n && src[i] != '\0'; i++)
 			dest[i] = src[i];
 	}
 	else
 	{
-		for (i = 0; i <= len_s - 1; i++)
+		for (i = 0; i <= len_s - 1 && src[i] != '0'; i++)
 			dest[i] = src[i];
 		for (i = len_s; i < 90; i++)
 			dest[i] = '\0';
 	}
-	dest[len_d] = '\0';
 
 	return (dest);
 }
