@@ -13,7 +13,7 @@
 	- [5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes](#5)
 	- [6. Half the lies they tell about me aren't true](#6)
 	- [7. Winning is only half of it. Having fun is the other half](#7)
-	- [](#8)
+	- [8. Arrays are not pointers](#8)
 	- [](#9)
 	- [](#10)
 	- [](#11)
@@ -201,13 +201,27 @@ julien@ubuntu:~/0x05$ ./7-puts_half
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
-**t**
+**8. Arrays are not pointers**
+- Write a function that prints `n` elements of an array of integers, followed by a new line.
+
+    - Prototype: `void print_array(int *a, int n);`
+    - where `n` is the number of elements of the array to be printed
+    - Numbers must be separated by comma, followed by a space
+    - The numbers should be displayed in the same order as they are stored in the array
+    - You are allowed to use `printf`
+
+```
+julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 8-main.c 8-print_array.c -o 8-print_array
+julien@ubuntu:~/0x05$ ./8-print_array
+98, 402, -198, 298, -1024
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x05-pointers_arrays_strings`
-    - File: ``
+    - File: `8-print_array.c`
+	- Example file: `8-main.c`
 ---
 #### 9
 ###### [Table of Contents](#table-of-contents)
