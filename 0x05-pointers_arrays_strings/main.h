@@ -9,4 +9,7 @@ int _putchar(char c);
 /* Defined in 4-print_rev.c */
 void print_rev(char *s);
 
+/* defined in 5-rev_string.c */
+void rev_string(char *s);
+
 #endif /* _MAIN_H_ */

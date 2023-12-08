@@ -10,7 +10,7 @@
 	- [2. This report, by its very length, defends itself against the risk of being read](#2)
 	- [3. I do not fear computers. I fear the lack of them](#3)
 	- [4. I can only go one way. I've not got a reverse gear](#4)
-	- [](#5)
+	- [5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes](#5)
 	- [](#6)
 	- [](#7)
 	- [](#8)
@@ -138,13 +138,24 @@ vomisA caasI - meht fo kcal eht raef I .sretupmoc raef ton od I
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
-**t**
+**5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes**
+- Write a function that reverses a string.
+
+    - Prototype: `void rev_string(char *s);`
+
+```
+julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-rev_string.c -o 5-rev_string
+julien@ubuntu:~/0x05$ ./5-rev_string
+My School
+loohcS yM
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x05-pointers_arrays_strings`
-    - File: ``
+    - File: `5-rev_string.c`
+	- Example file: `5-main.c`
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
