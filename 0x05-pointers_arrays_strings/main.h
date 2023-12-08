@@ -12,4 +12,7 @@ void print_rev(char *s);
 /* defined in 5-rev_string.c */
 void rev_string(char *s);
 
+/* 6-puts2.c */
+void puts2(char *str);
+
 #endif /* _MAIN_H_ */
