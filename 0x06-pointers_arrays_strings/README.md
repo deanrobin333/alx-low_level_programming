@@ -9,7 +9,7 @@
 	- [1. strncat](#1)
 	- [2. This report, by its very length, defends itself against the risk of being read](#2)
 	- [3. strcmp](#3)
-	- [](#4)
+	- [4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy](#4)
 	- [](#5)
 	- [](#6)
 	- [](#7)
@@ -164,13 +164,25 @@ julien@ubuntu:~/0x06$ ./3-strcmp
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
-**t**
+**4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy**
+- Write a function that reverses the content of an array of integers.
+
+    - Prototype: `void reverse_array(int *a, int n);`
+    - Where `n` is the number of elements of the array
+
+```
+julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 4-rev_array.c -o 4-rev_array
+julien@ubuntu:~/0x06$ ./4-rev_array
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 98, 1024, 1337
+1337, 1024, 98, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x06-pointers_arrays_strings`
-    - File: ``
+    - File: `4-rev_array.c`
+	- Example file: `4-main.c`
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
