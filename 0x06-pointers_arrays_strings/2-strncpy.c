@@ -18,18 +18,14 @@ char *_strncpy(char *dest, char *src, int n)
 	for (len_s = 0; src[len_s] != '\0'; len_s++)
 		;
 
-	if (n < len_s)
-	{
 		for (i = 0; i < n && src[i] != '\0'; i++)
 			dest[i] = src[i];
-	}
-	else
-	{
-		for (i = 0; i <= len_s - 1 && src[i] != '0'; i++)
-			dest[i] = src[i];
-		for (i = len_s; i < 90; i++)
+		/**
+		 * i stops iterating when it encounters a null character in src
+		 * We use current value of i, to fill remaining n bytes with null
+		 */
+		for (; i < n; i++)
 			dest[i] = '\0';
-	}
 
 	return (dest);
 }
