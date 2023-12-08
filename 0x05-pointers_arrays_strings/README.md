@@ -14,7 +14,7 @@
 	- [6. Half the lies they tell about me aren't true](#6)
 	- [7. Winning is only half of it. Having fun is the other half](#7)
 	- [8. Arrays are not pointers](#8)
-	- [](#9)
+	- [9. strcpy](#9)
 	- [](#10)
 	- [](#11)
 ---
@@ -225,13 +225,27 @@ julien@ubuntu:~/0x05$ ./8-print_array
 ---
 #### 9
 ###### [Table of Contents](#table-of-contents)
-**t**
+**9. strcpy**
+ - Prototype: `char *_strcpy(char *dest, char *src);`
+
+- Write a function that copies the string pointed to by `src`, including the terminating null byte (`\0`), to the buffer pointed to by `dest`.
+
+    - Return value: the pointer to `dest`
+
+- FYI: The standard library provides a similar function: `strcpy`. Run `man strcpy` to learn more.
+```
+julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 9-main.c 9-strcpy.c -o 9-strcpy
+julien@ubuntu:~/0x05$ ./9-strcpy
+First, solve the problem. Then, write the code
+First, solve the problem. Then, write the code
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x05-pointers_arrays_strings`
-    - File: ``
+    - File: `9-strcpy.c`
+	- Example file: `9-main.c`
 ---
 #### 10
 ###### [Table of Contents](#table-of-contents)
