@@ -17,4 +17,5 @@ void puts2(char *str);
 
 /* 7-puts_half.c */
 void puts_half(char *str);
+
 #endif /* _MAIN_H_ */

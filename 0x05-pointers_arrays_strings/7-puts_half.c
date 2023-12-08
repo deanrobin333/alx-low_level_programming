@@ -3,7 +3,7 @@
 /**
  * puts_half - prints second half of a string
  *			- If the number of characters is odd, the function should print
- *			the last n characters of the string, 
+ *			the last n characters of the string,
  *			where n = (length_of_the_string - 1) / 2
  * @str: string to be printed
  * Return: void
@@ -24,7 +24,7 @@ void puts_half(char *str)
 	}
 	else
 	{
-		for (i = (index) / 2; str [i] != '\0'; i++)
+		for (i = (index + 2) / 2; str[i] != '\0'; i++)
 			_putchar(str[i]);
 	}
 	_putchar('\n');
