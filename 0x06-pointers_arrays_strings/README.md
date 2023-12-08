@@ -8,7 +8,7 @@
 	- [0. strcat](#0)
 	- [1. strncat](#1)
 	- [2. This report, by its very length, defends itself against the risk of being read](#2)
-	- [](#3)
+	- [3. strcmp](#3)
 	- [](#4)
 	- [](#5)
 	- [](#6)
@@ -138,13 +138,29 @@ First, solve the problem. Then, write the code
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
-**t**
+**3. strcmp**
+- Write a function that compares two strings.
+
+    - Prototype: `int _strcmp(char *s1, char *s2);`
+    - Your function should work exactly like `strcmp`
+
+- FYI: The standard library provides a similar function: `strcmp`. Run `man strcmp` to learn more.
+
+
+```
+julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-strcmp.c -o 3-strcmp
+julien@ubuntu:~/0x06$ ./3-strcmp
+-15
+15
+0
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x06-pointers_arrays_strings`
-    - File: ``
+    - File: `3-strcmp.c`
+	- Example file: `3-main.c`
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
