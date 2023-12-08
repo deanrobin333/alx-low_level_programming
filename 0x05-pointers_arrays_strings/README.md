@@ -12,7 +12,7 @@
 	- [4. I can only go one way. I've not got a reverse gear](#4)
 	- [5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes](#5)
 	- [6. Half the lies they tell about me aren't true](#6)
-	- [](#7)
+	- [7. Winning is only half of it. Having fun is the other half](#7)
 	- [](#8)
 	- [](#9)
 	- [](#10)
@@ -179,13 +179,25 @@ julien@ubuntu:~/0x05$ ./6-puts2
 ---
 #### 7
 ###### [Table of Contents](#table-of-contents)
-**t**
+**7. Winning is only half of it. Having fun is the other half**
+- Write a function that prints half of a string, followed by a new line.
+
+    - Prototype: `void puts_half(char *str);`
+    - The function should print the second half of the string
+    - If the number of characters is odd, the function should print the last `n` characters of the string, where `n = (length_of_the_string - 1) / 2`
+
+```
+julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 7-main.c 7-puts_half.c -o 7-puts_half
+julien@ubuntu:~/0x05$ ./7-puts_half
+56789
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x05-pointers_arrays_strings`
-    - File: ``
+    - File: `7-puts_half.c`
+	- Example file: `7-main.c`
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
