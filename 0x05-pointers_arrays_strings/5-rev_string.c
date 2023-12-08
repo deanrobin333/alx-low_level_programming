@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * rev_string - reverses a string
  * @s: pointer to string to reverse
@@ -42,7 +41,6 @@ void rev_string(char *s)
 
 	for (length = 0; s[length] != '\0'; length++)
 		;
-	printf("%d\n", length);
 	for (first = 0, last = length - 1; first < last; first++, last--)
 	{
 		letter = s[first]; /*Store 1st character in letter variable*/
