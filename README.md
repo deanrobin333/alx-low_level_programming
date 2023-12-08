@@ -9,7 +9,8 @@
 	- [3. 0x03. C - Debugging](#3)
 	- [4. 0x04. C - More functions, more nested loops](#4)
 	- [5. 0x05. C - Pointers, arrays and strings](#5)
-	- [6. ](#6)
+	- [6. 0x06. C - More pointers, arrays and strings](#6)
+	- [7. ](#7)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -92,7 +93,17 @@
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
-### [6. ](./)
+### [6. 0x06. C - More pointers, arrays and strings](./0x06-pointers_arrays_strings)
+- What are pointers and how to use them
+- What are arrays and how to use them
+- What are the differences between pointers and arrays
+- How to use strings and how to manipulate them
+- Scope of variables
+
+---
+#### 7
+###### [Table of Contents](#table-of-contents)
+### [7. ](./)
 
 ---
 
