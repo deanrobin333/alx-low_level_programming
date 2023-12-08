@@ -16,7 +16,7 @@
 	- [8. Arrays are not pointers](#8)
 	- [9. strcpy](#9)
 	- [10. Great leaders are willing to sacrifice the numbers to save the people. Poor leaders sacrifice the people to save the numbers](#10)
-	- [](#11)
+	- [11. Don't hate the hacker, hate the code](#11)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -286,13 +286,25 @@ julien@ubuntu:~/0x05$ ./100-atoi
 ---
 #### 11
 ###### [Table of Contents](#table-of-contents)
-**t**
+**11. Don't hate the hacker, hate the code**
+- Create a program that generates random valid passwords for the program [101-crackme](https://github.com/alx-tools/0x04.c "101-crackme").
+
+    - You are allowed to use the standard library
+    - You don’t have to pass the `betty-style` tests (you still need to pass the `betty-doc` tests)
+    - man `srand`, `rand`, `time`
+    - `gdb` and `objdump` can help
+
+```
+julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra 101-keygen.c -o 101-keygen
+julien@ubuntu:~/0x05$ ./101-crackme "`./101-keygen`"
+Tada! Congrats
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x05-pointers_arrays_strings`
-    - File: ``
+    - File: `101-keygen.c`
 ---
 
 
