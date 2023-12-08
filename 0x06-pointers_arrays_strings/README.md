@@ -6,7 +6,7 @@
 - [Project Description](#project-description)
 - [Tasks](#tasks)
 	- [0. strcat](#0)
-	- [](#1)
+	- [1. strncat](#1)
 	- [](#2)
 	- [](#3)
 	- [](#4)
@@ -67,13 +67,37 @@ Hello World!
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
-**t**
+**1. strncat**
+- Write a function that concatenates two strings.
+
+    - Prototype: `char *_strncat(char *dest, char *src, int n);`
+    - The `_strncat` function is similar to the `_strcat` function, except that
+        - it will use at most `n` bytes from `src`; and
+        - `src` does not need to be null-terminated if it contains `n` or more bytes
+    - Return a pointer to the resulting string `dest`
+
+- FYI: The standard library provides a similar function: `strncat`. Run `man strncat` to learn more.
+
+
+```
+julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-strncat.c -o 1-strncat
+julien@ubuntu:~/0x06$ ./1-strncat
+Hello
+World!
+Hello W
+World!
+Hello W
+Hello WWorld!
+World!
+Hello WWorld!
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x06-pointers_arrays_strings`
-    - File: ``
+    - File: `1-strncat.c`
+	- Example file: `1-main.c`
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
