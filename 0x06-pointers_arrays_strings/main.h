@@ -10,4 +10,7 @@ char *_strcat(char *dest, char *src);
 /* 1-strncat.c */
 char *_strncat(char *dest, char *src, int n);
 
+/* 2-strlen.c */
+int _strlen(char *s);
+
 #endif /* _MAIN_H_ */

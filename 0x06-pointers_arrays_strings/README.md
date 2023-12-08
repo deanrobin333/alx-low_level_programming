@@ -7,7 +7,7 @@
 - [Tasks](#tasks)
 	- [0. strcat](#0)
 	- [1. strncat](#1)
-	- [](#2)
+	- [2. This report, by its very length, defends itself against the risk of being read](#2)
 	- [](#3)
 	- [](#4)
 	- [](#5)
@@ -101,13 +101,24 @@ Hello WWorld!
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
-**t**
+**2. This report, by its very length, defends itself against the risk of being read**
+- Write a function that returns the length of a string.
+
+    - Prototype: `int _strlen(char *s);`
+
+- FYI: The standard library provides a similar function: `strlen`. Run `man strlen` to learn more.
+```
+julien@ubuntu:~/0x05$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-strlen.c -o 2-strlen
+julien@ubuntu:~/0x05$ ./2-strlen
+16
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x06-pointers_arrays_strings`
-    - File: ``
+    - File: `2-strlen.c`
+	- Example file: `2-main.c`
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
