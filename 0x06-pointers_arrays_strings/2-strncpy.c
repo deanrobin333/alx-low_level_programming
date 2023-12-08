@@ -30,6 +30,7 @@ char *_strncpy(char *dest, char *src, int n)
 		for (i = len_s; i < 90; i++)
 			dest[i] = '\0';
 	}
+	dest[len_d] = '\0';
 
 	return (dest);
 }
