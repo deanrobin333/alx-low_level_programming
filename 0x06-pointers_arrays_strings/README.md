@@ -290,7 +290,8 @@ EBG13 ("ebgngr ol 13 cynprf", fbzrgvzrf ulcurangrq EBG-13) vf n fvzcyr yrggre fh
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x06-pointers_arrays_strings`
-    - File: ``
+    - File: `100-rot13.c`
+	- Example file: `100-main.c`
 ---
 #### 9
 ###### [Table of Contents](#table-of-contents)
@@ -300,8 +301,8 @@ EBG13 ("ebgngr ol 13 cynprf", fbzrgvzrf ulcurangrq EBG-13) vf n fvzcyr yrggre fh
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x06-pointers_arrays_strings`
-    - File: `100-rot13.c`
-	- Example file: `100-main.c`
+    - File: `101-print_number.c`
+	- Example file: `101-main.c`
 ---
 #### 10
 ###### [Table of Contents](#table-of-contents)
