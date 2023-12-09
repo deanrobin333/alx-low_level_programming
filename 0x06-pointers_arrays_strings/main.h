@@ -31,4 +31,10 @@ char *leet(char *);
 /* 100-rot13.c */
 char *rot13(char *);
 
+/* 101-print_number.c */
+void print_number(int n);
+
+/* _putchar.c */
+int _putchar(char c);
+
 #endif /* _MAIN_H_ */

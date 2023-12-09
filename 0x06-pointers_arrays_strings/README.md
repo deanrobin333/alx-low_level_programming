@@ -14,7 +14,7 @@
 	- [6. Expect the best. Prepare for the worst. Capitalize on what comes](#6)
 	- [7. Mozart composed his music not for the elite, but for everybody](#7)
 	- [8. rot13](#8)
-	- [](#9)
+	- [9. Numbers have life; they're not just symbols on paper](#9)
 	- [](#10)
 	- [](#11)
 	- [](#12)
@@ -295,7 +295,24 @@ EBG13 ("ebgngr ol 13 cynprf", fbzrgvzrf ulcurangrq EBG-13) vf n fvzcyr yrggre fh
 ---
 #### 9
 ###### [Table of Contents](#table-of-contents)
-**t**
+**9. Numbers have life; they're not just symbols on paper**
+- Write a function that prints an integer.
+
+    - Prototype: `void print_number(int n);`
+    - You can only use `_putchar` function to print
+    - You are not allowed to use `long`
+    - You are not allowed to use arrays or pointers
+    - You are not allowed to hard-code special values
+
+```
+julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 101-main.c 101-print_number.c -o 101-print_numbers
+julien@ubuntu:~/0x06$ ./101-print_numbers
+98
+402
+1024
+0
+-98
+```
 
 <br></br>
 - Repo
