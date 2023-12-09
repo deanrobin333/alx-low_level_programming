@@ -11,11 +11,20 @@
  *
  *
  * what the if statement would be, if we did not use an array
+ *		to store the separators
  *
- * if (str[i - 1] == ',' || str[i - 1] == ';' || str[i - 1] == '.' ||
- *		str[i - 1] == '!' || str[i - 1] == '?' || str[i - 1] == '\"' ||
- *		str[i - 1] == '(' || str[i - 1] == ')' || str[i - 1] == '{' ||
- *		str[i - 1] == '}' || str[i - 1] == ' ' || str[i - 1] == '\n')
+ * if (str[i - 1] == ',' ||
+ *		str[i - 1] == ';' ||
+ *		str[i - 1] == '.' ||
+ *		str[i - 1] == '!' ||
+ *		str[i - 1] == '?' ||
+ *		str[i - 1] == '\"' ||
+ *		str[i - 1] == '(' ||
+ *		str[i - 1] == ')' ||
+ *		str[i - 1] == '{' ||
+ *		str[i - 1] == '}' ||
+ *		str[i - 1] == ' ' ||
+ *		str[i - 1] == '\n')
  */
 
 char *cap_string(char *str)
