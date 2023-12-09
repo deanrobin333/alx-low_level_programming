@@ -12,7 +12,7 @@
 	- [4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy](#4)
 	- [5. Always look up](#5)
 	- [6. Expect the best. Prepare for the worst. Capitalize on what comes](#6)
-	- [](#7)
+	- [7. Mozart composed his music not for the elite, but for everybody](#7)
 	- [](#8)
 	- [](#9)
 	- [](#10)
@@ -231,13 +231,33 @@ Hello World! Hello-world 0123456hello World Hello World.Hello World
 ---
 #### 7
 ###### [Table of Contents](#table-of-contents)
-**t**
+**7. Mozart composed his music not for the elite, but for everybody**
+- Write a function that encodes a string into [1337](https://en.wikipedia.org/wiki/Leet "1337").
+
+    - Letters `a` and `A` should be replaced by `4`
+    - Letters `e` and `E` should be replaced by `3`
+    - Letters `o` and `O` should be replaced by `0`
+    - Letters `t` and `T` should be replaced by `7`
+    - Letters `l` and `L` should be replaced by `1`
+    - Prototype: `char *leet(char *);`
+    - You can only use one `if` in your code
+    - You can only use two loops in your code
+    - You are not allowed to use `switch`
+    - You are not allowed to use any ternary operation
+
+```
+julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 7-main.c 7-leet.c -o 7-1337
+julien@ubuntu:~/0x06$ ./7-1337
+3xp3c7 7h3 b3s7. Pr3p4r3 f0r 7h3 w0rs7. C4pi741iz3 0n wh47 c0m3s.
+3xp3c7 7h3 b3s7. Pr3p4r3 f0r 7h3 w0rs7. C4pi741iz3 0n wh47 c0m3s.
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x06-pointers_arrays_strings`
-    - File: ``
+    - File: `7-leet.c`
+	- Example file: `7-main.c`
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)

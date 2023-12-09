@@ -25,4 +25,7 @@ char *string_toupper(char *str);
 /* 6-cap_string.c */
 char *cap_string(char *);
 
+/* 7-leet.c */
+char *leet(char *);
+
 #endif /* _MAIN_H_ */
