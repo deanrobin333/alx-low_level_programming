@@ -11,7 +11,7 @@
 	- [3. strcmp](#3)
 	- [4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy](#4)
 	- [5. Always look up](#5)
-	- [](#6)
+	- [6. Expect the best. Prepare for the worst. Capitalize on what comes](#6)
 	- [](#7)
 	- [](#8)
 	- [](#9)
@@ -207,13 +207,27 @@ LOOK UP!
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
-**t**
+**6. Expect the best. Prepare for the worst. Capitalize on what comes**
+- Write a function that capitalizes all words of a string.
+
+    - Prototype: `char *cap_string(char *);`
+    - Separators of words: space, tabulation, new line, `,`, `;`, `.`, `!`, `?`, `"`, `(`, `)`, `{`, and `}`
+
+```
+julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 6-main.c 6-cap_string.c -o 6-cap
+julien@ubuntu:~/0x06$ ./6-cap
+Expect The Best. Prepare For The Worst. Capitalize On What Comes.
+Hello World! Hello-world 0123456hello World Hello World.Hello World
+Expect The Best. Prepare For The Worst. Capitalize On What Comes.
+Hello World! Hello-world 0123456hello World Hello World.Hello World
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x06-pointers_arrays_strings`
-    - File: ``
+    - File: `6-cap_string.c`
+	- Example file: `6-main.c`
 ---
 #### 7
 ###### [Table of Contents](#table-of-contents)
