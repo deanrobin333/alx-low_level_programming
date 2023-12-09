@@ -21,13 +21,10 @@
 char *cap_string(char *str)
 {
 	int i, j;
-	char sep[] = ",;.!?\"(){} \n";
+	char sep[] = ",;.!?\"(){} \n\t";
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (str[i] == '\t')
-			str[i] = ' ';
-
 		if (str[i] >= 'a' && str[i] <= 'z')
 		{
 			if (i == 0)
