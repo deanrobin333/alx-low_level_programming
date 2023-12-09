@@ -10,7 +10,7 @@
 	- [2. This report, by its very length, defends itself against the risk of being read](#2)
 	- [3. strcmp](#3)
 	- [4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy](#4)
-	- [](#5)
+	- [5. Always look up](#5)
 	- [](#6)
 	- [](#7)
 	- [](#8)
@@ -186,13 +186,24 @@ julien@ubuntu:~/0x06$ ./4-rev_array
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
-**t**
+**5. Always look up**
+- Write a function that changes all lowercase letters of a string to uppercase.
+
+    - Prototype: `char *string_toupper(char *);`
+
+```
+julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-string_toupper.c -o 5-string_toupper
+julien@ubuntu:~/0x06$ ./5-string_toupper
+LOOK UP!
+LOOK UP!
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x06-pointers_arrays_strings`
-    - File: ``
+    - File: `5-string_toupper.c`
+	- Example file: `5-main.c`
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
