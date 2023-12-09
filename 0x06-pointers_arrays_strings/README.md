@@ -13,7 +13,7 @@
 	- [5. Always look up](#5)
 	- [6. Expect the best. Prepare for the worst. Capitalize on what comes](#6)
 	- [7. Mozart composed his music not for the elite, but for everybody](#7)
-	- [](#8)
+	- [8. rot13](#8)
 	- [](#9)
 	- [](#10)
 	- [](#11)
@@ -261,7 +261,30 @@ julien@ubuntu:~/0x06$ ./7-1337
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
-**t**
+**8. rot13**
+- Write a function that encodes a string using [rot13](https://en.wikipedia.org/wiki/ROT13 "rot13").
+
+    - Prototype: `char *rot13(char *);`
+    - You can only use `if` statement once in your code
+    - You can only use two loops in your code
+    - You are not allowed to use `switch`
+    - You are not allowed to use any ternary operation
+
+```
+julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-main.c 100-rot13.c -o 100-rot13
+julien@ubuntu:~/0x06$ ./100-rot13
+EBG13 ("ebgngr ol 13 cynprf", fbzrgvzrf ulcurangrq EBG-13) vf n fvzcyr yrggre fhofgvghgvba pvcure.
+------------------------------------
+EBG13 ("ebgngr ol 13 cynprf", fbzrgvzrf ulcurangrq EBG-13) vf n fvzcyr yrggre fhofgvghgvba pvcure.
+------------------------------------
+ROT13 ("rotate by 13 places", sometimes hyphenated ROT-13) is a simple letter substitution cipher.
+------------------------------------
+ROT13 ("rotate by 13 places", sometimes hyphenated ROT-13) is a simple letter substitution cipher.
+------------------------------------
+EBG13 ("ebgngr ol 13 cynprf", fbzrgvzrf ulcurangrq EBG-13) vf n fvzcyr yrggre fhofgvghgvba pvcure.
+------------------------------------
+EBG13 ("ebgngr ol 13 cynprf", fbzrgvzrf ulcurangrq EBG-13) vf n fvzcyr yrggre fhofgvghgvba pvcure.
+```
 
 <br></br>
 - Repo
@@ -277,7 +300,8 @@ julien@ubuntu:~/0x06$ ./7-1337
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x06-pointers_arrays_strings`
-    - File: ``
+    - File: `100-rot13.c`
+	- Example file: `100-main.c`
 ---
 #### 10
 ###### [Table of Contents](#table-of-contents)

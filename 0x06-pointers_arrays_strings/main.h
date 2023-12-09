@@ -28,4 +28,7 @@ char *cap_string(char *);
 /* 7-leet.c */
 char *leet(char *);
 
+/* 100-rot13.c */
+char *rot13(char *);
+
 #endif /* _MAIN_H_ */
