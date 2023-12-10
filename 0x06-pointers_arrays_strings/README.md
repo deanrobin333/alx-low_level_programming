@@ -15,7 +15,7 @@
 	- [7. Mozart composed his music not for the elite, but for everybody](#7)
 	- [8. rot13](#8)
 	- [9. Numbers have life; they're not just symbols on paper](#9)
-	- [](#10)
+	- [10. A dream doesn't become reality through magic; it takes sweat, determination and hard work](#10)
 	- [](#11)
 	- [](#12)
 ---
@@ -323,13 +323,25 @@ julien@ubuntu:~/0x06$ ./101-print_numbers
 ---
 #### 10
 ###### [Table of Contents](#table-of-contents)
-**t**
+**10. A dream doesn't become reality through magic; it takes sweat, determination and hard work**
+- Add one line to [this code](https://github.com/alx-tools/make_magic_happen/blob/master/magic.c "this code"), so that the program prints `a[2] = 98`, followed by a new line.
+
+    - You are not allowed to use the variable `a` in your new line of code
+    - You are not allowed to modify the variable `p`
+    - You can only write one statement
+    - You are not allowed to use `,`
+    - You are not allowed to code anything else than the line of expected line of code at the expected line
+    - Your code should be written at line 19, before the `;`
+    - Do not remove anything from the initial code (not even the comments)
+    - and don’t change anything but the line of code you are adding (don’t change the spaces to tabs!)
+    - You are allowed to use the standard library
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x06-pointers_arrays_strings`
-    - File: ``
+    - File: `102-magic.c`
+	- Bonus - Code Explainer: `102-magic_explainer-d333.c`
 ---
 #### 11
 ###### [Table of Contents](#table-of-contents)
