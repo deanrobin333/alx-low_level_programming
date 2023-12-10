@@ -74,7 +74,9 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		 * assign the sum (tem_total) to r
 		 * this assigns the least significat digit to most significant of r
 		 * hence we will have to reverse r
-		 * we must reserve last byte of r for the null byte
+		 *
+		 * we must reserve last byte of r for '\0' and check for overflow
+		 * If adding the next digit would make the buffer to be full, returns 0
 		 * so as we iterate index_r, we make sure its less than size_r - 1
 		 * r[index_r] will stop looping once the for loop is satisfied
 		 */
