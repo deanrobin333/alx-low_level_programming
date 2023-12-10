@@ -37,4 +37,9 @@ void print_number(int n);
 /* _putchar.c */
 int _putchar(char c);
 
+/* 103-infinite_add.c */
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+
+/* 104-print_buffer.c */
+void print_buffer(char *b, int size);
 #endif /* _MAIN_H_ */

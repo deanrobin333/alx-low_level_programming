@@ -16,8 +16,8 @@
 	- [8. rot13](#8)
 	- [9. Numbers have life; they're not just symbols on paper](#9)
 	- [10. A dream doesn't become reality through magic; it takes sweat, determination and hard work](#10)
-	- [](#11)
-	- [](#12)
+	- [11. It is the addition of strangeness to beauty that constitutes the romantic character in art](#11)
+	- [12. Noise is a buffer, more effective than cubicles or booth walls](#12)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -345,23 +345,76 @@ julien@ubuntu:~/0x06$ ./101-print_numbers
 ---
 #### 11
 ###### [Table of Contents](#table-of-contents)
-**t**
+**11. It is the addition of strangeness to beauty that constitutes the romantic character in art**
+- Write a function that adds two numbers.
+    - Prototype: `char *infinite_add(char *n1, char *n2, char *r, int size_r);`
+    - Where `n1` and `n2` are the two numbers
+    - `r` is the buffer that the function will use to store the result
+    - `size_r` is the buffer size
+    - The function returns a pointer to the result
+    - You can assume that you will always get positive numbers, or `0`
+    - You can assume that there will be only digits in the strings `n1` and `n2`
+    - `n1` and `n2` will never be empty
+    - If the result can not be stored in `r` the function must return `` `0` ``
+
+```
+julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 103-main.c 103-infinite_add.c -o 103-add
+julien@ubuntu:~/0x06$ ./103-add
+1234567892434574367823574575678477685785645685876876774586734734563456453743756756784458 + 9034790663470697234682914569346259634958693246597324659762347956349265983465962349569346 = 10269358555905271602506489145024737320744338932474201434349082690912722437209719106353804
+Error
+Error
+999999999 + 1 = 1000000000
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x06-pointers_arrays_strings`
-    - File: ``
+    - File: `103-infinite_add.c`
+	- Example file: `103-main.c`
 ---
 #### 12
 ###### [Table of Contents](#table-of-contents)
-**t**
+**12. Noise is a buffer, more effective than cubicles or booth walls**
+- Write a function that prints a buffer.
+
+    - Prototype: `void print_buffer(char *b, int size);`
+    - The function must print the content of `size` bytes of the buffer pointed by `b`
+    - The output should print 10 bytes per line
+    - Each line starts with the position of the first byte of the line in hexadecimal (8 chars), starting with `0`
+    - Each line shows the hexadecimal content (2 chars) of the buffer, 2 bytes at a time, separated by a space
+    - Each line shows the content of the buffer. If the byte is a printable character, print the letter, if not, print `.`
+    - Each line ends with a new line `\n`
+    - If `size` is 0 or less, the output should be a new line only `\n`
+    - You are allowed to use the standard library
+    - The output should look like the following example, and formatted exactly the same way:
+
+```
+julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 104-main.c 104-print_buffer.c -o 104-buffer
+julien@ubuntu:~/0x06$ ./104-buffer
+This is a string!
+---------------------------------
+00000000: 5468 6973 2069 7320 6120 This is a
+0000000a: 7374 7269 6e67 2100 416e string!.An
+00000014: 6420 7468 6973 2069 7320 d this is
+0000001e: 7468 6520 7265 7374 206f the rest o
+00000028: 6620 7468 6520 2362 7566 f the #buf
+00000032: 6665 7220 3a29 0102 0304 fer :)....
+0000003c: 0506 0723 6369 7366 756e ...#cisfun
+00000046: 0a00 0000 0000 0000 0000 ..........
+00000050: 0000 0000 0000 0000 0000 ..........
+0000005a: 2021 3456 2370 6f69 6e74  !4V#point
+00000064: 6572 7361 7265 6675 6e20 ersarefun
+0000006e: 2369 6e66 6572 6e75 6d69 #infernumi
+00000078: 7366 756e 0a00           sfun..
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x06-pointers_arrays_strings`
-    - File: ``
+    - File: `104-print_buffer.c`
+	- Example file: `104-main.c`
 ---
 
 
