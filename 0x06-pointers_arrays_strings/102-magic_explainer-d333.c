@@ -125,13 +125,13 @@ int main(void)
   printf("- but `*(p + 0)` which is the same as `*p` is assigned to `&n` and there after no assignment of `p`.\n");
   printf("  - Hence if *(p + 0) is %lu, `*(p + 1)` will be an increment of 4 bytes ie: %lu\n\n", (long unsigned int)&p[0] % 1000, (long unsigned int)&p[1] % 1000); 
   printf("- since `n` is 4 bytes, and `*(p + 0)` is `&n`, and `p` increments by 4 bytes,\n");
-  printf("  - then the next 4 bytes in memory after `&n`, point to the memory address of the pointer `p` itself.\n");
+  printf("  - then the next 4 bytes in memory after `&n`, points to the memory address of the pointer `p` itself.\n");
   printf("- Hence if `p` increments by 4 bytes, the next 4 bytes from `&n`,\n");
   printf("  - where `&n` is the same as `*(p + 0)` is `*(p + 1)`,\n");
   printf("  - making `*(p + 1)` the memory address of the pointer `p` itself -ie %lu.\n\n", (long unsigned int)&p % 1000);
 
-  printf("- So if `*(p + 1)`: %lu is the address of the pointer `p` itself,\n",(long unsigned int)&p % 1000);
-  printf("  - and we have seen `a` is 8 bytes after `p`./n");
+  printf("- So if `*(p + 1)` ie [[%lu]], is the address of the pointer `p` itself,\n",(long unsigned int)&p % 1000);
+  printf("  - and we have seen `a` is 8 bytes after `p`.\n");
   printf("  - it means `a` which is the same as `a[0]` is 8 bytes after `*(p + 1)`\n");
   printf("  - Since `p` increments by 4 bytes, 8 bytes from `*(p + 1)` is `*(p + 3)`,\n");
   printf("  - making `a[0]` same as `*(p + 3)`\n\n");
@@ -175,7 +175,7 @@ int main(void)
   printf("Hope you now understand how memory allocation works.\nThe data type determines how much memory is allocated and how many bytes are added by each increment of 1\n");
   printf("Explained by Dean Robin Otsyeno; deanrobin777@gmail.com\n\n");
 
-  printf("Output: ");
+  printf("Result of: 'printf(\"a[2] = %%d\\n\", a[2]);'\n");
   printf("a[2] = %d\n", a[2]);
 
   return (0);
