@@ -414,7 +414,7 @@ This is a string!
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x06-pointers_arrays_strings`
     - File: [`104-print_buffer.c`](./104-print_buffer.c)
-	- Example file: `104-main.c`
+	- Example file: [`104-main.c`](./104-main.c)
 ---
 
 
