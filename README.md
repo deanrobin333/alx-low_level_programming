@@ -10,7 +10,8 @@
 	- [4. 0x04. C - More functions, more nested loops](#4)
 	- [5. 0x05. C - Pointers, arrays and strings](#5)
 	- [6. 0x06. C - More pointers, arrays and strings](#6)
-	- [7. ](#7)
+	- [7. 0x07. C - Even more pointers, arrays and strings](#7)
+	- [8. ](#8)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -103,7 +104,15 @@
 ---
 #### 7
 ###### [Table of Contents](#table-of-contents)
-### [7. ](./)
+### [7. 0x07. C - Even more pointers, arrays and strings](./0x07-pointers_arrays_strings)
+- What are pointers to pointers and how to use them
+- What are multidimensional arrays and how to use them
+- What are the most common C standard library functions to manipulate strings
+
+---
+#### 8
+###### [Table of Contents](#table-of-contents)
+### [8. ](./)
 
 ---
 
