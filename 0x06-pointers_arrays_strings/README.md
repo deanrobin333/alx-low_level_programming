@@ -413,7 +413,7 @@ This is a string!
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x06-pointers_arrays_strings`
-    - File: `104-print_buffer.c`
+    - File: [`104-print_buffer.c`](./104-print_buffer.c)
 	- Example file: `104-main.c`
 ---
 
