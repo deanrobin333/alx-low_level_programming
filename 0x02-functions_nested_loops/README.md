@@ -443,6 +443,7 @@ $
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x02-functions_nested_loops`
     - File: `104-fibonacci.c`
+	- - Code Explainer: [104-fibonacci-explainer_d333.c](#17)
 ---
 #### 17
 ###### [Table of Contents](#table-of-contents)
@@ -456,7 +457,8 @@ $
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x02-functions_nested_loops`
-    - File: `104-fibonacci_98_explainer.c`
+    - File: [`104-fibonacci-explainer_d333.c`](./104-fibonacci-explainer_d333.c)
+
 ---
 
 
