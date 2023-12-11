@@ -341,7 +341,7 @@ julien@ubuntu:~/0x06$ ./101-print_numbers
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x06-pointers_arrays_strings`
     - File: `102-magic.c`
-	- Bonus - Code Explainer: `102-magic_explainer-d333.c`
+	- Bonus - Code Explainer: `102-magic-explainer_d333.c`
 ---
 #### 11
 ###### [Table of Contents](#table-of-contents)
@@ -415,6 +415,7 @@ This is a string!
     - Directory: `0x06-pointers_arrays_strings`
     - File: [`104-print_buffer.c`](./104-print_buffer.c)
 	- Example file: [`104-main.c`](./104-main.c)
+	- Bonus - Code Explainer: [`104-print_buffer-explainer_d333.c`](./104-print_buffer-explainer_d333.c)
 ---
 
 
