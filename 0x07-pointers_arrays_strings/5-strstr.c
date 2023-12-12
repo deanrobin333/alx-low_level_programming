@@ -49,7 +49,7 @@ char *_strstr(char *haystack, char *needle)
 	for (len = 0; needle[len] != '\0'; len++)
 		;
 	if (*needle == '\0')
-		return (NULL);
+		return (haystack);
 
 	count = counter(haystack, needle);
 
@@ -71,8 +71,6 @@ char *_strstr(char *haystack, char *needle)
 		{
 			for (j = 0; needle[j] != '\0'; j++)
 			{
-				if (needle[j] == '\0')
-					return (NULL);
 				if (haystack[i] == needle[j])
 				{
 					found = &haystack[i];
@@ -81,6 +79,8 @@ char *_strstr(char *haystack, char *needle)
 			}
 		}
 	}
+	else if (*needle == '\0')
+		return (haystack);
 
 	return (NULL);
 }
