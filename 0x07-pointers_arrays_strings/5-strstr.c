@@ -48,6 +48,8 @@ char *_strstr(char *haystack, char *needle)
 
 	for (len = 0; needle[len] != '\0'; len++)
 		;
+	if (*needle == '\0')
+		return (haystack);
 
 	count = counter(haystack, needle);
 
