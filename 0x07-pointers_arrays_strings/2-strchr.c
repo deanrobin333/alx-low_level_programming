@@ -20,9 +20,9 @@ char *_strchr(char *s, char c)
 		if (s[i] == c)
 		{
 			found = &s[i];
-			break;
+			return (found);
 		}
 	}
 
-	return (found);
+	return (NULL);
 }
