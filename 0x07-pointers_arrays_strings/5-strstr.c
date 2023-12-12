@@ -1,36 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 
-/**
- * counter - helper function - gets index of 1st instance
- *			of needle in haystack
- * @haystack: pointer to array of string to check
- * @needle: string to find in @haystack
- *
- * Return: location of the first word found
- */
-
-int counter(char *haystack, char *needle)
-{
-	int count, i, j;
-
-	for (i = 0; needle[i] != '\0'; i++)
-	{
-		for (j = 0; haystack[j] != '\0'; j++)
-		{
-			if (needle[i] == haystack[j])
-			{
-				count = j;
-				break;
-			}
-		}
-
-		if (j == count)
-			break;
-	}
-
-	return (count);
-}
 
 /**
  * _strstr - function that locates a substring
@@ -39,44 +9,76 @@ int counter(char *haystack, char *needle)
  *
  * Return: pointer to beginning of located substring
  *			or NULL if substring is not found
+ *
+ * `if (haystack[i] == needle[0])`
+ * We check for where the first character of `needle` is
+ *		located in haystack.
+ * Once we find that position, we set that indext to `count`
+ *		so that we starting looping `haystack` from there.
+ *
+ *
+ *
+ *
+ * `if (haystack[count] != needle[j])`
+ * We make sure the remaining characters of `haystack`
+ *		are the same as all the characters of `needle`.
+ * If they are not the same, we `break` out of inner loop, then the
+ *		last return statement (NULL), gets executed.
+ *
+ * We use `count` to loop from the first index of `needle`
+ *		found in `haystack`.
+ *
+ *
+ * `if (needle[j] == '\0')`
+ * We then check if the last element `j` of `needle
+ *		is a null character meaning,
+ *		we have reached the end of the `needle` string.
+ * if it's the end of the `needle` string we return
+ *		a pointer to the beginning of the located substring
+ *		in haystack; ie the remaining characters.
+ *
  */
 
 char *_strstr(char *haystack, char *needle)
 {
-	int i, j, len, bytes = 0, count = 0;
+	int i, j, count = 0;
 
-	for (len = 0; needle[len] != '\0'; len++)
-		;
+	/* We check if `needle` is empty, if its we return haystack string */
+
 	if (*needle == '\0')
 		return (haystack);
 
-	count = counter(haystack, needle);
 
-
-
-	for (i = 0; needle[i] != '\0'; i++)
+	for (i = 0; haystack[i] != '\0'; i++)
 	{
-
-		for (j = count; haystack[j] != '\0'; j++)
+		/**
+		 * Check if the current character in haystack matches the
+		 *		first character in needle.
+		 */
+		if (haystack[i] == needle[0])
 		{
-			if (needle[i] == haystack[j])
-				bytes++;
-		}
-	}
+			count = i;
 
-	if (bytes == len)
-	{
-		for (i = count; haystack[i] != '\0'; i++)
-		{
-			for (j = 0; needle[j] != '\0'; j++)
+			for (j = 0; needle[j] != '\0'; j++, count++)
 			{
-				if (haystack[i] != needle[j])
+				/* Check if the characters in haystack and needle match */
+				if (haystack[count] != needle[j])
+					/*  If they don't match, break out of the inner loop */
 					break;
 			}
-			if (needle[len] == '\0')
+			/**
+			 * Check if we reached the end of needle
+			 * If yes, we found the substring, so return a pointer to
+			 *		the beginning of the located substring
+			 */
+			if (needle[j] == '\0')
 				return (&haystack[i]);
 		}
 	}
+	/**
+	 * If the function reaches this point,
+	 * the substring was not found, so return NULL
+	 */
 
 	return (NULL);
 }
