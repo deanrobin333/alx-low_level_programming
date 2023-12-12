@@ -76,6 +76,8 @@ char *_strstr(char *haystack, char *needle)
 					found = &haystack[i];
 					return (found);
 				}
+				if (needle[j] == '\0')
+					return (&haystack[i]);
 			}
 		}
 	}
