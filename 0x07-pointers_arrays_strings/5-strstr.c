@@ -44,7 +44,6 @@ int counter(char *haystack, char *needle)
 char *_strstr(char *haystack, char *needle)
 {
 	int i, j, len, bytes = 0, count = 0;
-	char *found;
 
 	for (len = 0; needle[len] != '\0'; len++)
 		;
@@ -72,14 +71,11 @@ char *_strstr(char *haystack, char *needle)
 			for (j = 0; needle[j] != '\0'; j++)
 			{
 				if (haystack[i] == needle[j])
-				{
-					found = &haystack[i];
-					return (found);
-				}
+					return (&haystack[i]);
 			}
 		}
 	}
-	else if (*needle == '\0')
+	else if (len == 0)
 		return (NULL);
 
 	return (NULL);
