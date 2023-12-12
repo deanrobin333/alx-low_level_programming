@@ -1,36 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 
-/**
- * counter - helper function - gets index of 1st instance
- *			of needle in haystack
- * @haystack: pointer to array of string to check
- * @needle: string to find in @haystack
- *
- * Return: location of the first word found
- */
-
-int counter(char *haystack, char *needle)
-{
-	int count, i, j;
-
-	for (i = 0; needle[i] != '\0'; i++)
-	{
-		for (j = 0; haystack[j] != '\0'; j++)
-		{
-			if (needle[i] == haystack[j])
-			{
-				count = j;
-				break;
-			}
-		}
-
-		if (j == count)
-			break;
-	}
-
-	return (count);
-}
 
 /**
  * _strstr - function that locates a substring
@@ -43,40 +13,38 @@ int counter(char *haystack, char *needle)
 
 char *_strstr(char *haystack, char *needle)
 {
-	int i, j, len, bytes = 0, count = 0;
+	int i, j, count = 0;
 
-	for (len = 0; needle[len] != '\0'; len++)
-		;
 	if (*needle == '\0')
 		return (haystack);
 
-	count = counter(haystack, needle);
 
-
-
-	for (i = 0; needle[i] != '\0'; i++)
+	for (i = 0; haystack[i] != '\0'; i++)
 	{
-
-		for (j = count; haystack[j] != '\0'; j++)
+		/**
+		 * We check for where the first character of `needle` is
+		 *		located in haystack.
+		 * Once we find that position, we set that indext to `count`
+		 *		so that we starting looping haystack from there.
+		 */
+		if (haystack[i] == needle[0])
 		{
-			if (needle[i] == haystack[j])
-				bytes++;
-		}
-	}
+			count = i;
 
-	if (bytes == len)
-	{
-		for (i = count; haystack[i] != '\0'; i++)
-		{
-			for (j = 0; needle[j] != '\0'; j++)
+			for (j = 0; needle[j] != '\0'; j++, count++)
 			{
-				if (haystack[i] == needle[j])
-					return (&haystack[i]);
+				/**
+				 * We make sure the remaining characters of `haystack`
+				 *		are the same as all the characters of `needle`.
+				 * If they are not the same, we return `NULL`.
+				 */
+				if (haystack[count] != needle[j])
+					return (NULL);
+				else
+					return (&haystack[count]);
 			}
 		}
 	}
-	else if (len == 0)
-		return (NULL);
 
 	return (NULL);
 }
