@@ -1,6 +1,9 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
+/* Headder for NULL */
+#include <stddef.h>
+
 /* 0-memset.c */
 char *_memset(char *s, char b, unsigned int n);
 
@@ -15,5 +18,8 @@ unsigned int _strspn(char *s, char *accept);
 
 /* 4-strpbrk.c */
 char *_strpbrk(char *s, char *accept);
+
+/* 5-strstr.c */
+char *_strstr(char *haystack, char *needle);
 
 #endif /* _MAIN_H_ */

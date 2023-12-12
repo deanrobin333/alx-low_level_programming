@@ -10,7 +10,7 @@
 	- [2. strchr](#2)
 	- [3. strspn](#3)
 	- [4. strpbrk](#4)
-	- [](#5)
+	- [5. strstr](#5)
 	- [](#6)
 	- [](#7)
 	- [](#8)
@@ -199,13 +199,28 @@ llo, world
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
-**t**
+**5. strstr**
+- Write a function that locates a substring.
+
+    - Prototype: `char *_strstr(char *haystack, char *needle);`
+    - The `_strstr()` function finds the first occurrence of the substring `needle` in the string `haystack`. The terminating null bytes (`\0`) are not compared
+    - Returns a pointer to the beginning of the located substring, or `NULL` if the substring is not found.
+
+- FYI: The standard library provides a similar function: `strstr`. Run `man strstr` to learn more.
+
+
+```
+julien@ubuntu:~/0x07$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-strstr.c -o 5-strstr
+julien@ubuntu:~/0x07$ ./5-strstr
+world
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x07-pointers_arrays_strings`
-    - File: [``](./)
+    - File: [`5-strstr.c`](./5-strstr.c)
+	- Example file: [`5-main.c`](./5-main.c)
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
