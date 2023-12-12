@@ -24,6 +24,7 @@ int main(void)
   p[5] = 98;
   /* ...so that this prints 98\n */
   /* printf("a[2] = %d\n", a[2]); */
+  printf("-Assumes we are on a 64bit machine, where a pointer is 8 bytes\n-A 32 bit machine, a pointer is 4 bytes\n\n");
   printf("- We shall print the memory address\n");
   printf("Explained by Dean Robin Otsyeno; deanrobin777@gmail.com\n");
   printf("- We are using long unsigned int to represent the memory addresses as normal numbers instead of the hexadecimal format\n");
