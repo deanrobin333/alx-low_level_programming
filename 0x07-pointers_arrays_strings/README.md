@@ -5,7 +5,7 @@
 - [Author Details](#author-details)
 - [Project Description](#project-description)
 - [Tasks](#tasks)
-	- [](#0)
+	- [0. memset](#0)
 	- [](#1)
 	- [](#2)
 	- [](#3)
@@ -37,13 +37,48 @@
 ## Tasks
 #### 0
 ###### [Table of Contents](#table-of-contents)
-**t**
+**0. memset**
+- Write a function that fills memory with a constant byte.
+
+    - Prototype: `char *_memset(char *s, char b, unsigned int n);`
+    - The `_memset()` function fills the first `n` bytes of the memory area pointed to by `s` with the constant byte `b`
+    - Returns a pointer to the memory area `s`
+
+- FYI: The standard library provides a similar function: `memset`. Run `man memset` to learn more
+
+
+```
+julien@ubuntu:~/0x07$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-memset.c -o 0-memset
+julien@ubuntu:~/0x07$ ./0-memset
+0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+-------------------------------------------------
+0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01
+0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01
+0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01
+0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01
+0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01
+0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01
+0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01
+0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01
+0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01 0x01
+0x01 0x01 0x01 0x01 0x01 0x00 0x00 0x00
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x07-pointers_arrays_strings`
-     - File: [``](./)
+    - File: [`0-memset.c`](./0-memset.c)
+	- Example file: [`0-main.c`](./0-main.c)
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
@@ -53,7 +88,7 @@
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x07-pointers_arrays_strings`
-     - File: [``](./)
+    - File: [``](./)
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
@@ -63,7 +98,7 @@
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x07-pointers_arrays_strings`
-     - File: [``](./)
+    - File: [``](./)
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
@@ -73,7 +108,7 @@
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x07-pointers_arrays_strings`
-     - File: [``](./)
+    - File: [``](./)
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
@@ -83,7 +118,7 @@
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x07-pointers_arrays_strings`
-     - File: [``](./)
+    - File: [``](./)
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
@@ -93,7 +128,7 @@
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x07-pointers_arrays_strings`
-     - File: [``](./)
+    - File: [``](./)
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
@@ -103,7 +138,7 @@
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x07-pointers_arrays_strings`
-     - File: [``](./)
+    - File: [``](./)
 ---
 #### 7
 ###### [Table of Contents](#table-of-contents)
@@ -113,7 +148,7 @@
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x07-pointers_arrays_strings`
-     - File: [``](./)
+    - File: [``](./)
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
@@ -123,7 +158,7 @@
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x07-pointers_arrays_strings`
-     - File: [``](./)
+    - File: [``](./)
 ---
 #### 9
 ###### [Table of Contents](#table-of-contents)
@@ -133,7 +168,7 @@
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x07-pointers_arrays_strings`
-     - File: [``](./)
+    - File: [``](./)
 ---
 
 
