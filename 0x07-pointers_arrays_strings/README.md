@@ -7,8 +7,8 @@
 - [Tasks](#tasks)
 	- [0. memset](#0)
 	- [1. memcpy](#1)
-	- [](#2)
-	- [](#3)
+	- [2. strchr](#2)
+	- [3. strspn](#3)
 	- [](#4)
 	- [](#5)
 	- [](#6)
@@ -151,13 +151,26 @@ llo
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
-**t**
+**3. strspn**
+- Write a function that gets the length of a prefix substring.
+
+    - Prototype: `unsigned int _strspn(char *s, char *accept);`
+    - Returns the number of bytes in the initial segment of `s` which consist only of bytes from `accept`
+
+- FYI: The standard library provides a similar function: `strspn`. Run `man strspn` to learn more.
+
+```
+julien@ubuntu:~/0x07$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-strspn.c -o 3-strspn
+julien@ubuntu:~/0x07$ ./3-strspn
+5
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x07-pointers_arrays_strings`
-    - File: [``](./)
+    - File: [`3-strspn.c`](./3-strspn.c)
+	- Example file: [`3-main.c`](./3-main.c)
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
