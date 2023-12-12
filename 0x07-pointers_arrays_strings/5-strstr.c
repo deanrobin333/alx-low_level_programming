@@ -80,7 +80,5 @@ char *_strstr(char *haystack, char *needle)
 		}
 	}
 	else if (*needle == '\0')
-		return (haystack);
-
-	return (NULL);
+		return (NULL);
 }
