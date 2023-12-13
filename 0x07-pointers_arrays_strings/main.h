@@ -28,4 +28,8 @@ void print_chessboard(char (*a)[8]);
 /* _putchar.c */
 int _putchar(char c);
 
+/* 8-print_diagsums.c */
+void print_diagsums(int *a, int size);
+
+
 #endif /* _MAIN_H_ */

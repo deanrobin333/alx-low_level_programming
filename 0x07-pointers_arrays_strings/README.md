@@ -11,8 +11,8 @@
 	- [3. strspn](#3)
 	- [4. strpbrk](#4)
 	- [5. strstr](#5)
-	- [](#6)
-	- [](#7)
+	- [6. Chess is mental torture](#6)
+	- [7. The line of life is a ragged diagonal between duty and desire](#7)
 	- [](#8)
 	- [](#9)
 ---
@@ -224,23 +224,56 @@ world
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
-**t**
+**6. Chess is mental torture**
+- Write a function that prints the chessboard.
+
+    - Prototype: `void print_chessboard(char (*a)[8]);`
+
+```
+julien@ubuntu:~/0x07$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 7-main.c 7-print_chessboard.c -o 7-print_chessboard
+julien@ubuntu:~/0x07$ ./7-print_chessboard
+rkbqkbkr
+pppppppp
+
+
+
+
+PPPPPPPP
+RKBQKBKR
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x07-pointers_arrays_strings`
     - File: [``](./)
+	- Example file: [`7-main.c`](./7-main.c)
 ---
 #### 7
 ###### [Table of Contents](#table-of-contents)
-**t**
+**7. The line of life is a ragged diagonal between duty and desire**
+- Write a function that prints the sum of the two diagonals of a square matrix of integers.
+
+    - Prototype: `void print_diagsums(int *a, int size);`
+    - Format: see example
+    - You are allowed to use the standard library
+
+- Note that in the following example we are casting an `int[][]` into an `int*`. This is not something you should do. The goal here is to make sure you understand how an array of array is stored in memory.
+
+
+```
+julien@ubuntu:~/0x07$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 8-main.c 8-print_diagsums.c -o 8-print_diagsums
+julien@ubuntu:~/0x07$ ./8-print_diagsums
+113, 1016
+1214556093, 1137318
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x07-pointers_arrays_strings`
-    - File: [``](./)
+    - File: [`8-print_diagsums.c`](./8-print_diagsums.c)
+	- Example file: [`8-main.c`](./8-main.c)
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
