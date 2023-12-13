@@ -277,13 +277,24 @@ julien@ubuntu:~/0x07$ ./8-print_diagsums
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
-**t**
+**8. Double pointer, double fun**
+- Write a function that sets the value of a pointer to a char.
+    
+    - Prototype: `void set_string(char **s, char *to);`
+
+```
+julien@ubuntu:~/0x07$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-main.c 100-set_string.c -o 100-set_string
+julien@ubuntu:~/0x07$ ./100-set_string 
+Bob Dylan, Robert Allen
+Bob Dylan, Bob Dylan
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x07-pointers_arrays_strings`
-    - File: [``](./)
+    - File: [`100-set_string.c`](./100-set_string.c)
+	- Example file: [`100-main.c`](./100-main.c)
 ---
 #### 9
 ###### [Table of Contents](#table-of-contents)
