@@ -13,8 +13,8 @@
 	- [5. strstr](#5)
 	- [6. Chess is mental torture](#6)
 	- [7. The line of life is a ragged diagonal between duty and desire](#7)
-	- [](#8)
-	- [](#9)
+	- [8. Double pointer, double fun](#8)
+	- [9. My primary goal of hacking was the intellectual curiosity, the seduction of adventure](#9)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -298,13 +298,19 @@ Bob Dylan, Bob Dylan
 ---
 #### 9
 ###### [Table of Contents](#table-of-contents)
-**t**
+**9. My primary goal of hacking was the intellectual curiosity, the seduction of adventure**
+- Create a file that contains the password for the [crackme2](https://github.com/alx-tools/0x06.c "crackme2") executable.
+
+    - Your file should contain the exact password, no new line, no extra space
+    - `ltrace`, `ldd`, `gdb` and `objdump` can help
+    - You may need to install the `openssl` library to run the `crakme2` program: `sudo apt install libssl-dev`
+    - Edit the source list `sudo nano /etc/apt/sources.list` to add the following line: `deb http://security.ubuntu.com/ubuntu xenial-security main` Then `sudo apt update` and `sudo apt install libssl1.0.0`
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x07-pointers_arrays_strings`
-    - File: [``](./)
+    - File: [`101-crackme_password`](./101-crackme_password)
 ---
 
 
