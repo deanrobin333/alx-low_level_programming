@@ -11,7 +11,8 @@
 	- [5. 0x05. C - Pointers, arrays and strings](#5)
 	- [6. 0x06. C - More pointers, arrays and strings](#6)
 	- [7. 0x07. C - Even more pointers, arrays and strings](#7)
-	- [8. ](#8)
+	- [8. 0x08. C - Recursion](#8)
+	- [9. ](#8)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -112,7 +113,16 @@
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
-### [8. ](./)
+### [8. 0x08. C - Recursion](./0x08-recursion)
+- What is recursion
+- How to implement recursion
+- In what situations you should implement recursion
+- In what situations you shouldn’t implement recursion
+
+---
+#### 9
+###### [Table of Contents](#table-of-contents)
+### [9. ](./)
 
 ---
 
