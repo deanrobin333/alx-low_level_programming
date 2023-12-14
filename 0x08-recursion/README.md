@@ -7,7 +7,7 @@
 - [Tasks](#tasks)
 	- [0. She locked away a secret, deep inside herself, something she once knew to be true... but chose to forget](#0)
 	- [1. Why is it so important to dream? Because, in my dreams we are together](#1)
-	- [](#2)
+	- [2. Dreams feel real while we're in them. It's only when we wake up that we realize something was actually strange](#2)
 	- [](#3)
 	- [](#4)
 	- [](#5)
@@ -79,13 +79,26 @@ reklaW notloC
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
-**t**
+**2. Dreams feel real while we're in them. It's only when we wake up that we realize something was actually strange**
+- Write a function that returns the length of a string.
+
+    - Prototype: `int _strlen_recursion(char *s);`
+
+- FYI: The standard library provides a similar function: `strlen`. Run `man strlen` to learn more.
+
+
+```
+julien@ubuntu:~/0x08. Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89  2-main.c 2-strlen_recursion.c -o 2-strlen_recursion
+julien@ubuntu:~/0x08. Recursion$ ./2-strlen_recursion
+14
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x08-recursion`
-    - File: [``](./)
+    - File: [`2-strlen_recursion.c`](./2-strlen_recursion.c)
+	- Example file: [`2-main.c`](./2-main.c)
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
