@@ -9,7 +9,7 @@
 	- [1. Why is it so important to dream? Because, in my dreams we are together](#1)
 	- [2. Dreams feel real while we're in them. It's only when we wake up that we realize something was actually strange](#2)
 	- [3. You mustn't be afraid to dream a little bigger, darling](#3)
-	- [](#4)
+	- [4. Once an idea has taken hold of the brain it's almost impossible to eradicate](#4)
 	- [](#5)
 	- [](#6)
 	- [](#7)
@@ -127,13 +127,32 @@ julien@ubuntu:~/0x08. Recursion$ ./3-factorial
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
-**t**
+**4. Once an idea has taken hold of the brain it's almost impossible to eradicate**
+- Write a function that returns the value of `x` raised to the power of `y`.
+    
+    - Prototype: `int _pow_recursion(int x, int y);`
+    - If `y` is lower than `0`, the function should return `-1`
+    
+- FYI: The standard library provides a different function: `pow`. Run `man pow` to learn more.
+    
+
+```
+julien@ubuntu:~/0x08. Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 4-pow_recursion.c -o 4-pow
+julien@ubuntu:~/0x08. Recursion$ ./4-pow 
+1
+1
+65536
+25
+-1
+-125
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x08-recursion`
-    - File: [``](./)
+    - File: [`4-pow_recursion.c`](./4-pow_recursion.c)
+	- Example file: [`4-main.c`](./4-main.c)
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
