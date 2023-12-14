@@ -6,7 +6,7 @@
 - [Project Description](#project-description)
 - [Tasks](#tasks)
 	- [0. She locked away a secret, deep inside herself, something she once knew to be true... but chose to forget](#0)
-	- [](#1)
+	- [1. Why is it so important to dream? Because, in my dreams we are together](#1)
 	- [](#2)
 	- [](#3)
 	- [](#4)
@@ -59,13 +59,23 @@ Puts with recursion
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
-**t**
+**1. Why is it so important to dream? Because, in my dreams we are together**
+- Write a function that prints a string in reverse.
+
+    - Prototype: `void _print_rev_recursion(char *s);`
+
+```
+julien@ubuntu:~/0x08. Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 1-main.c 1-print_rev_recursion.c -o 1-print_rev_recursion
+julien@ubuntu:~/0x08. Recursion$ ./1-print_rev_recursion
+reklaW notloC
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x08-recursion`
-    - File: [``](./)
+    - File: [`1-print_rev_recursion.c`](./1-print_rev_recursion.c)
+	- Example file: [`1-main.c`](./1-main.c)
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
