@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <string.h>
 
 int str_length(char *s);
 int pal_char(char *s, int i, int len);
