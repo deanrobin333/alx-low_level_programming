@@ -1,11 +1,11 @@
 # Project 
-## **p**
+## **0x08. C - Recursion**
 ---
 ## Table of Contents
 - [Author Details](#author-details)
 - [Project Description](#project-description)
 - [Tasks](#tasks)
-	- [](#0)
+	- [0. She locked away a secret, deep inside herself, something she once knew to be true... but chose to forget](#0)
 	- [](#1)
 	- [](#2)
 	- [](#3)
@@ -38,13 +38,24 @@
 ## Tasks
 #### 0
 ###### [Table of Contents](#table-of-contents)
-**t**
+**0. She locked away a secret, deep inside herself, something she once knew to be true... but chose to forget**
+- Write a function that prints a string, followed by a new line.
+
+    - Prototype: `void _puts_recursion(char *s);`
+
+- FYI: The standard library provides a similar function: `puts`. Run `man puts` to learn more.
+```
+julien@ubuntu:~/0x08. Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-main.c 0-puts_recursion.c -o 0-puts_recursion
+julien@ubuntu:~/0x08. Recursion$ ./0-puts_recursion
+Puts with recursion
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x08-recursion`
-    - File: [``](./)
+    - File: [`0-puts_recursion.c`](./0-puts_recursion.c)
+	- Example file: [`0-main.c`](./0-main.c)
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
