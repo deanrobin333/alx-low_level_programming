@@ -11,7 +11,7 @@
 	- [3. You mustn't be afraid to dream a little bigger, darling](#3)
 	- [4. Once an idea has taken hold of the brain it's almost impossible to eradicate](#4)
 	- [5. Your subconscious is looking for the dreamer](#5)
-	- [](#6)
+	- [6. Inception. Is it possible?](#6)
 	- [](#7)
 	- [](#8)
 ---
@@ -185,13 +185,30 @@ julien@ubuntu:~/0x08. Recursion$ ./5-sqrt
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
-**t**
+**6. Inception. Is it possible?**
+- Write a function that returns `1` if the input integer is a [prime number](https://en.wikipedia.org/wiki/Prime_number "prime number"), otherwise return `0`.
+
+    - Prototype: `int is_prime_number(int n);`
+
+```
+julien@ubuntu:~/0x08. Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 6-main.c 6-is_prime_number.c -o 6-prime
+julien@ubuntu:~/0x08. Recursion$ ./6-prime
+0
+0
+0
+1
+0
+0
+1
+1
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x08-recursion`
-    - File: [``](./)
+    - File: [`6-is_prime_number.c`](./6-is_prime_number.c)
+	- Example file: [`6-main.c`](./6-main.c)
 ---
 #### 7
 ###### [Table of Contents](#table-of-contents)

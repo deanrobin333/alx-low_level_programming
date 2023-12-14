@@ -21,5 +21,10 @@ int _pow_recursion(int x, int y);
 
 /* 5-sqrt_recursion.c */
 int _sqrt_recursion(int n);
+int _sqrt_helper(int n, int i);
+
+/* 6-is_prime_number.c */
+int is_prime_number(int n);
+int is_prime_helper(int n, int i);
 
 #endif /* _MAIN_H_*/
