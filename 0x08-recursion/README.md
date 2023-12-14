@@ -12,8 +12,8 @@
 	- [4. Once an idea has taken hold of the brain it's almost impossible to eradicate](#4)
 	- [5. Your subconscious is looking for the dreamer](#5)
 	- [6. Inception. Is it possible?](#6)
-	- [](#7)
-	- [](#8)
+	- [7. They say we only use a fraction of our brain's true potential. Now that's when we're awake. When we're asleep, we can do almost anything](#7)
+	- [8. Inception. Now, before you bother telling me it's impossible...](#8)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -212,23 +212,60 @@ julien@ubuntu:~/0x08. Recursion$ ./6-prime
 ---
 #### 7
 ###### [Table of Contents](#table-of-contents)
-**t**
+**7. They say we only use a fraction of our brain's true potential. Now that's when we're awake. When we're asleep, we can do almost anything**
+- Write a function that returns `1` if a string is a palindrome and `0` if not.
+
+    - Prototype: `int is_palindrome(char *s);`
+    - An empty string is a palindrome
+
+```
+julien@ubuntu:~/0x08. Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-main.c 100-is_palindrome.c -o 100-palindrome
+julien@ubuntu:~/0x08. Recursion$ ./100-palindrome
+1
+1
+0
+1
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x08-recursion`
-    - File: [``](./)
+    - File: [`100-is_palindrome.c`](./100-is_palindrome.c)
+	- Example file: [`100-main.c`](./100-main.c)
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
-**t**
+**8. Inception. Now, before you bother telling me it's impossible...**
+- Write a function that compares two strings and returns `1` if the strings can be considered identical, otherwise return `0`.
+
+    - Prototype: `int wildcmp(char *s1, char *s2);`
+    - `s2` can contain the special character `*`.
+    - The special char `*` can replace any string (including an empty string)
+
+```
+julien@ubuntu:~/0x08. Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 101-main.c 101-wildcmp.c -o 101-wildcmp
+julien@ubuntu:~/0x08. Recursion$ ./101-wildcmp
+1
+1
+1
+1
+1
+1
+1
+0
+1
+1
+0
+0
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x08-recursion`
-    - File: [``](./)
+    - File: [`101-wildcmp.c`](./101-wildcmp.c)
+	- Example file: [`101-main.c`](./101-main.c)
 ---
 
 
