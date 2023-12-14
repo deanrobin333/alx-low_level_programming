@@ -19,4 +19,7 @@ int factorial(int n);
 /* 4-pow_recursion.c */
 int _pow_recursion(int x, int y);
 
+/* 5-sqrt_recursion.c */
+int _sqrt_recursion(int n);
+
 #endif /* _MAIN_H_*/

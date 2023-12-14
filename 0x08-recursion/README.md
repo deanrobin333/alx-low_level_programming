@@ -10,7 +10,7 @@
 	- [2. Dreams feel real while we're in them. It's only when we wake up that we realize something was actually strange](#2)
 	- [3. You mustn't be afraid to dream a little bigger, darling](#3)
 	- [4. Once an idea has taken hold of the brain it's almost impossible to eradicate](#4)
-	- [](#5)
+	- [5. Your subconscious is looking for the dreamer](#5)
 	- [](#6)
 	- [](#7)
 	- [](#8)
@@ -156,13 +156,32 @@ julien@ubuntu:~/0x08. Recursion$ ./4-pow
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
-**t**
+**5. Your subconscious is looking for the dreamer**
+- Write a function that returns the natural square root of a number.
+
+    - Prototype: `int _sqrt_recursion(int n);`
+    - If `n` does not have a natural square root, the function should return `-1`
+
+- FYI: The standard library provides a different function: `sqrt`. Run `man sqrt` to learn more.
+
+
+```
+julien@ubuntu:~/0x08. gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-sqrt_recursion.c -o 5-sqrt
+julien@ubuntu:~/0x08. Recursion$ ./5-sqrt
+1
+32
+4
+-1
+5
+-1
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x08-recursion`
-    - File: [``](./)
+    - File: [`5-sqrt_recursion.c`](./5-sqrt_recursion.c)
+	- Example file: [`5-main.c`](./5-main.c)
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
