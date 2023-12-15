@@ -14,7 +14,8 @@
 	- [8. 0x08. C - Recursion](#8)
 	- [9. 0x09. C - Static libraries](#9)
 	- [10. 0x0A. C - argc, argv](#10)
-	- [11. ](#11)
+	- [11. 0x0B. C - malloc, free](#11)
+	- [12. ](#12)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -138,7 +139,16 @@
 ---
 #### 11
 ###### [Table of Contents](#table-of-contents)
-### [11. ](./)
+### [11. 0x0B. C - malloc, free](./0x0B-malloc_free)
+- What is the difference between automatic and dynamic allocation
+- What is `malloc` and `free` and how to use them
+- Why and when use `malloc`
+- How to use `valgrind` to check for memory leak
+
+---
+#### 12
+###### [Table of Contents](#table-of-contents)
+### [12. ](./)
 
 ---
 
