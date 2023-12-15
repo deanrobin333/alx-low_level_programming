@@ -6,8 +6,8 @@
  * @argc: number of arguments
  * @argv: pointer to arguments
  *
- * Return: answer of multiplication or
- *			1 on failure
+ * Return: 0 on success
+ *			1 on Error
  */
 
 int main(int argc, char **argv)
