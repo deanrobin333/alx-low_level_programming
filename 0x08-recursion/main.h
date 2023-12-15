@@ -29,6 +29,8 @@ int is_prime_helper(int n, int i);
 
 /* 100-is_palindrome.c */
 int is_palindrome(char *s);
+int str_length(char *s);
+int pal_char(char *str, int i, int len);
 
 /* 101-wildcmp.c */
 int wildcmp(char *s1, char *s2);
