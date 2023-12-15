@@ -19,7 +19,7 @@ int main(int argc, char **argv)
 	{
 		for (i = 1; i < argc; i++)
 		{
-			/* loop through the arguments */
+			/* loop through the characters in each argument */
 			for (j = 0; argv[i][j] != '\0'; j++)
 			{
 				if (!isdigit(argv[i][j]))
