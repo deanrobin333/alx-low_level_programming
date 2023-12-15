@@ -29,7 +29,7 @@ int main(int argc, char **argv)
 		else
 		{
 			printf("Error\n");
-			break;
+			return (1);
 		}
 	}
 	if (len == 1)
