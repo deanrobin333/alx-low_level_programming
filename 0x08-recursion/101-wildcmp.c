@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * wildcmp - compares two strings
@@ -46,4 +45,3 @@ int wildcmp(char *s1, char *s2)
 	/* If characters don't match, and s2 doesn't have '*' */
 	return (0); /* Not a match */
 }
-
