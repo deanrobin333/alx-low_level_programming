@@ -6,7 +6,7 @@
 - [Project Description](#project-description)
 - [Tasks](#tasks)
 	- [0. It ain't what they call you, it's what you answer to](#0)
-	- [](#1)
+	- [1. Silence is argument carried out by other means](#1)
 	- [](#2)
 	- [](#3)
 	- [](#4)
@@ -54,14 +54,17 @@ julien@ubuntu:~/0x0A. argc, argv$ ./mynewnameis
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
-**t**
+**1. Silence is argument carried out by other means**
+- Write a program that prints the number of arguments passed into it.
+
+    - Your program should print a number, followed by a new line
 
 <br></br>
 - Repo
     
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x0A-argc_argv`    
-    - File: [``](./)
+    - File: [`1-args.c`](./1-args.c)
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
