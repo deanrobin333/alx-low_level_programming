@@ -12,8 +12,9 @@
 	- [6. 0x06. C - More pointers, arrays and strings](#6)
 	- [7. 0x07. C - Even more pointers, arrays and strings](#7)
 	- [8. 0x08. C - Recursion](#8)
-	- [9. 0x09. C - Static libraries](#8)
-	- [10. ](#8)
+	- [9. 0x09. C - Static libraries](#9)
+	- [10. 0x0A. C - argc, argv](#10)
+	- [11. ](#11)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -129,7 +130,15 @@
 ---
 #### 10
 ###### [Table of Contents](#table-of-contents)
-### [10. ](./)
+### [10. 0x0A. C - argc, argv](./0x0A-argc_argv)
+- How to use arguments passed to your program
+- What are two prototypes of `main` that you know of, and in which case do you use one or the other
+- How to use `__attribute__((unused))` or `(void)` to compile functions with unused variables or parameters
+
+---
+#### 11
+###### [Table of Contents](#table-of-contents)
+### [11. ](./)
 
 ---
 
