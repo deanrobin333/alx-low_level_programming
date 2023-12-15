@@ -7,8 +7,8 @@
 - [Tasks](#tasks)
 	- [0. It ain't what they call you, it's what you answer to](#0)
 	- [1. Silence is argument carried out by other means](#1)
-	- [](#2)
-	- [](#3)
+	- [2. The best argument against democracy is a five-minute conversation with the average voter](#2)
+	- [3. Neither irony nor sarcasm is argument](#3)
 	- [](#4)
 	- [](#5)
 ---
@@ -68,25 +68,40 @@ julien@ubuntu:~/0x0A. argc, argv$ ./mynewnameis
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
-**t**
+**2. The best argument against democracy is a five-minute conversation with the average voter**
+- Write a program that prints all arguments it receives.
+
+    - All arguments should be printed, including the first one
+    - Only print one argument per line, ending with a new line
 
 <br></br>
 - Repo
     
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x0A-argc_argv`    
-    - File: [``](./)
+    - File: [`2-args.c`](./2-args.c)
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
-**t**
+**3. Neither irony nor sarcasm is argument**
+- Write a program that multiplies two numbers.
+
+    - Your program should print the result of the multiplication, followed by a new line
+    - You can assume that the two numbers and result of the multiplication can be stored in an integer
+    - If the program does not receive two arguments, your program should print `Error`, followed by a new line, and return `1`
+
+```
+julien@ubuntu:~/0x0A. argc, argv$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-mul.c -o mul
+julien@ubuntu:~/0x0A. argc, argv$ ./mul 2 3
+6
+```
 
 <br></br>
 - Repo
     
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x0A-argc_argv`    
-    - File: [``](./)
+    - File: [`3-mul.c`](./3-mul.c)
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
