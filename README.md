@@ -12,7 +12,8 @@
 	- [6. 0x06. C - More pointers, arrays and strings](#6)
 	- [7. 0x07. C - Even more pointers, arrays and strings](#7)
 	- [8. 0x08. C - Recursion](#8)
-	- [9. ](#8)
+	- [9. 0x09. C - Static libraries](#8)
+	- [10. ](#8)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -122,7 +123,13 @@
 ---
 #### 9
 ###### [Table of Contents](#table-of-contents)
-### [9. ](./)
+### [9. 0x09. C - Static libraries](./0x09-static_libraries)
+- What is a static library, how does it work, how to create one, and how to use it
+- Basic usage of `ar`, `ranlib`, `nm`
+---
+#### 10
+###### [Table of Contents](#table-of-contents)
+### [10. ](./)
 
 ---
 
