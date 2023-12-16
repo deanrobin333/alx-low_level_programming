@@ -7,11 +7,13 @@
  * @s2: pointer to 2nd string
  *
  * Return: pointer to concatenated string
+ *
+ * if a string is empty ie `""`, `strlen()` returns 0.
  */
 
 char *str_concat(char *s1, char *s2)
 {
-	unsigned int len_s1, len_s2, i, j, k;
+	unsigned int len_s1, len_s2, i, k;
 	char *array;
 
 	if (s1 == NULL && s2 == NULL)
@@ -30,12 +32,12 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 
 	for (i = 0; s1[i] != '\0'; i++)
-	{
-		array[i] += s1[i];
-	}
+		array[i] = s1[i];
 
-	for (k = 0, j = i; s2[k] != '\0'; k++, j++)
-		array[j] += s2[k];
+	/* using strlen, so that it gets the right length */
+
+	for (k = 0; s2[k] != '\0'; k++)
+		array[strlen(array)] = s2[k];
 
 	array[strlen(array)] = '\0';
 
