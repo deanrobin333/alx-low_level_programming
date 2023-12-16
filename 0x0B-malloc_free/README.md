@@ -7,7 +7,7 @@
 - [Tasks](#tasks)
 	- [0. Float like a butterfly, sting like a bee](#0)
 	- [1. The woman who has no imagination has no wings](#1)
-	- [](#2)
+	- [2. He who is not courageous enough to take risks will accomplish nothing in life](#2)
 	- [](#3)
 	- [](#4)
 	- [](#5)
@@ -91,13 +91,26 @@ ALX SE
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
-**t**
+**2. He who is not courageous enough to take risks will accomplish nothing in life**
+- Write a function that concatenates two strings.
+    
+    - Prototype: `char *str_concat(char *s1, char *s2);`
+    - The returned pointer should point to a newly allocated space in memory which contains the contents of `s1`, followed by the contents of `s2`, and null terminated
+    - if `NULL` is passed, treat it as an empty string
+    - The function should return `NULL` on failure
+
+```
+julien@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-str_concat.c -o c
+julien@ubuntu:~/c/curriculum_by_julien/holbertonschool-low_level_programming/0x0a. malloc, free$ ./c | cat -e
+Betty Holberton$
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x0B-malloc_free`
-    - File: [``](./)
+    - File: [`2-str_concat.c`](./2-str_concat.c)
+	- Example file: [`2-main.c`](./2-main.c)
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
