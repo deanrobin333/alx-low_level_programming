@@ -15,7 +15,8 @@
 	- [9. 0x09. C - Static libraries](#9)
 	- [10. 0x0A. C - argc, argv](#10)
 	- [11. 0x0B. C - malloc, free](#11)
-	- [12. ](#12)
+	- [12. 0x0C. C - More malloc, free](#12)
+	- [13. ](#13)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -148,7 +149,14 @@
 ---
 #### 12
 ###### [Table of Contents](#table-of-contents)
-### [12. ](./)
+### [12. 0x0C. C - More malloc, free](./0x0C-more_malloc_free)
+- How to use the `exit` function
+- What are the functions `calloc` and `realloc` from the standard library and how to use them
+
+---
+#### 13
+###### [Table of Contents](#table-of-contents)
+### [13. ](./)
 
 ---
 
