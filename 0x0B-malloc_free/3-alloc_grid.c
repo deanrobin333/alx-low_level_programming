@@ -18,6 +18,20 @@
  * hence why we are setting `two_array` to the height, in malloc,
  *		where the height represents the rows.
  * two_array[i], which is essentially the columns of the ith row, to the width.
+ *
+ * when creating height(rows) we use `sizeof(int *)` because
+ *		When you allocate memory for rows, you are essentially creating
+ *		an array of pointers, where each pointer will point to a row.
+ *		Hence, you use (int *) to indicate that each element in the array
+ *		is a pointer to an integer (a row).
+ *
+ * When creating columns (width) we use `sizeof(int)` because
+ *		When you allocate memory for columns within each row,
+ *		you are creating arrays of actual data elements.
+ *		These data elements are not pointers; they are the actual values
+ *		that will be stored in the 2D array.
+ *		Therefore, you use (int) to indicate that each element in the array
+ *		is an integer (a column value).
  */
 
 int **alloc_grid(int width, int height)
@@ -28,7 +42,7 @@ int **alloc_grid(int width, int height)
 	if (width <= 0 || height <= 0)
 		return (NULL);
 
-	/* we first create the height, the rows */
+	/* we first create the height; the rows */
 	two_array = malloc(sizeof(int *) * height);
 
 	if (two_array == NULL)
@@ -37,7 +51,7 @@ int **alloc_grid(int width, int height)
 	for (i = 0; i < height; i++)
 	{
 		/* we now set the columns, the width */
-		two_array[i] = malloc(sizeof(int *) * width);
+		two_array[i] = malloc(sizeof(int) * width);
 		/**
 		 * if malloc fails to create a particular columns,
 		 *		for a particular row
