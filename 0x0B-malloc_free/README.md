@@ -8,7 +8,7 @@
 	- [0. Float like a butterfly, sting like a bee](#0)
 	- [1. The woman who has no imagination has no wings](#1)
 	- [2. He who is not courageous enough to take risks will accomplish nothing in life](#2)
-	- [](#3)
+	- [3. If you even dream of beating me you'd better wake up and apologize](#3)
 	- [](#4)
 	- [](#5)
 	- [](#6)
@@ -114,13 +114,34 @@ Betty Holberton$
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
-**t**
+**3. If you even dream of beating me you'd better wake up and apologize**
+- Write a function that returns a pointer to a 2 dimensional array of integers.
+
+    - Prototype: `int **alloc_grid(int width, int height);`
+    - Each element of the grid should be initialized to `0`
+    - The function should return `NULL` on failure
+    - If `width` or `height` is `0` or negative, return `NULL`
+
+```
+julien@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-alloc_grid.c -o g
+julien@ubuntu:~/0x0a. malloc, free$ ./g
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+
+0 0 0 98 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 402 0
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x0B-malloc_free`
-    - File: [``](./)
+    - File: [`3-alloc_grid.c`](./3-alloc_grid.c)
+	- Example file: [`3-main.c`](./3-main.c)
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)

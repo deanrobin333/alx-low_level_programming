@@ -12,4 +12,7 @@ char *_strdup(char *str);
 /* 2-str_concat.c */
 char *str_concat(char *s1, char *s2);
 
+/* 3-alloc_grid.c */
+int **alloc_grid(int width, int height);
+
 #endif  /* _MAIN_H_ */
