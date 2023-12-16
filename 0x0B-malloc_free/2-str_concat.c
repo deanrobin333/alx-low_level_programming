@@ -32,12 +32,12 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 
 	for (i = 0; s1[i] != '\0'; i++)
-		array[i] = s1[i];
+		array[i] += s1[i];
 
 	/* using strlen, so that it gets the right length */
 
 	for (k = 0; s2[k] != '\0'; k++)
-		array[strlen(array)] = s2[k];
+		array[strlen(array)] += s2[k];
 
 	array[strlen(array)] = '\0';
 
