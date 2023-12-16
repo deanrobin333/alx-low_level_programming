@@ -10,8 +10,8 @@
 	- [2. He who is not courageous enough to take risks will accomplish nothing in life](#2)
 	- [3. If you even dream of beating me you'd better wake up and apologize](#3)
 	- [4. It's not bragging if you can back it up](#4)
-	- [](#5)
-	- [](#6)
+	- [5. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe](#5)
+	- [6. I will show you how great I am](#6)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -189,23 +189,61 @@ julien@ubuntu:~/0x0a. malloc, free$ valgrind ./f
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
-**t**
+**5. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe**
+- Write a function that concatenates all the arguments of your program.
+
+    - Prototype: `char *argstostr(int ac, char **av);`
+    - Returns `NULL` if `ac == 0` or `av == NULL`
+    - Returns a pointer to a new string, or `NULL` if it fails
+    - Each argument should be followed by a `\n` in the new string
+
+```
+julien@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-main.c 100-argstostr.c -o args
+julien@ubuntu:~/0x0a. malloc, free$ ./args I will "show you" how great I am
+./args
+I
+will
+show you
+how
+great
+I
+am
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x0B-malloc_free`
-    - File: [``](./)
+    - File: [`100-argstostr.c`](./100-argstostr.c)
+	- Example file: [`100-main.c`](./100-main.c)
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
-**t**
+**6. I will show you how great I am**
+- Write a function that splits a string into words.
+
+    - Prototype: `char **strtow(char *str);`
+    - The function returns a pointer to an array of strings (words)
+    - Each element of this array should contain a single word, null-terminated
+    - The last element of the returned array should be `NULL`
+    - Words are separated by spaces
+    - Returns `NULL` if `str == NULL` or `str == ""`
+    - If your function fails, it should return `NULL`
+
+```
+julien@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 101-main.c 101-strtow.c -o strtow
+julien@ubuntu:~/0x0a. malloc, free$ ./strtow | cat -e
+ALX$
+School$
+#cisfun$
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x0B-malloc_free`
-    - File: [``](./)
+    - File: [`101-strtow.c`](./101-strtow.c)
+	- Example file: [`101-main.c`](./101-main.c)
 ---
 
 
