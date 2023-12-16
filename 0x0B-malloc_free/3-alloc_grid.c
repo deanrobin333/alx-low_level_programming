@@ -29,7 +29,7 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 
 	/* we first create the height, the rows */
-	two_array = malloc(sizeof(int) * height);
+	two_array = malloc(sizeof(int *) * height);
 
 	if (two_array == NULL)
 		return (NULL);
@@ -37,7 +37,7 @@ int **alloc_grid(int width, int height)
 	for (i = 0; i < height; i++)
 	{
 		/* we now set the columns, the width */
-		two_array[i] = malloc(sizeof(int) * width);
+		two_array[i] = malloc(sizeof(int *) * width);
 		/**
 		 * if malloc fails to create a particular columns,
 		 *		for a particular row
