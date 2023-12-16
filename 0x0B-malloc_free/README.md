@@ -9,7 +9,7 @@
 	- [1. The woman who has no imagination has no wings](#1)
 	- [2. He who is not courageous enough to take risks will accomplish nothing in life](#2)
 	- [3. If you even dream of beating me you'd better wake up and apologize](#3)
-	- [](#4)
+	- [4. It's not bragging if you can back it up](#4)
 	- [](#5)
 	- [](#6)
 ---
@@ -142,16 +142,50 @@ julien@ubuntu:~/0x0a. malloc, free$ ./g
     - Directory: `0x0B-malloc_free`
     - File: [`3-alloc_grid.c`](./3-alloc_grid.c)
 	- Example file: [`3-main.c`](./3-main.c)
+	- Example file: [`main_3.c`](./main_3.c)
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
-**t**
+**4. It's not bragging if you can back it up**
+- Write a function that frees a 2 dimensional grid previously created by your `alloc_grid` function.
+
+    - Prototype: `void free_grid(int **grid, int height);`
+    - Note that we will compile with your `alloc_grid.c` file. Make sure it compiles.
+
+```
+julien@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 3-alloc_grid.c 4-free_grid.c -o f
+julien@ubuntu:~/0x0a. malloc, free$ valgrind ./f
+==5013== Memcheck, a memory error detector
+==5013== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==5013== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==5013== Command: ./f
+==5013==
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+
+0 0 0 98 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 402 0
+==5013==
+==5013== HEAP SUMMARY:
+==5013==     in use at exit: 0 bytes in 0 blocks
+==5013==   total heap usage: 6 allocs, 6 frees, 1,248 bytes allocated
+==5013==
+==5013== All heap blocks were freed -- no leaks are possible
+==5013==
+==5013== For counts of detected and suppressed errors, rerun with: -v
+==5013== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x0B-malloc_free`
-    - File: [``](./)
+    - File: [`4-free_grid.c`](./4-free_grid.c)
+	- Example file: [`4-main.c`](./4-main.c)
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
