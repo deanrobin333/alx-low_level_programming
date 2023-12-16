@@ -13,11 +13,9 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	unsigned int len_s1, len_s2, i, k;
+	unsigned int len_s1, len_s2, i, j, k;
 	char *array;
 
-	if (s1 == NULL && s2 == NULL)
-		return (NULL);
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL && s1 != NULL)
@@ -30,17 +28,12 @@ char *str_concat(char *s1, char *s2)
 
 	if (array == NULL)
 		return (NULL);
-	else
-	{
 
 	for (i = 0; s1[i] != '\0'; i++)
-		array[i] += s1[i];
+		array[i] = s1[i];
 
-	/* using strlen, so that it gets the right length */
-
-	for (k = 0; s2[k] != '\0'; k++)
-		array[strlen(array)] += s2[k];
-	}
+	for (j = i, k = 0; s2[k] != '\0'; k++, j++)
+		array[j] += s2[k];
 
 	array[strlen(array)] = '\0';
 
