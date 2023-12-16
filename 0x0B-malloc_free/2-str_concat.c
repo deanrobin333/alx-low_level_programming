@@ -31,11 +31,11 @@ char *str_concat(char *s1, char *s2)
 
 	for (i = 0; s1[i] != '\0'; i++)
 	{
-		array[i] = s1[i];
+		array[i] += s1[i];
 	}
 
 	for (k = 0, j = i; s2[k] != '\0'; k++, j++)
-		array[j] = s2[k];
+		array[j] += s2[k];
 
 	array[strlen(array)] = '\0';
 
