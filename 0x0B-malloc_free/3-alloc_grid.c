@@ -59,7 +59,7 @@ int **alloc_grid(int width, int height)
 		 */
 		if (two_array[i] == NULL)
 		{
-			for (; i > 0; i--)
+			for (; i >= 0; i--)
 				free(two_array[i]); /*free all the columns here */
 			free(two_array); /*free that row */
 			return (NULL); /*return NULL for that row */
