@@ -15,16 +15,29 @@ char *str_concat(char *s1, char *s2)
 	char *array;
 
 	if (s1 == NULL && s2 == NULL)
+	{
 		return (NULL);
+	}
 	else if (s1 == NULL && s2 != NULL)
-		return (s2);
+	{
+		len_s1 = 0;
+		len_s2 = strlen(s2);
+	}
 	else if (s2 == NULL && s1 != NULL)
-		return (s1);
+	{
+		len_s1 = strlen(s1);
+		len_s2 = 0;
+	}
+	else if (s1 != NULL && s2 != NULL)
+	{
+		len_s1 = strlen(s1);
+		len_s2 = strlen(s2);
+	}
 
-	len_s1 = strlen(s1);
-	len_s2 = strlen(s2);
-
-	array = (char *)malloc(len_s1 + len_s2);
+	if (s1 != NULL && s2 != NULL)
+		array = (char *)malloc(len_s1 - 1 + len_s2 - 1);
+	else
+		array = (char *)malloc(len_s1 + len_s2 - 1);
 
 	if (array == NULL)
 		return (NULL);
