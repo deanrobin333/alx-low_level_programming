@@ -8,7 +8,7 @@
 	- [0. Object-like Macro](#0)
 	- [1. Pi](#1)
 	- [2. File name](#2)
-	- [](#3)
+	- [3. Function-like macro](#3)
 	- [](#4)
 ---
 ## Author Details
@@ -91,13 +91,21 @@ julien@ubuntu:~/0x0c. macro, structures$ ./cc
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
-**t**
+**3. Function-like macro**
+- Write a function-like macro `ABS(x)` that computes the absolute value of a number `x`.
+
+```
+julien@ubuntu:~/0x0c. macro, structures$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c -o d
+julien@ubuntu:~/0x0c. macro, structures$ ./d
+980, 980
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x0D-preprocessor`
-    - File: [``](./)
+    - File: [`3-function_like_macro.h`](./3-function_like_macro.h)
+	- Example file: [`3-main.c`](./3-main.c)
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
