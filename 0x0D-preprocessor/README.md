@@ -9,7 +9,7 @@
 	- [1. Pi](#1)
 	- [2. File name](#2)
 	- [3. Function-like macro](#3)
-	- [](#4)
+	- [4. SUM](#4)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -109,13 +109,21 @@ julien@ubuntu:~/0x0c. macro, structures$ ./d
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
-**t**
+**4. SUM**
+- Write a function-like macro `SUM(x, y)` that computes the sum of the numbers `x` and `y`.
+
+```
+julien@ubuntu:~/0x0c. macro, structures$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c -o e
+julien@ubuntu:~/0x0c. macro, structures$ ./e
+1122
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x0D-preprocessor`
-    - File: [``](./)
+    - File: [`4-sum.h`](./4-sum.h)
+	- Example file: [`4-main.c`](./4-main.c)
 ---
 
 
