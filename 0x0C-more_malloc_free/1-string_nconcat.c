@@ -36,7 +36,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (n >= strlen(s2))
 	{
 		for (i = 0; s2[i] != '\0'; i++)
-			array[strlen(array)] = s2[i];
+			array[i + strlen(s1)] = s2[i];
 	}
 	else
 	{
