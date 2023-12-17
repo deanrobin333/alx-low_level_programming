@@ -1,0 +1,45 @@
+#include "main.h"
+#include <string.h>
+
+/**
+ * string_nconcat - concatenates 2 strings
+ * @s1: first string
+ * @s2: second strings
+ * @n: number of bytes in 2nd string to concatenate to `s1`
+ *
+ * Return: pointer to new concatenated string or NULL on failure
+ */
+
+char *string_nconcat(char *s1, char *s2, unsigned int n)
+{
+	unsigned int i, len_s1 = 0;
+	char *array;
+
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
+
+	if (n >= strlen(s2))
+		n = strlen(s2);
+
+	array = malloc(sizeof(char) * (strlen(s1) + n) + 1);
+
+	if (array == NULL)
+		return (NULL);
+
+	len_s1 = strlen(s1);
+	for (i = 0; i < len_s1; i++)
+	{
+		array[i] = s1[i];
+	}
+
+	for (i = 0; i < n; i++)
+	{
+		array[strlen(array)] = s2[i];
+	}
+
+	array[strlen(array)] = '\0';
+
+	return (array);
+}
