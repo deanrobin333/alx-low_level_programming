@@ -8,7 +8,7 @@
 	- [0. Trust no one](#0)
 	- [1. string_nconcat](#1)
 	- [2. \_calloc](#2)
-	- [](#3)
+	- [3. array_range](#3)
 	- [](#4)
 	- [](#5)
 ---
@@ -119,13 +119,28 @@ julien@ubuntu:~/0x0b. more malloc, free$ ./2-calloc
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
-**t**
+**3. array_range**
+- Write a function that creates an array of integers.
+
+    - Prototype: `int *array_range(int min, int max);`
+    - The array created should contain all the values from `min` (included) to `max` (included), ordered from `min` to `max`
+    - Return: the pointer to the newly created array
+    - If `min` \> `max`, return `NULL`
+    - If `malloc` fails, return `NULL`
+
+```
+julien@ubuntu:~/0x0b. more malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-array_range.c -o 3-array_range
+julien@ubuntu:~/0x0b. more malloc, free$ ./3-array_range
+0x00 0x01 0x02 0x03 0x04 0x05 0x06 0x07 0x08 0x09
+0x0a
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x0C-more_malloc_free`
-    - File: [``](./)
+    - File: [`3-array_range.c`](./3-array_range.c)
+	- Example file: [`3-main.c`](./3-main.c)
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
