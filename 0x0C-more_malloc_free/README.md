@@ -5,7 +5,7 @@
 - [Author Details](#author-details)
 - [Project Description](#project-description)
 - [Tasks](#tasks)
-	- [](#0)
+	- [0. Trust no one](#0)
 	- [](#1)
 	- [](#2)
 	- [](#3)
@@ -33,13 +33,29 @@
 ## Tasks
 #### 0
 ###### [Table of Contents](#table-of-contents)
-**t**
+**0. Trust no one**
+- Write a function that allocates memory using `malloc`.
+
+    - Prototype: `void *malloc_checked(unsigned int b);`
+    - Returns a pointer to the allocated memory
+    - if `malloc` fails, the `malloc_checked` function should cause normal process termination with a status value of `98`
+
+```
+julien@ubuntu:~/0x0b. more malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-malloc_checked.c -o a
+julien@ubuntu:~/0x0b. more malloc, free$ ./a
+0x1e39010
+0x1e39830
+0x7f31f6c19010
+julien@ubuntu:~/0x0b. more malloc, free$ echo $?
+98
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x0C-more_malloc_free`
-    - File: [``](./)
+    - File: [`0-malloc_checked.c`](./0-malloc_checked.c)
+	- Example file: [`-main.c`](./-main.c)
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
