@@ -22,8 +22,7 @@
 
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
-	char *new_ptr;
-	char *old_ptr;
+	char *new_ptr, *old_ptr;
 	unsigned int i;
 
 	/* If new_size == old_size do not do anything and return ptr. */
@@ -60,6 +59,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		for (i = 0; i < old_size; i++)
 			new_ptr[i] = old_ptr[i];
 	}
-	free(ptr);
+	free(ptr); /*since we have `new_ptr`, we must release this one */
+	/* the example 100-main.c file will free `new_ptr`*/
 	return (new_ptr);
 }
