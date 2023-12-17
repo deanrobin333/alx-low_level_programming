@@ -5,7 +5,7 @@
 - [Author Details](#author-details)
 - [Project Description](#project-description)
 - [Tasks](#tasks)
-	- [](#0)
+	- [0. Object-like Macro](#0)
 	- [](#1)
 	- [](#2)
 	- [](#3)
@@ -32,13 +32,21 @@
 ## Tasks
 #### 0
 ###### [Table of Contents](#table-of-contents)
-**t**
+**0. Object-like Macro**
+- Create a header file that defines a macro named `SIZE` as an abbreviation for the token `1024`.
+
+```
+julien@ubuntu:~/0x0c. macro, structures$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c -o a
+julien@ubuntu:~/0x0c. macro, structures$ ./a
+1122
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x0D-preprocessor`
-    - File: [``](./)
+    - File: [`0-object_like_macro.h`](./0-object_like_macro.h)
+	- Example file: [`0-main.c`](./0-main.c)
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
