@@ -35,8 +35,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		array[i] = 0;
 	}
 
-	array[strlen(array)] = '\0';
-
 	return (array);
 }
 
