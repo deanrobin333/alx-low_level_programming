@@ -16,7 +16,8 @@
 	- [10. 0x0A. C - argc, argv](#10)
 	- [11. 0x0B. C - malloc, free](#11)
 	- [12. 0x0C. C - More malloc, free](#12)
-	- [13. ](#13)
+	- [13. 0x0D. C - Preprocessor](#13)
+	- [14. ](#14)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -156,7 +157,14 @@
 ---
 #### 13
 ###### [Table of Contents](#table-of-contents)
-### [13. ](./)
+### [13. 0x0D. C - Preprocessor](./0x0D-preprocessor)
+- What are macros and how to use them
+- What are the most common predefined macros
+- How to include guard your header files
+---
+#### 14
+###### [Table of Contents](#table-of-contents)
+### [14. ](./)
 
 ---
 
