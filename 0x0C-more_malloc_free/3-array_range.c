@@ -25,6 +25,11 @@ int *array_range(int min, int max)
 	{
 		array[k] = i;
 	}
+	/**
+	 * Loop could also be written like so, and then removing `k` declaration:
+	 * for (i = 0; min <= max; i++){
+	 *		array[i] = min++;}
+	 */
 
 	return (array);
 }
