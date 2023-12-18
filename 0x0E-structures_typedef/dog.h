@@ -28,5 +28,7 @@ void print_dog(struct dog *d);
 /* 4-new_dog.c */
 dog_t *new_dog(char *name, float age, char *owner);
 
+/* 5-free_dog.c */
+void free_dog(dog_t *d);
 
 #endif /* _DOG_H_ */
