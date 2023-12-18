@@ -9,7 +9,7 @@
 	- [1. A dog is the only thing on earth that loves you more than you love yourself](#1)
 	- [2. A dog will teach you unconditional love. If you can have that in your life, things won't be too bad](#2)
 	- [3. Outside of a dog, a book is a man's best friend. Inside of a dog it's too dark to read](#3)
-	- [](#4)
+	- [4. A door is what a dog is perpetually on the wrong side of](#4)
 	- [](#5)
 ---
 ## Author Details
@@ -121,14 +121,26 @@ My name is Poppy, and I am 3.5 :) - Woof!
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
-**t**
+**4. A door is what a dog is perpetually on the wrong side of**
+- Write a function that creates a new dog.
+
+    - Prototype: `dog_t *new_dog(char *name, float age, char *owner);`
+    - You have to store a copy of `name` and `owner`
+    - Return `NULL` if the function fails
+
+```
+julien@ubuntu:~/0x0d. structures, typedef$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 4-new_dog.c -o e
+julien@ubuntu:~/0x0d. structures, typedef$ ./e
+My name is Poppy, and I am 3.5 :) - Woof!
+```
 
 <br></br>
 - Repo
     
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x0E-structures_typedef`
-    - File: [``](./)
+    - File: [`4-new_dog.c`](./4-new_dog.c)
+	- Example file: [`4-main.c`](./4-main.c)
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
