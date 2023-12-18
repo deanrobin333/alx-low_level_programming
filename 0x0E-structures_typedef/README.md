@@ -6,7 +6,7 @@
 - [Project Description](#project-description)
 - [Tasks](#tasks)
 	- [0. Poppy](#0)
-	- [](#1)
+	- [1. A dog is the only thing on earth that loves you more than you love yourself](#1)
 	- [](#2)
 	- [](#3)
 	- [](#4)
@@ -54,14 +54,24 @@ My name is Poppy, and I am 3.5 :) - Woof!
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
-**t**
+**1. A dog is the only thing on earth that loves you more than you love yourself**
+- Write a function that initialize a variable of type `struct dog`
+
+    - Prototype: `void init_dog(struct dog *d, char *name, float age, char *owner);`
+
+```
+julien@ubuntu:~/0x0d. structures, typedef$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-init_dog.c -o b
+julien@ubuntu:~/0x0d. structures, typedef$ ./b
+My name is Poppy, and I am 3.5 :) - Woof!
+```
 
 <br></br>
 - Repo
     
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x0E-structures_typedef`
-    - File: [``](./)
+    - File: [`1-init_dog.c`](./1-init_dog.c)
+	- Example file: [`1-main.c`](./1-main.c)
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
