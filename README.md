@@ -17,7 +17,9 @@
 	- [11. 0x0B. C - malloc, free](#11)
 	- [12. 0x0C. C - More malloc, free](#12)
 	- [13. 0x0D. C - Preprocessor](#13)
-	- [14. ](#14)
+	- [14. 0x0E. C - Structures, typedef](#14)
+	- [15. 0x0F. C - Function pointers](#15)
+	- [16. ](#16)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -164,7 +166,21 @@
 ---
 #### 14
 ###### [Table of Contents](#table-of-contents)
-### [14. ](./)
+### [14. 0x0E. C - Structures, typedef](./0x0E-structures_typedef)
+- What are structures, when, why and how to use them
+- How to use `typedef`
+
+---
+#### 15
+###### [Table of Contents](#table-of-contents)
+### [15. 0x0F. C - Function pointers](./0x0F-function_pointers)
+- What are function pointers and how to use them
+- What does a function pointer exactly hold
+- Where does a function pointer point to in the virtual memory
+---
+#### 16
+###### [Table of Contents](#table-of-contents)
+### [16. ](./)
 
 ---
 
