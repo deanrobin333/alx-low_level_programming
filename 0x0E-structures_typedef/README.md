@@ -7,7 +7,7 @@
 - [Tasks](#tasks)
 	- [0. Poppy](#0)
 	- [1. A dog is the only thing on earth that loves you more than you love yourself](#1)
-	- [](#2)
+	- [2. A dog will teach you unconditional love. If you can have that in your life, things won't be too bad](#2)
 	- [](#3)
 	- [](#4)
 	- [](#5)
@@ -75,14 +75,30 @@ My name is Poppy, and I am 3.5 :) - Woof!
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
-**t**
+**2. A dog will teach you unconditional love. If you can have that in your life, things won't be too bad**
+- Write a function that prints a `struct dog`
+
+    - Prototype: `void print_dog(struct dog *d);`
+    - Format: see example bellow
+    - You are allowed to use the standard library
+    - If an element of `d` is `NULL`, print `(nil)` instead of this element. (if `name` is `NULL`, print `Name: (nil)`)
+    - If `d` is `NULL` print nothing.
+
+```
+julien@ubuntu:~/0x0d. structures, typedef$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-print_dog.c -o c
+julien@ubuntu:~/0x0d. structures, typedef$ ./c
+Name: Poppy
+Age: 3.500000
+Owner: Bob
+```
 
 <br></br>
 - Repo
     
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x0E-structures_typedef`
-    - File: [``](./)
+    - File: [`2-print_dog.c`](./2-print_dog.c)
+	- Example file: [`2-main.c`](./2-main.c)
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
