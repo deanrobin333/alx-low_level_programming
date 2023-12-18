@@ -1,11 +1,11 @@
 # Project 
-## **p**
+## **0x0E. C - Structures, typedef**
 ---
 ## Table of Contents
 - [Author Details](#author-details)
 - [Project Description](#project-description)
 - [Tasks](#tasks)
-	- [](#0)
+	- [0. Poppy](#0)
 	- [](#1)
 	- [](#2)
 	- [](#3)
@@ -16,19 +16,41 @@
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
 
 ## Project Description
-
+- - Allowed editors: `vi`, `vim`, `emacs`
+    - All your files will be compiled on Ubuntu 20.04 LTS using `gcc`, using the options `-Wall -Werror -Wextra -pedantic -std=gnu89`
+    - All your files should end with a new line
+    - A `README.md` file, at the root of the folder of the project is mandatory
+    - Your code should use the `Betty` style. It will be checked using [betty-style.pl](https://github.com/alx-tools/Betty/blob/master/betty-style.pl "betty-style.pl") and [betty-doc.pl](https://github.com/alx-tools/Betty/blob/master/betty-doc.pl "betty-doc.pl")
+    - You are not allowed to use global variables
+    - No more than 5 functions per file
+    - The only C standard library functions allowed are `printf`, `malloc`, `free` and `exit`.
+    - In the following examples, the `main.c` files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own `main.c` files at compilation. Our `main.c` files might be different from the one shown in the examples
+    - Don’t forget to push your header file
+    - All your header files should be include guarded
 
 ## Tasks
 #### 0
 ###### [Table of Contents](#table-of-contents)
-**t**
+**0. Poppy**
+- Define a new type `struct dog` with the following elements:
+
+    - `name`, type = `char *`
+    - `age`, type = `float`
+    - `owner`, type = `char *`
+
+```
+julien@ubuntu:~/0x0d. structures, typedef$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c -o a
+julien@ubuntu:~/0x0d. structures, typedef$ ./a
+My name is Poppy, and I am 3.5 :) - Woof!
+```
 
 <br></br>
 - Repo
     
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x0E-structures_typedef`
-    - File: [``](./)
+    - File: [`dog.h`](./dog.h)
+	- Example file: [`0-main.c`](./0-main.c)
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
