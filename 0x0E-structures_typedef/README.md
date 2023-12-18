@@ -8,7 +8,7 @@
 	- [0. Poppy](#0)
 	- [1. A dog is the only thing on earth that loves you more than you love yourself](#1)
 	- [2. A dog will teach you unconditional love. If you can have that in your life, things won't be too bad](#2)
-	- [](#3)
+	- [3. Outside of a dog, a book is a man's best friend. Inside of a dog it's too dark to read](#3)
 	- [](#4)
 	- [](#5)
 ---
@@ -102,14 +102,22 @@ Owner: Bob
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
-**t**
+**3. Outside of a dog, a book is a man's best friend. Inside of a dog it's too dark to read**
+- Define a new type `dog_t` as a new name for the type `struct dog`.
+
+```
+julien@ubuntu:~/0x0d. structures, typedef$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c -o d
+julien@ubuntu:~/0x0d. structures, typedef$ ./d
+My name is Poppy, and I am 3.5 :) - Woof!
+```
 
 <br></br>
 - Repo
     
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x0E-structures_typedef`
-    - File: [``](./)
+    - File: [`dog.h`](./dog.h)
+	- Example file: [`3-main.c`](./3-main.c)
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
