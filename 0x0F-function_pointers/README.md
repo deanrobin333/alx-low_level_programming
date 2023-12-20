@@ -7,7 +7,7 @@
 - [Tasks](#tasks)
 	- [0. What's my name](#0)
 	- [1. If you spend too much time thinking about a thing, you'll never get it done](#1)
-	- [](#2)
+	- [2. To hell with circumstances; I create opportunities](#2)
 	- [](#3)
 	- [](#4)
 ---
@@ -85,13 +85,30 @@ julien@ubuntu:~/0x0e. Function pointers$ ./b
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
-**t**
+**2. To hell with circumstances; I create opportunities**
+- Write a function that searches for an integer.
+
+    - Prototype: `int int_index(int *array, int size, int (*cmp)(int));`
+    - where `size` is the number of elements in the array `array`
+    - `cmp` is a pointer to the function to be used to compare values
+    - `int_index` returns the index of the first element for which the `cmp` function does not return `0`
+    - If no element matches, return `-1`
+    - If size <= `0`, return `-1`
+
+```
+julien@ubuntu:~/0x0e. Function pointers$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-int_index.c -o c
+julien@ubuntu:~/0x0e. Function pointers$ ./c
+2
+1
+2
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x0F-function_pointers`
-    - File: [``](./)
+    - File: [`2-int_index.c`](./2-int_index.c)
+	- Example file: [`2-main.c`](./2-main.c)
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
