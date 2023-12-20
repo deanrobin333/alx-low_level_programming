@@ -5,7 +5,7 @@
 - [Author Details](#author-details)
 - [Project Description](#project-description)
 - [Tasks](#tasks)
-	- [](#0)
+	- [0. What's my name](#0)
 	- [](#1)
 	- [](#2)
 	- [](#3)
@@ -33,13 +33,24 @@
 ## Tasks
 #### 0
 ###### [Table of Contents](#table-of-contents)
-**t**
+**0. What's my name**
+- Write a function that prints a name.
+    
+    - Prototype: `void print_name(char *name, void (*f)(char *));`
+
+```
+julien@ubuntu:~/0x0e. Function pointers$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-print_name.c -o a
+julien@ubuntu:~/0x0e. Function pointers$ ./a 
+Hello, my name is Bob
+Hello, my uppercase name is BOB DYLAN
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x0F-function_pointers`
-    - File: [``](./)
+    - File: [`0-print_name.c`](./0-print_name.c)
+    - Example file: [`0-main.c`](./0-main.c)
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
