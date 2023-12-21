@@ -31,8 +31,7 @@
 
 int main(int argc, char *argv[])
 {
-	int size;
-	int i;
+	int size, i;
 	char *arr;
 
 	/* If the # of args is wromg, print Error, and exit with the status 1 */
@@ -43,7 +42,6 @@ int main(int argc, char *argv[])
 	}
 
 	size = atoi(argv[1]); /*convert the # provided to an integer */
-
 	/* If the # of bytes is negative, print Error, and exit with the status 2*/
 	if (size < 0)
 	{
@@ -57,11 +55,16 @@ int main(int argc, char *argv[])
 	 */
 	arr = (char *)main;
 
-
 	for (i = 0; i < size; i++)
 	{
 		if (i == size - 1)
 		{
+			/**
+			 * The `hh` prefix indicates that the argument should be treated as
+			 * a signed char or unsigned char and converted to a hexadecimal.
+			 * This specifier is useful when working with single-byte data types
+			 *	(like char) and you want to print them in hexadecimal format.
+			 */
 			printf("%02hhx\n", arr[i]);
 			break;
 		}
