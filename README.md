@@ -19,7 +19,8 @@
 	- [13. 0x0D. C - Preprocessor](#13)
 	- [14. 0x0E. C - Structures, typedef](#14)
 	- [15. 0x0F. C - Function pointers](#15)
-	- [16. ](#16)
+	- [16. 0x10. C - Variadic functions](#16)
+	- [17. ](#17)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -180,7 +181,15 @@
 ---
 #### 16
 ###### [Table of Contents](#table-of-contents)
-### [16. ](./)
+### [16. 0x10. C - Variadic functions](./0x10-variadic_functions)
+- What are variadic functions
+- How to use `va_start`, `va_arg` and `va_end` macros
+- Why and how to use the `const` type qualifier
+
+---
+#### 17
+###### [Table of Contents](#table-of-contents)
+### [17. ](./)
 
 ---
 
