@@ -130,7 +130,7 @@ julien@ubuntu:~/0x0e. Function pointers$ ./c
     - if the `operator` is none of the above, print `Error`, followed by a new line, and exit with the status `99`
     - if the user tries to divide (`/` or `%`) by `0`, print `Error`, followed by a new line, and exit with the status `100`
 
-- This task requires that you create four different files.  **`3-calc.h`** , **`3-op\_functions.c`** , **`3-get\_op\_func.c`** & **`3-main.c`**
+- This task requires that you create four different files.  **`3-calc.h`** , **`3-op_functions.c`** , **`3-get_op_func.c`** & **`3-main.c`**
 
     **3-calc.h**
 
