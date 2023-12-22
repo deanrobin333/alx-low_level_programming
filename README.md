@@ -232,7 +232,7 @@
 ---
 #### 22
 ###### [Table of Contents](#table-of-contents)
-### [22. 0x16. C - Simple Shell](../simple_shell)
+### [22. 0x16. C - Simple Shell](../../../simple_shell)
 - The famous Simple Shell project. This is one of the most anticipated project and also one that will challenge you a lot about everything you have learn so far:
     
     - Basics of programming
