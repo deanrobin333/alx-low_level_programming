@@ -20,7 +20,13 @@
 	- [14. 0x0E. C - Structures, typedef](#14)
 	- [15. 0x0F. C - Function pointers](#15)
 	- [16. 0x10. C - Variadic functions](#16)
-	- [17. ](#17)
+	- [17. 0x11. C - printf](#17)
+	- [18. 0x12. C - Singly linked lists](#18)
+	- [19. 0x13. C - More singly linked lists](#19)
+	- [20. 0x14. C - Bit manipulation](#20)
+	- [21. 0x15. C - File I/O](#21)
+	- [22. 0x16. C - Simple Shell](#22)
+	- [23. ](#23)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -189,7 +195,55 @@
 ---
 #### 17
 ###### [Table of Contents](#table-of-contents)
-### [17. ](./)
+### [17. 0x11. C - printf](../printf)
+- The `printf` function is a very important and versatile function in the C programming language and being about to create your custom version of it will go a long way to enhance your understanding of the language.    
+- The first secret to being able to complete this project successfully is to first get a solid understanding of the `printf` function itself, how it works and all the different ways in which it can be used.
+---
+#### 18
+###### [Table of Contents](#table-of-contents)
+### [18. 0x12. C - Singly linked lists](./0x12-singly_linked_lists)
+- When and why using linked lists vs arrays
+- How to build and use linked lists
+---
+#### 19
+###### [Table of Contents](#table-of-contents)
+### [19. 0x13. C - More singly linked lists](./0x13-more_singly_linked_lists)
+- How to use linked lists
+- Start to look for the right source of information without too much help
+---
+#### 20
+###### [Table of Contents](#table-of-contents)
+### [20. 0x14. C - Bit manipulation](./0x14-bit_manipulation)
+- Look for the right source of information without too much help
+- How to manipulate bits and use bitwise operators
+---
+#### 21
+###### [Table of Contents](#table-of-contents)
+### [21. 0x15. C - File I/O](./0x15-file_io)
+- Look for the right source of information online
+- How to create, open, close, read and write files
+- What are file descriptors
+- What are the 3 standard file descriptors, what are their purpose and what are their `POSIX` names
+- How to use the I/O system calls `open`, `close`, `read` and `write`
+- What are and how to use the flags `O_RDONLY`, `O_WRONLY`, `O_RDWR`
+- What are file permissions, and how to set them when creating a file with the `open` system call
+- What is a system call
+- What is the difference between a function and a system call
+---
+#### 22
+###### [Table of Contents](#table-of-contents)
+### [22. 0x16. C - Simple Shell](../simple_shell)
+- The famous Simple Shell project. This is one of the most anticipated project and also one that will challenge you a lot about everything you have learn so far:
+    
+    - Basics of programming
+    - Basics of C
+    - Basics of thinking like an engineer
+    - Group work
+    - and Learning how to learn
+---
+#### 23
+###### [Table of Contents](#table-of-contents)
+### [23. ](./)
 
 ---
 
