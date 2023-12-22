@@ -5,7 +5,7 @@
 - [Author Details](#author-details)
 - [Project Description](#project-description)
 - [Tasks](#tasks)
-	- [](#0)
+	- [0. Beauty is variable, ugliness is constant](#0)
 	- [](#1)
 	- [](#2)
 	- [](#3)
@@ -33,13 +33,25 @@
 ## Tasks
 #### 0
 ###### [Table of Contents](#table-of-contents)
-**t**
+**0. Beauty is variable, ugliness is constant**
+- Write a function that returns the sum of all its parameters.
+
+    - Prototype: `int sum_them_all(const unsigned int n, ...);`
+    - If `n == 0`, return `0`
+
+```
+julien@ubuntu:~/0x0f. variadic functions$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-sum_them_all.c -o a
+julien@ubuntu:~/0x0f. variadic functions$ ./a
+1122
+500
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x10-variadic_functions`
-    - File: [``](./)
+    - File: [`0-sum_them_all.c`](./0-sum_them_all.c)
+	- Example file: [`0-main.c`](./0-main.c)
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
