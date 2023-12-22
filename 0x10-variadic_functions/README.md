@@ -8,7 +8,7 @@
 	- [0. Beauty is variable, ugliness is constant](#0)
 	- [1. To be is to be the value of a variable](#1)
 	- [2. One woman's constant is another woman's variable](#2)
-	- [](#3)
+	- [3. To be is a to be the value of a variable](#3)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -106,13 +106,37 @@ Jay, Django
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
-**t**
+**3. To be is a to be the value of a variable**
+- Write a function that prints anything.
+
+    - Prototype: `void print_all(const char * const format, ...);`
+    - where `format` is a list of types of arguments passed to the function
+        - `c`: `char`
+        - `i`: `integer`
+        - `f`: `float`
+        - `s`: `char *` (if the string is NULL, print `(nil)` instead
+        - any other char should be ignored
+        - see example
+    - You are not allowed to use `for`, `goto`, ternary operator, `else`, `do ... while`
+    - You can use a maximum of
+        - 2 `while` loops
+        - 2 `if`
+    - You can declare a maximum of `9` variables
+    - You are allowed to use `printf`
+    - Print a new line at the end of your function
+
+```
+julien@ubuntu:~/0x0f. Variadic functions$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-print_all.c -o d
+julien@ubuntu:~/0x0f. Variadic functions$ ./d
+B, 3, stSchool
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x10-variadic_functions`
-    - File: [``](./)
+    - File: [`3-print_all.c`](./3-print_all.c)
+	- Example file: [`3-main.c`](./3-main.c)
 ---
 
 
