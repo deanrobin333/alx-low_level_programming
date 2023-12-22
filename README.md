@@ -195,7 +195,7 @@
 ---
 #### 17
 ###### [Table of Contents](#table-of-contents)
-### [17. 0x11. C - printf](../printf)
+### [17. 0x11. C - printf](../../../printf)
 - The `printf` function is a very important and versatile function in the C programming language and being about to create your custom version of it will go a long way to enhance your understanding of the language.    
 - The first secret to being able to complete this project successfully is to first get a solid understanding of the `printf` function itself, how it works and all the different ways in which it can be used.
 ---
