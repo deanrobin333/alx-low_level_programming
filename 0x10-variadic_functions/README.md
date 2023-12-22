@@ -6,8 +6,8 @@
 - [Project Description](#project-description)
 - [Tasks](#tasks)
 	- [0. Beauty is variable, ugliness is constant](#0)
-	- [](#1)
-	- [](#2)
+	- [1. To be is to be the value of a variable](#1)
+	- [2. One woman's constant is another woman's variable](#2)
 	- [](#3)
 ---
 ## Author Details
@@ -55,23 +55,54 @@ julien@ubuntu:~/0x0f. variadic functions$ ./a
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
-**t**
+**1. To be is to be the value of a variable**
+- Write a function that prints numbers, followed by a new line.
+
+    - Prototype: `void print_numbers(const char *separator, const unsigned int n, ...);`
+    - where `separator` is the string to be printed between numbers
+    - and `n` is the number of integers passed to the function
+    - You are allowed to use `printf`
+    - If `separator` is `NULL`, don’t print it
+    - Print a new line at the end of your function
+
+```
+julien@ubuntu:~/0x0f. variadic functions$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-print_numbers.c -o b
+julien@ubuntu:~/0x0f. variadic functions$ ./b
+0, 98, -1024, 402
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x10-variadic_functions`
-    - File: [``](./)
+    - File: [`1-print_numbers.c`](./1-print_numbers.c)
+	- Example file: [`1-main.c`](./1-main.c)
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
-**t**
+**2. One woman's constant is another woman's variable**
+- Write a function that prints strings, followed by a new line.
+
+    - Prototype: `void print_strings(const char *separator, const unsigned int n, ...);`
+    - where `separator` is the string to be printed between the strings
+    - and `n` is the number of strings passed to the function
+    - You are allowed to use `printf`
+    - If separator is NULL, don’t print it
+    - If one of the string is NULL, print `(nil)` instead
+    - Print a new line at the end of your function
+
+```
+julien@ubuntu:~/0x0f. Variadic functions$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-print_strings.c -o c
+julien@ubuntu:~/0x0f. Variadic functions$ ./c
+Jay, Django
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x10-variadic_functions`
-    - File: [``](./)
+    - File: [`2-print_strings.c`](./2-print_strings.c)
+	- Example file: [`2-main.c`](./2-main.c)
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
