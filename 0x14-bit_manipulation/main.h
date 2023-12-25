@@ -2,6 +2,7 @@
 #define _MAIN_H_
 
 #include <stdlib.h> /*for NULL*/
+#include <limits.h>
 
 /* 0-binary_to_uint.c */
 unsigned int binary_to_uint(const char *b);
