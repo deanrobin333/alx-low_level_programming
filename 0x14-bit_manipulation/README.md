@@ -6,7 +6,7 @@
 - [Project Description](#project-description)
 - [Tasks](#tasks)
 	- [0. 0](#0)
-	- [](#1)
+	- [1. 1](#1)
 	- [](#2)
 	- [](#3)
 	- [](#4)
@@ -64,13 +64,30 @@ julien@ubuntu:~/0x14. Binary$ ./a
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
-**t**
+**1. 1**
+- Write a function that prints the binary representation of a number.
+    
+    - Prototype: `void print_binary(unsigned long int n);`
+    - Format: see example
+    - You are not allowed to use arrays
+    - You are not allowed to use `malloc`
+    - You are not allowed to use the `%` or `/` operators
 
+```
+julien@ubuntu:~/0x14. Binary$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-print_binary.c _putchar.c -o b
+julien@ubuntu:~/0x14. Binary$ ./b 
+0
+1
+1100010
+10000000000
+10000000001
+```
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x14-bit_manipulation`
-    - File: [``](./)
+    - File: [`1-print_binary.c`](./1-print_binary.c)
+	- Example file: [`1-main.c`](./1-main.c)
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
