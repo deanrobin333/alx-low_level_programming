@@ -5,7 +5,7 @@
 - [Author Details](#author-details)
 - [Project Description](#project-description)
 - [Tasks](#tasks)
-	- [](#0)
+	- [0. 0](#0)
 	- [](#1)
 	- [](#2)
 	- [](#3)
@@ -36,13 +36,31 @@
 ## Tasks
 #### 0
 ###### [Table of Contents](#table-of-contents)
-**t**
+**0. 0**
+- Write a function that converts a binary number to an `unsigned int`.
+
+    - Prototype: `unsigned int binary_to_uint(const char *b);`
+    - where `b` is pointing to a string of `0` and `1` chars
+    - Return: the converted number, or 0 if
+        - there is one or more chars in the string `b` that is not `0` or `1`
+        - `b` is `` `NULL` ``
+
+```
+julien@ubuntu:~/0x14. Binary$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-binary_to_uint.c -o a
+julien@ubuntu:~/0x14. Binary$ ./a
+1
+5
+0
+98
+402
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x14-bit_manipulation`
-    - File: [``](./)
+    - File: [`0-binary_to_uint.c`](./0-binary_to_uint.c)
+	- Example file: [`0-main.c`](./0-main.c)
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
