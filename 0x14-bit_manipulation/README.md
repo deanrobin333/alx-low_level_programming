@@ -106,6 +106,7 @@ julien@ubuntu:~/0x14. Binary$ ./c
 1
 1
 0
+-1
 ```
 
 <br></br>
