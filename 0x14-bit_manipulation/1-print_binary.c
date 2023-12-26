@@ -20,6 +20,9 @@ void print_binary(unsigned long int n)
 	int count = 0, i, m;
 
 	m = sizeof(unsigned long int) * 8 - 1;
+
+	if (n == 0)
+		_putchar('0');
 	for (i = m; i >= 0; i--)
 	{
 		present = n >> i;
@@ -41,8 +44,5 @@ void print_binary(unsigned long int n)
 		 * so we make sure we handle this scenario
 		 */
 	}
-	if (count == 0)
-		_putchar(0);
-
 }
 
