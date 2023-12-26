@@ -15,6 +15,10 @@ void print_binary(unsigned long int n)
 
 	m = sizeof(unsigned long int) * 8 - 1;
 
+	/**
+	 * if no `1` bit is met, it means the last bit is `0`
+	 * so we make sure we handle this scenario
+	 */
 	if (n == 0)
 		_putchar('0');
 	for (i = m; i >= 0; i--)
@@ -33,10 +37,6 @@ void print_binary(unsigned long int n)
 			 */
 			_putchar('0');
 		}
-		/**
-		 * if no `1` bit is met, it means the last bit is `0`
-		 * so we make sure we handle this scenario
-		 */
 	}
 }
 
