@@ -40,9 +40,9 @@ void print_binary(unsigned long int n)
 		 * if no `1` bit is met, it means the last bit is `0`
 		 * so we make sure we handle this scenario
 		 */
-		if (count == 0)
-			_putchar(0);
-
 	}
+	if (count == 0)
+		_putchar(0);
+
 }
 
