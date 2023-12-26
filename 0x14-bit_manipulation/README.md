@@ -10,7 +10,7 @@
 	- [2. 10](#2)
 	- [3. 11](#3)
 	- [4. 100](#4)
-	- [](#5)
+	- [5. 101](#5)
 	- [](#6)
 	- [](#7)
 ---
@@ -154,13 +154,27 @@ julien@ubuntu:~/0x14. Binary$ ./d
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
-**t**
+**5. 101**
+- Write a function that returns the number of bits you would need to flip to get from one number to another.
+
+    - Prototype: `unsigned int flip_bits(unsigned long int n, unsigned long int m);`
+    - You are not allowed to use the `%` or `/` operators
+
+```
+julien@ubuntu:~/0x14. Binary$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-flip_bits.c -o f
+julien@ubuntu:~/0x14. Binary$ ./f
+2
+5
+3
+1
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x14-bit_manipulation`
-    - File: [``](./)
+    - File: [`5-flip_bits.c`](./5-flip_bits.c)
+	- Example file: [`5-main.c`](./5-main.c)
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
