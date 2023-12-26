@@ -131,6 +131,7 @@ julien@ubuntu:~/0x14. Binary$ ./d
 1056
 1024
 99
+1050624
 ```
 
 <br></br>

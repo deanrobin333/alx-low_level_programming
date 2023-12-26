@@ -10,17 +10,15 @@
 
 int set_bit(unsigned long int *n, unsigned int index)
 {
-	unsigned long int value;
-
-	value = *n;
-
 	if (index > (sizeof(unsigned long int) * 8 - 1))
 		return (-1);
 
-	value = (value >> index) | 1UL;
-	value = value << index;
+	/**
+	 * move `1` to the index'th bit, then `OR` with n
+	 * 1UL - to ensure 1 is an unsigned long int, and not int.
+	 */
 
-	*n = value;
+	*n = (1UL << index) | *n;
 
 	return (1);
 }
