@@ -9,7 +9,7 @@
 	- [1. 1](#1)
 	- [2. 10](#2)
 	- [3. 11](#3)
-	- [](#4)
+	- [4. 100](#4)
 	- [](#5)
 	- [](#6)
 	- [](#7)
@@ -143,13 +143,14 @@ julien@ubuntu:~/0x14. Binary$ ./d
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
-**t**
+**4. 100**
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x14-bit_manipulation`
-    - File: [``](./)
+    - File: [`4-clear_bit.c`](./4-clear_bit.c)
+	- Example file: [`4-main.c`](./4-main.c)
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
