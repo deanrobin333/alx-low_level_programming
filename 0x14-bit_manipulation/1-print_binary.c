@@ -15,9 +15,9 @@
 
 void print_binary(unsigned long int n)
 {
-	unsigned long int present, m;
+	unsigned long int present;
 	/* must set i to int, as if it unsigned, it cant be less than 0*/
-	int count = 0, i;
+	int count = 0, i, m;
 
 	m = sizeof(unsigned long int) * 8 - 1;
 	for (i = m; i >= 0; i--)
