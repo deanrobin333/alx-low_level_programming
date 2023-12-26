@@ -1,5 +1,4 @@
 #include "main.h"
-#include <limits.h>
 /**
  * print_binary - prints binary representation of a number
  * @n: number to print
