@@ -13,4 +13,7 @@ void print_binary(unsigned long int n);
 /* _putchar.c */
 int _putchar(char c);
 
+/* 2-get_bit.c */
+int get_bit(unsigned long int n, unsigned int index);
+
 #endif /* _MAIN_H_ */

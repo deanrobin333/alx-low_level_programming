@@ -7,7 +7,7 @@
 - [Tasks](#tasks)
 	- [0. 0](#0)
 	- [1. 1](#1)
-	- [](#2)
+	- [2. 10](#2)
 	- [](#3)
 	- [](#4)
 	- [](#5)
@@ -93,13 +93,27 @@ julien@ubuntu:~/0x14. Binary$ ./b
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
-**t**
+**2. 10**
+- Write a function that returns the value of a bit at a given index.
+
+    - Prototype: `int get_bit(unsigned long int n, unsigned int index);`
+    - where `index` is the index, starting from `0` of the bit you want to get
+    - Returns: the value of the bit at index `index` or `-1` if an error occured
+
+```
+julien@ubuntu:~/0x14. Binary$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-get_bit.c -o c
+julien@ubuntu:~/0x14. Binary$ ./c
+1
+1
+0
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x14-bit_manipulation`
-    - File: [``](./)
+    - File: [`2-get_bit.c`](./2-get_bit.c)
+	- Example file: [`2-main.c`](./2-main.c)
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
