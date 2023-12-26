@@ -8,7 +8,7 @@
 	- [0. 0](#0)
 	- [1. 1](#1)
 	- [2. 10](#2)
-	- [](#3)
+	- [3. 11](#3)
 	- [](#4)
 	- [](#5)
 	- [](#6)
@@ -118,13 +118,27 @@ julien@ubuntu:~/0x14. Binary$ ./c
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
-**t**
+**3. 11**
+- Write a function that sets the value of a bit to `1` at a given index.
+    
+    - Prototype: `int set_bit(unsigned long int *n, unsigned int index);`
+    - where `index` is the index, starting from `0` of the bit you want to set
+    - Returns: `1` if it worked, or `-1` if an error occurred
+
+```
+julien@ubuntu:~/0x14. Binary$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-set_bit.c -o d
+julien@ubuntu:~/0x14. Binary$ ./d
+1056
+1024
+99
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x14-bit_manipulation`
-    - File: [``](./)
+    - File: [`3-set_bit.c`](./3-set_bit.c)
+	- Example file: [`3-main.c`](./3-main.c)
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)

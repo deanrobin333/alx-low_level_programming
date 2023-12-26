@@ -16,4 +16,8 @@ int _putchar(char c);
 /* 2-get_bit.c */
 int get_bit(unsigned long int n, unsigned int index);
 
+/* 3-set_bit.c */
+int set_bit(unsigned long int *n, unsigned int index);
+
+
 #endif /* _MAIN_H_ */
