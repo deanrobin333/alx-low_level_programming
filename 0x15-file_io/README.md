@@ -5,7 +5,7 @@
 - [Author Details](#author-details)
 - [Project Description](#project-description)
 - [Tasks](#tasks)
-	- [](#0)
+	- [0. Tread lightly, she is near](#0)
 	- [](#1)
 	- [](#2)
 	- [](#3)
@@ -53,13 +53,32 @@
 ## Tasks
 #### 0
 ###### [Table of Contents](#table-of-contents)
-**t**
+**0. Tread lightly, she is near**
+- Write a function that reads a text file and prints it to the `POSIX` standard output.
+
+    - Prototype: `ssize_t read_textfile(const char *filename, size_t letters);`
+    - where letters is the number of letters it should read and print
+    - returns the actual number of letters it could read and print
+    - if the file can not be opened or read, return `0`
+    - if `filename` is `NULL` return `0`
+    - if `write` fails or does not write the expected amount of bytes, return `0`
+
+```
+julien@ubuntu:~/0x15. File descriptors and permissions$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-read_textfile.c -o a
+julien@ubuntu:~/0x15. File descriptors and permissions$ ./a Requiescat | head -4
+Requiescat
+by Oscar Wilde
+
+Tread lightly, she is near
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x15-file_io`
-    - File: [``](./)
+    - File: [`0-read_textfile.c`](./0-read_textfile.c)
+	- Example file to read: [`Requiescat`](./Requiescat)
+	- Example file: [`0-main.c`](./0-main.c)
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
