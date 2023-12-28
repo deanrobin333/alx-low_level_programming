@@ -6,7 +6,7 @@
 - [Project Description](#project-description)
 - [Tasks](#tasks)
 	- [0. Tread lightly, she is near](#0)
-	- [](#1)
+	- [1. Under the snow](#1)
 	- [](#2)
 	- [](#3)
 	- [](#4)
@@ -82,13 +82,33 @@ Tread lightly, she is near
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
-**t**
+**1. Under the snow**
+- Create a function that creates a file.
+    
+    - Prototype: `int create_file(const char *filename, char *text_content);`
+    - where `filename` is the name of the file to create and `text_content` is a `NULL` terminated string to write to the file
+    - Returns: `1` on success, `-1` on failure (file can not be created, file can not be written, `write` “fails”, etc…)
+    - The created file must have those permissions: `rw-------`. If the file already exists, do not change the permissions.
+    - if the file already exists, truncate it
+    - if `filename` is `NULL` return `-1`
+    - if `text_content` is `NULL` create an empty file
+
+```
+julien@ubuntu:~/0x15. File descriptors and permissions$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-create_file.c -o b
+julien@ubuntu:~/0x15. File descriptors and permissions$ ./b hello world
+-> 1)
+julien@ubuntu:~/0x15. File descriptors and permissions$ ls -l hello
+-rw------- 1 julien julien 5 Dec  3 14:28 hello
+julien@ubuntu:~/0x15. File descriptors and permissions$ cat hello 
+worldjulien@ubuntu:~/0x15. File descriptors and permis$ 
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x15-file_io`
-    - File: [``](./)
+    - File: [`1-create_file.c`](./1-create_file.c)
+	- Example file: [`1-main.c`](./1-main.c)
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
