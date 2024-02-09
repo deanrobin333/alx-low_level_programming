@@ -21,4 +21,7 @@ typedef struct list_s
 /* 0-print_list.c */
 size_t print_list(const list_t *h);
 
+/* 1-list_len.c */
+size_t list_len(const list_t *h);
+
 #endif /* _LISTS_H_ */
