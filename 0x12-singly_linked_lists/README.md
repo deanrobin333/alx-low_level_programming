@@ -10,8 +10,8 @@
 	- [2. Add node](#2)
 	- [3. Add node at the end](#3)
 	- [4. Free list](#4)
-	- [](#5)
-	- [](#6)
+	- [5. The Hare and the Tortoise](#5)
+	- [6. Real programmers can write assembly code in any language](#6)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -246,25 +246,46 @@ julien@ubuntu:~/0x12. Singly linked lists$ valgrind ./e
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
-**t**
+**5. The Hare and the Tortoise**
+- Write a function that prints `You're beat! and yet, you must allow,\nI bore my house upon my back!\n` before the `main` function is executed.
+    
+    - You are allowed to use the `printf` function
+
+```
+julien@ubuntu:~/$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-main.c 100-first.c -o first
+julien@ubuntu:~/$ ./first 
+You're beat! and yet, you must allow,
+I bore my house upon my back!
+(A tortoise, having pretty good sense of a hare's nature, challenges one to a race.)
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x12-singly_linked_lists`
-    - File: [``](./)
-	- Example file: [`-main.c`](./-main.c)
+    - File: [`100-first.c`](./100-first.c)
+	- Example file: [`100-main.c`](./100-main.c)
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
-**t**
+**6. Real programmers can write assembly code in any language**
+- Write a 64-bit program in assembly that prints `Hello, Holberton`, followed by a new line.
+
+    - You are only allowed to use the `printf` function
+    - You are not allowed to use interrupts
+    - Your program will be compiled using `nasm` and `gcc`:
+
+```
+julien@ubuntu:~/$ nasm -f elf64 101-hello_holberton.asm && gcc -no-pie -std=gnu89 101-hello_holberton.o -o hello
+julien@ubuntu:~/$ ./hello
+Hello, Holberton
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x12-singly_linked_lists`
-    - File: [``](./)
-	- Example file: [`-main.c`](./-main.c)
+    - File: [`101-hello_holberton.asm`](./101-hello_holberton.asm)
 ---
 
 

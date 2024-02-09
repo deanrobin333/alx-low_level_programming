@@ -34,5 +34,7 @@ list_t *add_node_end(list_t **head, const char *str);
 /* 4-free_list.c */
 void free_list(list_t *head);
 
+/* 100-first.c */
+void before_main(void);
 
 #endif /* _LISTS_H_ */
