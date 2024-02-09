@@ -22,7 +22,7 @@ listint_t *reverse_listint(listint_t **head)
 	while (1)
 	{
 		(*head)->next = previous;
-		if (next == NULL)
+		if (next == NULL || *head == NULL)
 			break;
 		previous = *(head);
 		*head = next;
