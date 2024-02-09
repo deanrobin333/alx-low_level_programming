@@ -5,7 +5,7 @@
 - [Author Details](#author-details)
 - [Project Description](#project-description)
 - [Tasks](#tasks)
-	- [](#0)
+	- [0. Print list](#0)
 	- [](#1)
 	- [](#2)
 	- [](#3)
@@ -59,14 +59,32 @@ typedef struct list_s
 ## Tasks
 #### 0
 ###### [Table of Contents](#table-of-contents)
-**t**
+**0. Print list**
+- Write a function that prints all the elements of a `list_t` list.
+
+    - Prototype: `size_t print_list(const list_t *h);`
+    - Return: the number of nodes
+    - Format: see example
+    - If `str` is `NULL`, print `[0] (nil)`
+    - You are allowed to use `printf`
+```
+julien@ubuntu:~/0x12. Singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-print_list.c -o a
+julien@ubuntu:~/0x12. Singly linked lists$ ./a 
+[5] Hello
+[5] World
+-> 2 elements
+
+[0] (nil)
+[5] World
+-> 2 elements
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x12-singly_linked_lists`
-    - File: [``](./)
-	- Example file: [`-main.c`](./-main.c)
+    - File: [`0-print_list.c`](./0-print_list.c)
+	- Example file: [`0-main.c`](./0-main.c)
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
