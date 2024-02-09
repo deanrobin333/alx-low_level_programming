@@ -35,4 +35,8 @@ void free_listint(listint_t *head);
 /* 5-free_listint2.c */
 void free_listint2(listint_t **head);
 
+/* 6-pop_listint.c */
+int pop_listint(listint_t **head);
+
+
 #endif /* _LISTS_H_ */

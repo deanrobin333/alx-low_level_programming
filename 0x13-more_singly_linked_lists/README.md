@@ -11,7 +11,7 @@
 	- [3. Add node at the end](#3)
 	- [4. Free list](#4)
 	- [5. Free](#5)
-	- [](#6)
+	- [6. Pop](#6)
 	- [](#7)
 	- [](#8)
 	- [](#9)
@@ -243,14 +243,61 @@ julien@ubuntu:~/0x13. More singly linked lists$ valgrind ./f
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
-**t**
+**6. Pop**
+- Write a function that deletes the head node of a `listint_t` linked list, and returns the head node’s data (n).
+
+    - Prototype: `int pop_listint(listint_t **head);`
+    - if the linked list is empty return `0`
+
+```
+julien@ubuntu:~/0x13. More singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 6-main.c 3-add_nodeint_end.c 0-print_listint.c 5-free_listint2.c 6-pop_listint.c -o g
+julien@ubuntu:~/0x13. More singly linked lists$ valgrind ./g
+==4369== Memcheck, a memory error detector
+==4369== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==4369== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==4369== Command: ./g
+==4369==
+0
+1
+2
+3
+4
+98
+402
+1024
+- 0
+1
+2
+3
+4
+98
+402
+1024
+- 1
+2
+3
+4
+98
+402
+1024
+(nil)
+==4369==
+==4369== HEAP SUMMARY:
+==4369==     in use at exit: 0 bytes in 0 blocks
+==4369==   total heap usage: 9 allocs, 9 frees, 1,152 bytes allocated
+==4369==
+==4369== All heap blocks were freed -- no leaks are possible
+==4369==
+==4369== For counts of detected and suppressed errors, rerun with: -v
+==4369== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x13-more_singly_linked_lists`
-    - File: [``](./)
-	- Example file: [`-main.c`](./-main.c)
+    - File: [`6-pop_listint.c`](./6-pop_listint.c)
+	- Example file: [`6-main.c`](./6-main.c)
 ---
 #### 7
 ###### [Table of Contents](#table-of-contents)
