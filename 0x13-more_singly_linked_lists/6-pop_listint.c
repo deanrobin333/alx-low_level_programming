@@ -12,7 +12,11 @@ int pop_listint(listint_t **head)
 	listint_t *d_node;
 	int d_node_data;
 
-	if (head == NULL)
+	/**
+	 * check if linked is empty or
+	 * if first node is NULL
+	 */
+	if (head == NULL || *head == NULL)
 		return (0);
 
 	d_node = *head;
