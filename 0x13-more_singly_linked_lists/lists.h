@@ -20,4 +20,19 @@ typedef struct listint_s
 /* 0-print_listint.c */
 size_t print_listint(const listint_t *h);
 
+/*1-listint_len.c */
+size_t listint_len(const listint_t *h);
+
+/* 2-add_nodeint.c */
+
+
+/* 3-add_nodeint_end.c */
+
+
+/* 4-free_listint.c */
+
+
+/* 5-free_listint2.c */
+
+
 #endif /* _LISTS_H_ */

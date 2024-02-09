@@ -6,11 +6,11 @@
 - [Project Description](#project-description)
 - [Tasks](#tasks)
 	- [0. Print list](#0)
-	- [](#1)
-	- [](#2)
-	- [](#3)
-	- [](#4)
-	- [](#5)
+	- [1. List length](#1)
+	- [2. Add node](#2)
+	- [3. Add node at the end](#3)
+	- [4. Free list](#4)
+	- [5. Free](#5)
 	- [](#6)
 	- [](#7)
 	- [](#8)
@@ -88,58 +88,158 @@ julien@ubuntu:~/0x13. More singly linked lists$ ./a
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
-**t**
+**1. List length**
+- Write a function that returns the number of elements in a linked `listint_t` list.
+    
+    - Prototype: `size_t listint_len(const listint_t *h);`
 
+```
+julien@ubuntu:~/0x13. More singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-listint_len.c -o b
+julien@ubuntu:~/0x13. More singly linked lists$ ./b 
+-> 2 elements
+```
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x13-more_singly_linked_lists`
-    - File: [``](./)
-	- Example file: [`-main.c`](./-main.c)
+    - File: [`1-listint_len.c`](./1-listint_len.c)
+	- Example file: [`1-main.c`](./1-main.c)
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
-**t**
+**2. Add node**
+- Write a function that adds a new node at the beginning of a `listint_t` list.
+    
+    - Prototype: `listint_t *add_nodeint(listint_t **head, const int n);`
+    - Return: the address of the new element, or `NULL` if it failed
 
+```
+julien@ubuntu:~/0x13. More singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-add_nodeint.c 0-print_listint.c -o c
+julien@ubuntu:~/0x13. More singly linked lists$ ./c 
+1024
+402
+98
+4
+3
+2
+1
+0
+```
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x13-more_singly_linked_lists`
-    - File: [``](./)
-	- Example file: [`-main.c`](./-main.c)
+    - File: [`2-add_nodeint.c`](./2-add_nodeint.c)
+	- Example file: [`1-main.c`](./1-main.c)
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
-**t**
+**3. Add node at the end**
+- Write a function that adds a new node at the end of a `listint_t` list.
+    
+    - Prototype: `listint_t *add_nodeint_end(listint_t **head, const int n);`
+    - Return: the address of the new element, or `NULL` if it failed
 
+```
+julien@ubuntu:~/0x13. More singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-add_nodeint_end.c 0-print_listint.c -o d
+julien@ubuntu:~/0x13. More singly linked lists$ ./d 
+0
+1
+2
+3
+4
+98
+402
+1024
+```
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x13-more_singly_linked_lists`
-    - File: [``](./)
-	- Example file: [`-main.c`](./-main.c)
+    - File: [`3-add_nodeint_end.c`](./3-add_nodeint_end.c)
+	- Example file: [`3-main.c`](./3-main.c)
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
-**t**
+**4. Free list**
+- Write a function that frees a `listint_t` list.
+    
+    - Prototype: `void free_listint(listint_t *head);`
 
+```
+julien@ubuntu:~/0x13. More singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 3-add_nodeint_end.c 0-print_listint.c 4-free_listint.c -o e
+julien@ubuntu:~/0x13. More singly linked lists$ valgrind ./e 
+==3643== Memcheck, a memory error detector
+==3643== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==3643== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==3643== Command: ./e
+==3643== 
+0
+1
+2
+3
+4
+98
+402
+1024
+==3643== 
+==3643== HEAP SUMMARY:
+==3643==     in use at exit: 0 bytes in 0 blocks
+==3643==   total heap usage: 9 allocs, 9 frees, 1,152 bytes allocated
+==3643== 
+==3643== All heap blocks were freed -- no leaks are possible
+==3643== 
+==3643== For counts of detected and suppressed errors, rerun with: -v
+==3643== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+```
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x13-more_singly_linked_lists`
-    - File: [``](./)
-	- Example file: [`-main.c`](./-main.c)
+    - File: [`4-free_listint.c`](./4-free_listint.c)
+	- Example file: [`4-main.c`](./4-main.c)
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
-**t**
+**5. Free**
+- Write a function that frees a `listint_t` list.
+    
+    - Prototype: `void free_listint2(listint_t **head);`
+    - The function sets the `head` to `NULL`
 
+```
+julien@ubuntu:~/0x13. More singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 3-add_nodeint_end.c 0-print_listint.c 5-free_listint2.c -o f
+julien@ubuntu:~/0x13. More singly linked lists$ valgrind ./f 
+==3843== Memcheck, a memory error detector
+==3843== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==3843== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==3843== Command: ./f
+==3843== 
+0
+1
+2
+3
+4
+98
+402
+1024
+(nil)
+==3843== 
+==3843== HEAP SUMMARY:
+==3843==     in use at exit: 0 bytes in 0 blocks
+==3843==   total heap usage: 9 allocs, 9 frees, 1,152 bytes allocated
+==3843== 
+==3843== All heap blocks were freed -- no leaks are possible
+==3843== 
+==3843== For counts of detected and suppressed errors, rerun with: -v
+==3843== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+```
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x13-more_singly_linked_lists`
-    - File: [``](./)
-	- Example file: [`-main.c`](./-main.c)
+    - File: [`5-free_listint2.c`](./5-free_listint2.c)
+	- Example file: [`5-main.c`](./5-main.c)
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
