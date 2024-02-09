@@ -1,5 +1,5 @@
 # Project 
-## **p**
+## **0x10. C - Variadic functions**
 ---
 ## Table of Contents
 - [Author Details](#author-details)
