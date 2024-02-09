@@ -16,7 +16,7 @@
 	- [8. Sum list](#8)
 	- [9. Insert](#9)
 	- [10. Delete at index](#10)
-	- [](#11)
+	- [11. Reverse list](#11)
 	- [](#12)
 	- [](#13)
 	- [](#14)
@@ -489,14 +489,56 @@ julien@ubuntu:~/0x13. More singly linked lists$
 ---
 #### 11
 ###### [Table of Contents](#table-of-contents)
-**t**
+**11. Reverse list**
+- Write a function that reverses a `listint_t` linked list.
+
+    - Prototype: `listint_t *reverse_listint(listint_t **head);`
+    - Returns: a pointer to the first node of the reversed list
+    - You are not allowed to use more than `1` loop.
+    - You are not allowed to use `malloc`, `free` or arrays
+    - You can only declare a maximum of two variables in your function
+
+```
+julien@ubuntu:~/0x13. More singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-main.c 3-add_nodeint_end.c 0-print_listint.c 5-free_listint2.c 100-reverse_listint.c -o l
+julien@ubuntu:~/0x13. More singly linked lists$ valgrind ./l
+==3117== Memcheck, a memory error detector
+==3117== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==3117== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==3117== Command: ./l
+==3117==
+0
+1
+2
+3
+4
+98
+402
+1024
+1024
+402
+98
+4
+3
+2
+1
+0
+==3117==
+==3117== HEAP SUMMARY:
+==3117==     in use at exit: 0 bytes in 0 blocks
+==3117==   total heap usage: 9 allocs, 9 frees, 1,152 bytes allocated
+==3117==
+==3117== All heap blocks were freed -- no leaks are possible
+==3117==
+==3117== For counts of detected and suppressed errors, rerun with: -v
+==3117== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x13-more_singly_linked_lists`
-    - File: [``](./)
-	- Example file: [`-main.c`](./-main.c)
+    - File: [`100-reverse_listint.c`](./100-reverse_listint.c)
+	- Example file: [`100-main.c`](./100-main.c)
 ---
 #### 12
 ###### [Table of Contents](#table-of-contents)
