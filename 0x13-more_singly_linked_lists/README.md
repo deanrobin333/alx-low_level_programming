@@ -12,8 +12,8 @@
 	- [4. Free list](#4)
 	- [5. Free](#5)
 	- [6. Pop](#6)
-	- [](#7)
-	- [](#8)
+	- [7. Get node at index](#7)
+	- [8. Sum list](#8)
 	- [](#9)
 	- [](#10)
 	- [](#11)
@@ -301,25 +301,62 @@ julien@ubuntu:~/0x13. More singly linked lists$ valgrind ./g
 ---
 #### 7
 ###### [Table of Contents](#table-of-contents)
-**t**
+**7. Get node at index**
+- Write a function that returns the nth node of a `listint_t` linked list.
+
+    - Prototype: `listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);`
+    - where `index` is the index of the node, starting at `0`
+    - if the node does not exist, return `NULL`
+
+```
+julien@ubuntu:~/0x13. More singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 7-main.c 3-add_nodeint_end.c 0-print_listint.c 5-free_listint2.c 7-get_nodeint.c -o h
+julien@ubuntu:~/0x13. More singly linked lists$ ./h
+0
+1
+2
+3
+4
+98
+402
+1024
+98
+0
+1
+2
+3
+4
+98
+402
+1024
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x13-more_singly_linked_lists`
-    - File: [``](./)
-	- Example file: [`-main.c`](./-main.c)
+    - File: [`7-get_nodeint.c`](./7-get_nodeint.c)
+	- Example file: [`7-main.c`](./7-main.c)
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
-**t**
+**8. Sum list**
+- Write a function that returns the sum of all the data (n) of a `listint_t` linked list.
+
+    - Prototype: `int sum_listint(listint_t *head);`
+    - if the list is empty, return `0`
+
+```
+julien@ubuntu:~/c0x13. More singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 8-main.c 3-add_nodeint_end.c 5-free_listint2.c 8-sum_listint.c -o i
+julien@ubuntu:~/0x13. More singly linked lists$ ./i
+sum = 1534
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x13-more_singly_linked_lists`
-    - File: [``](./)
-	- Example file: [`-main.c`](./-main.c)
+    - File: [`8-sum_listint.c`](./8-sum_listint.c)
+	- Example file: [`8-main.c`](./8-main.c)
 ---
 #### 9
 ###### [Table of Contents](#table-of-contents)
