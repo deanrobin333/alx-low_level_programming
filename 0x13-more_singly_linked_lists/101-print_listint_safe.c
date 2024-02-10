@@ -10,6 +10,11 @@ size_t print_listint_safe(const listint_t *head);
  * @head: A pointer to the first node of the listint_t.
  * Return: 0 If the list is not looped
  * else - the number of unique nodes in the list.
+ *
+ * Presentation of the looped linked list
+ * 1024 -> 402 -> 98 -> 4 -> 3 -> 2 -> 1 -> 0 ->
+ *                ^                            |
+ *                |____________________________| 
  */
 
 size_t looped_listint_length(const listint_t *head)
