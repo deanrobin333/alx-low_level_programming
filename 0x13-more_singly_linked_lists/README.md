@@ -17,9 +17,9 @@
 	- [9. Insert](#9)
 	- [10. Delete at index](#10)
 	- [11. Reverse list](#11)
-	- [](#12)
-	- [](#13)
-	- [](#14)
+	- [12. Print (safe version)](#12)
+	- [13. Free (safe version)](#13)
+	- [14. Find the loop](#14)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -542,36 +542,156 @@ julien@ubuntu:~/0x13. More singly linked lists$ valgrind ./l
 ---
 #### 12
 ###### [Table of Contents](#table-of-contents)
-**t**
+**12. Print (safe version)**
+- Write a function that prints a `listint_t` linked list.
+
+    - Prototype: `size_t print_listint_safe(const listint_t *head);`
+    - Returns: the number of nodes in the list
+    - This function can print lists with a loop
+    - You should go through the list only once
+    - If the function fails, exit the program with status `98`
+    - Output format: see example
+
+```
+julien@ubuntu:~/0x13. More singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 101-main.c 2-add_nodeint.c 101-print_listint_safe.c -o m
+julien@ubuntu:~/0x13. More singly linked lists$ ./m
+[0x1b500f0] 1024
+[0x1b500d0] 402
+[0x1b500b0] 98
+[0x1b50090] 4
+[0x1b50070] 3
+[0x1b50050] 2
+[0x1b50030] 1
+[0x1b50010] 0
+[0x1b50600] 1024
+[0x1b505e0] 402
+[0x1b505c0] 98
+[0x1b505a0] 4
+[0x1b50580] 3
+[0x1b50560] 2
+[0x1b50540] 1
+[0x1b50110] 0
+-> [0x1b505c0] 98
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x13-more_singly_linked_lists`
-    - File: [``](./)
-	- Example file: [`-main.c`](./-main.c)
+    - File: [`101-print_listint_safe.c`](./101-print_listint_safe.c)
+	- Example file: [`101-main.c`](./101-main.c)
 ---
 #### 13
 ###### [Table of Contents](#table-of-contents)
-**t**
+**13. Free (safe version)**
+- Write a function that frees a `listint_t` list.
+    
+    - Prototype: `size_t free_listint_safe(listint_t **h);`
+    - This function can free lists with a loop
+    - You should go though the list only once
+    - Returns: the size of the list that was free’d
+    - The function sets the `head` to `NULL`
 
+```
+julien@ubuntu:~/0x13. More singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 102-main.c 2-add_nodeint.c 101-print_listint_safe.c 102-free_listint_safe.c -o n
+julien@ubuntu:~/0x13. More singly linked lists$ ./n 
+[0x11260f0] 1024
+[0x11260d0] 402
+[0x11260b0] 98
+[0x1126090] 4
+[0x1126070] 3
+[0x1126050] 2
+[0x1126030] 1
+[0x1126010] 0
+[0x1126600] 1024
+[0x11265e0] 402
+[0x11265c0] 98
+[0x11265a0] 4
+[0x1126580] 3
+[0x1126560] 2
+[0x1126540] 1
+[0x1126110] 0
+-> [0x11265c0] 98
+(nil), (nil)
+```
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x13-more_singly_linked_lists`
-    - File: [``](./)
-	- Example file: [`-main.c`](./-main.c)
+    - File: [`102-free_listint_safe.c`](./102-free_listint_safe.c)
+	- Example file: [`102-main.c`](./102-main.c)
 ---
 #### 14
 ###### [Table of Contents](#table-of-contents)
-**t**
+**14. Find the loop**
+- Write a function that finds the loop in a linked list.
+    
+    - Prototype: `listint_t *find_listint_loop(listint_t *head);`
+    - Returns: The address of the node where the loop starts, or `NULL` if there is no loop
+    - You are not allowed to use `malloc`, `free` or arrays
+    - You can only declare a maximum of two variables in your function
 
+```
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include "lists.h"
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    listint_t *head;
+    listint_t *head2;
+    listint_t *node;
+
+    head2 = NULL;
+    add_nodeint(&head2, 0);
+    add_nodeint(&head2, 1);
+    add_nodeint(&head2, 2);
+    add_nodeint(&head2, 3);
+    add_nodeint(&head2, 4);
+    add_nodeint(&head2, 98);
+    add_nodeint(&head2, 402);
+    add_nodeint(&head2, 1024);
+    print_listint_safe(head2);
+    node = find_listint_loop(head2);
+    if (node != NULL)
+    {
+        printf("Loop starts at [%p] %d\n", (void *)node, node->n);
+    }
+    free_listint_safe(&head2);
+    head = NULL;
+    node = add_nodeint(&head, 0);
+    add_nodeint(&head, 1);
+    add_nodeint(&head, 2);
+    add_nodeint(&head, 3);
+    add_nodeint(&head, 4);
+    add_nodeint(&head, 5);
+    add_nodeint(&head, 6);
+    node->next = add_nodeint(&head, 7);
+    add_nodeint(&head, 98);
+    add_nodeint(&head, 402);
+    add_nodeint(&head, 1024);
+    print_listint_safe(head);
+    node = find_listint_loop(head);
+    if (node != NULL)
+    {
+        printf("Loop starts at [%p] %d\n", (void *)node, node->n);
+    }
+    free_listint_safe(&head);
+    return (0);
+}
+```
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x13-more_singly_linked_lists`
-    - File: [``](./)
-	- Example file: [`-main.c`](./-main.c)
+    - File: [`103-find_loop.c`](./103-find_loop.c)
+	- Example file: [`103-main.c`](./103-main.c)
 ---
 
 
