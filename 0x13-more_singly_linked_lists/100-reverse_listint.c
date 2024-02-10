@@ -46,6 +46,11 @@ listint_t *reverse_listint(listint_t **head)
 	 * (*head) is currently the last node
 	 * so we make next pointer of (*head) reverse, to point to the node before
 	 */
-	(*head)->next = previous;
-	return ((*head));
+	if (*head != NULL)
+	{
+		(*head)->next = previous;
+		return ((*head));
+	}
+	else
+		return ((*head));
 }
