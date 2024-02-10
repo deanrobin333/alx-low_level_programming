@@ -25,7 +25,7 @@ listint_t *reverse_listint(listint_t **head)
 	 * it will return *head which is NULL
 	 */
 
-	while (*head != NULL)
+	while (next != NULL)
 	{
 		/* point next node of *head to the reverse */
 		(*head)->next = previous;
@@ -39,18 +39,11 @@ listint_t *reverse_listint(listint_t **head)
 		 * when next is NULL, we have reached the end of list
 		 * so we terminate the loop
 		 */
-		if (next == NULL)
-			break;
 	}
 	/**
 	 * (*head) is currently the last node
 	 * so we make next pointer of (*head) reverse, to point to the node before
 	 */
-	if (*head != NULL)
-	{
-		(*head)->next = previous;
-		return ((*head));
-	}
-	else
-		return ((*head));
+	(*head)->next = previous ;
+	return ((*head));
 }
