@@ -18,7 +18,7 @@ listint_t *find_listint_loop(listint_t *head)
 	while (slow != NULL && fast != NULL && fast->next != NULL)
 	{
 		/* Floyd's Tortoise and Hare algorithm */
-		slow = slow->next; /*tortoise - moves once step */
+		slow = slow->next; /*tortoise - moves one step */
 		fast = fast->next->next; /* hare - moves two steps */
 
 		if (slow == fast) /*then it is a loop */
