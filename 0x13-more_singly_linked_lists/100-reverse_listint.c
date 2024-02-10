@@ -16,21 +16,36 @@ listint_t *reverse_listint(listint_t **head)
 {
 	listint_t *next, *previous;
 
-	if (head == NULL || *head == NULL)
-		return (NULL);
-
 	next = (*head)->next;
 	previous = NULL;
 
-	while (1)
+	/**
+	 * if linked list is empty or first node is NULL
+	 * While loop will not be triggered
+	 * it will return *head which is NULL
+	 */
+
+	while (*head != NULL)
 	{
+		/* point next node of *head to the reverse */
 		(*head)->next = previous;
-		if (next == NULL)
-			break;
+
+		/* shift the positions of the nodes foward */
 		previous = *(head);
 		*head = next;
-		next = (*head)->next;
+		next = next->next;
+
+		/**
+		 * when next is NULL, we have reached the end of list
+		 * so we terminate the loop
+		 */
+		if (next == NULL)
+			break;
 	}
+	/**
+	 * (*head) is currently the last node
+	 * so we make next pointer of (*head) reverse, to point to the node before
+	 */
 	(*head)->next = previous;
 	return ((*head));
 }
