@@ -14,7 +14,7 @@ size_t print_listint_safe(const listint_t *head);
  * Presentation of the looped linked list
  * 1024 -> 402 -> 98 -> 4 -> 3 -> 2 -> 1 -> 0 ->
  *                ^                            |
- *                |____________________________| 
+ *                |____________________________|
  */
 
 size_t looped_listint_length(const listint_t *head)
@@ -25,13 +25,14 @@ size_t looped_listint_length(const listint_t *head)
 	if (head == NULL || head->next == NULL)
 		return (0); /* no loop here */
 
-	behind = head; /*set to 2nd node */
-	infront = head; /*set to 3rd node */
+	behind = head; /*set to first node */
+	infront = head; /*set to first node */
 	while (infront)
 	{
 		/* Floyd's Tortoise and Hare algorithm */
 		behind = behind->next; /* move it one step foward */
 		infront = (infront->next)->next;  /*move it 2 steps foward */
+
 		if (behind == infront) /* if loop is encountered */
 		{
 			/* set `behind` at start, `infront` remains at meeting point */
