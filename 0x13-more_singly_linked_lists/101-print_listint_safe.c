@@ -22,12 +22,12 @@ size_t looped_listint_length(const listint_t *head)
 	const listint_t *behind, *infront;
 	size_t nodes = 1;
 
-	if (head == NULL || head->next == NULL)
+	if (head == NULL)
 		return (0); /* no loop here */
 
 	behind = head; /*set to first node */
 	infront = head; /*set to first node */
-	while (infront)
+	while (behind != NULL && infront != NULL && infront->next != NULL)
 	{
 		/* Floyd's Tortoise and Hare algorithm */
 		behind = behind->next; /* move it one step foward */
