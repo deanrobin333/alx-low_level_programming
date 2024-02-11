@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "lists.h"
-#include <stdlib.h>
 
 /**
  * free_listint_safe - frees a listint_t linked list
