@@ -26,7 +26,8 @@
 	- [20. 0x14. C - Bit manipulation](#20)
 	- [21. 0x15. C - File I/O](#21)
 	- [22. 0x16. C - Simple Shell](#22)
-	- [23. ](#23)
+	- [23. 0x17. C - Doubly linked lists](#23)
+	- [24. ](#24)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -243,7 +244,16 @@
 ---
 #### 23
 ###### [Table of Contents](#table-of-contents)
-### [23. ](./)
+### [23. 0x17. C - Doubly linked lists](./)
+- What is a doubly linked list
+- How to use doubly linked lists
+- Understand and know how to implement the various operations (deletion, insertion, etc) with doubly linked lists
+- Start to look for the right source of information without too much help
+
+---
+#### 24
+###### [Table of Contents](#table-of-contents)
+### [24. ](./)
 
 ---
 
