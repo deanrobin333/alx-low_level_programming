@@ -63,13 +63,22 @@ julien@ubuntu:~/0x17. Doubly linked lists$ ./a
 #### 1
 ###### [Table of Contents](#table-of-contents)
 **1. List length**
+- Write a function that returns the number of elements in a linked `dlistint_t` list.
+
+    - Prototype: `size_t dlistint_len(const dlistint_t *h);`
+
+```
+julien@ubuntu:~/0x17. Doubly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-dlistint_len.c -o b
+julien@ubuntu:~/0x17. Doubly linked lists$ ./b
+-> 2 elements
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x17-doubly_linked_lists`
-    - File: [``](./)
-	- Example file: [`-main.c`](./-main.c)
+    - File: [`1-dlistint_len.c`](./1-dlistint_len.c)
+	- Example file: [`1-main.c`](./1-main.c)
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
