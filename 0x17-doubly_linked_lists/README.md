@@ -231,13 +231,45 @@ sum = 1534
 #### 7
 ###### [Table of Contents](#table-of-contents)
 **7. Insert at index**
+- Write a function that inserts a new node at a given position.
+
+    - Prototype: `dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);`
+    - where `idx` is the index of the list where the new node should be added. Index starts at `0`
+    - Returns: the address of the new node, or `NULL` if it failed
+    - if it is not possible to add the new node at index `idx`, do not add the new node and return `NULL`
+
+- Your files `2-add_dnodeint.c` and `3-add_dnodeint_end.c` will be compiled during the correction
+
+
+```
+julien@ubuntu:~/0x17. Doubly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 7-main.c 2-add_dnodeint.c 3-add_dnodeint_end.c 0-print_dlistint.c 4-free_dlistint.c 7-insert_dnodeint.c -o j
+julien@ubuntu:~/0x17. Doubly linked lists$ ./j
+0
+1
+2
+3
+4
+98
+402
+1024
+-----------------
+0
+1
+2
+3
+4
+4096
+98
+402
+1024
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x17-doubly_linked_lists`
-    - File: [``](./)
-	- Example file: [`-main.c`](./-main.c)
+    - File: [`7-insert_dnodeint.c`](./7-insert_dnodeint.c)
+	- Example file: [`7-main.c`](./7-main.c)
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
