@@ -43,6 +43,4 @@ int sum_dlistint(dlistint_t *head);
 /* 7-insert_dnodeint.c */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
 
-size_t _print_dlistint_backward(const dlistint_t *h);
- dlistint_t *_create_dlist(unsigned int n, ...);
 #endif /* __LISTS_H_ */
