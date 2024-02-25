@@ -180,13 +180,32 @@ julien@ubuntu:~/0x17. Doubly linked lists$ valgrind ./e
 #### 5
 ###### [Table of Contents](#table-of-contents)
 **5. Get node at index**
+- Write a function that returns the nth node of a `dlistint_t` linked list.
+
+    - Prototype: `dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);`
+    - where `index` is the index of the node, starting from `0`
+    - if the node does not exist, return `NULL`
+
+```
+julien@ubuntu:~/0x17. Doubly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 3-add_dnodeint_end.c 0-print_dlistint.c 4-free_dlistint.c 5-get_dnodeint.c -o h
+julien@ubuntu:~/0x17. Doubly linked lists$ ./h
+0
+1
+2
+3
+4
+98
+402
+1024
+98
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x17-doubly_linked_lists`
-    - File: [``](./)
-	- Example file: [`-main.c`](./-main.c)
+    - File: [`5-get_dnodeint.c`](./5-get_dnodeint.c)
+	- Example file: [`5-main.c`](./5-main.c)
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
