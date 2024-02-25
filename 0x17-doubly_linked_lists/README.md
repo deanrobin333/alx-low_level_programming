@@ -274,46 +274,128 @@ julien@ubuntu:~/0x17. Doubly linked lists$ ./j
 #### 8
 ###### [Table of Contents](#table-of-contents)
 **8. Delete at index**
+- Write a function that deletes the node at index `index` of a `dlistint_t` linked list.
+
+    - Prototype: `int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);`
+    - where `index` is the index of the node that should be deleted. Index starts at `0`
+    - Returns: `1` if it succeeded, `-1` if it failed
+
+```
+julien@ubuntu:~/0x17. Doubly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 8-main.c 3-add_dnodeint_end.c 0-print_dlistint.c 4-free_dlistint.c 8-delete_dnodeint.c -o k
+julien@ubuntu:~/0x17. Doubly linked lists$ ./k
+0
+1
+2
+3
+4
+98
+402
+1024
+-----------------
+0
+1
+2
+3
+4
+402
+1024
+-----------------
+1
+2
+3
+4
+402
+1024
+-----------------
+2
+3
+4
+402
+1024
+-----------------
+3
+4
+402
+1024
+-----------------
+4
+402
+1024
+-----------------
+402
+1024
+-----------------
+1024
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x17-doubly_linked_lists`
-    - File: [``](./)
-	- Example file: [`-main.c`](./-main.c)
+    - File: [`8-delete_dnodeint.c`](./8-delete_dnodeint.c)
+	- Example file: [`8-main.c`](./8-main.c)
 ---
 #### 9
 ###### [Table of Contents](#table-of-contents)
 **9. Crackme4**
+- Find the password for [crackme4](https://github.com/alx-tools/0x17.c "crackme4").
+
+    - Save the password in the file `100-password`
+    - Your file should contain the exact password, no new line, no extra space
+    - Hint: The program prints “OK” when the password is correct
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x17-doubly_linked_lists`
-    - File: [``](./)
-	- Example file: [`-main.c`](./-main.c)
+    - File: [`100-password`](./100-password)
 ---
 #### 10
 ###### [Table of Contents](#table-of-contents)
 **10. Palindromes**
-
+- A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is `9009` \= `91` × `99`.    
+- Find the largest palindrome made from the product of two 3-digit numbers.    
+    - Save the result in the file `102-result`
+    - Your file should contain the exact result, no new line, no extra space
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x17-doubly_linked_lists`
-    - File: [``](./)
-	- Example file: [`-main.c`](./-main.c)
+    - File: [`102-result`](./102-result)
+	- Helper File: [`palindrome.py`](./palindrome.py)
 ---
 #### 11
 ###### [Table of Contents](#table-of-contents)
 **11. crackme5**
+- Write a keygen for [crackme5](https://github.com/alx-tools/0x17.c "crackme5").
+    
+    - Usage of the crackme: `./crackme5 username key`
+    - The crackme will segfault if you do not enter the correct key for the user
+    - Usage for your keygen: `./keygen5 username`
+    - Your keygen should print a valid key for the `username`
+```
+julien@ubuntu:~/0x17$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 103-keygen.c -o keygen5
+julien@ubuntu:~/0x17$ ./crackme5 julien javascript
+Segmentation fault (core dumped)
+julien@ubuntu:~/0x17$ ./crackme5 julien `./keygen5 julien`
+Congrats!
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x17-doubly_linked_lists`
-    - File: [``](./)
-	- Example file: [`-main.c`](./-main.c)
+    - File: [`103-keygen.c`](./103-keygen.c)
 ---
 
 
