@@ -39,13 +39,26 @@
 #### 0
 ###### [Table of Contents](#table-of-contents)
 **0. Print list**
+- Write a function that prints all the elements of a `dlistint_t` list.
+
+    - Prototype: `size_t print_dlistint(const dlistint_t *h);`
+    - Return: the number of nodes
+    - Format: see example
+
+```
+julien@ubuntu:~/0x17. Doubly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-print_dlistint.c -o a
+julien@ubuntu:~/0x17. Doubly linked lists$ ./a
+9
+8
+-> 2 elements
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x17-doubly_linked_lists`
-    - File: [``](./)
-  - Example file: [`-main.c`](./-main.c)
+    - File: [`0-print_dlistint.c`](./0-print_dlistint.c)
+	- Example file: [`0-main.c`](./0-main.c)
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
@@ -56,7 +69,7 @@
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x17-doubly_linked_lists`
     - File: [``](./)
-  - Example file: [`-main.c`](./-main.c)
+	- Example file: [`-main.c`](./-main.c)
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
@@ -67,7 +80,7 @@
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x17-doubly_linked_lists`
     - File: [``](./)
-  - Example file: [`-main.c`](./-main.c)
+	- Example file: [`-main.c`](./-main.c)
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
@@ -78,7 +91,7 @@
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x17-doubly_linked_lists`
     - File: [``](./)
-  - Example file: [`-main.c`](./-main.c)
+	- Example file: [`-main.c`](./-main.c)
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
@@ -89,7 +102,7 @@
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x17-doubly_linked_lists`
     - File: [``](./)
-  - Example file: [`-main.c`](./-main.c)
+	- Example file: [`-main.c`](./-main.c)
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
@@ -100,7 +113,7 @@
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x17-doubly_linked_lists`
     - File: [``](./)
-  - Example file: [`-main.c`](./-main.c)
+	- Example file: [`-main.c`](./-main.c)
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
@@ -111,7 +124,7 @@
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x17-doubly_linked_lists`
     - File: [``](./)
-  - Example file: [`-main.c`](./-main.c)
+	- Example file: [`-main.c`](./-main.c)
 ---
 #### 7
 ###### [Table of Contents](#table-of-contents)
@@ -122,7 +135,7 @@
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x17-doubly_linked_lists`
     - File: [``](./)
-  - Example file: [`-main.c`](./-main.c)
+	- Example file: [`-main.c`](./-main.c)
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
@@ -133,7 +146,7 @@
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x17-doubly_linked_lists`
     - File: [``](./)
-  - Example file: [`-main.c`](./-main.c)
+	- Example file: [`-main.c`](./-main.c)
 ---
 #### 9
 ###### [Table of Contents](#table-of-contents)
@@ -144,7 +157,7 @@
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x17-doubly_linked_lists`
     - File: [``](./)
-  - Example file: [`-main.c`](./-main.c)
+	- Example file: [`-main.c`](./-main.c)
 ---
 #### 10
 ###### [Table of Contents](#table-of-contents)
@@ -155,7 +168,7 @@
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x17-doubly_linked_lists`
     - File: [``](./)
-  - Example file: [`-main.c`](./-main.c)
+	- Example file: [`-main.c`](./-main.c)
 ---
 #### 11
 ###### [Table of Contents](#table-of-contents)
@@ -166,7 +179,7 @@
     - GitHub repository: `alx-low_level_programming`
     - Directory: `0x17-doubly_linked_lists`
     - File: [``](./)
-  - Example file: [`-main.c`](./-main.c)
+	- Example file: [`-main.c`](./-main.c)
 ---
 
 
