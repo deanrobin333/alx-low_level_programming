@@ -1,5 +1,4 @@
 #include "lists.h"
-#include <stdio.h>
 
 /**
  * add_dnodeint_end - adds a new node at the end of a doubly list
@@ -23,16 +22,20 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 
 	if (last_head)  /* if list is not empty */
 	{
-		/* loop traverses the list until it reaches the last node */
-		while (last_head->next) /* last_head stops at second last node */
+		/** 
+		 * loop traverses the list until it reaches the last node.
+		 * When last_head reaches the last node, last_head->next will be NULL,
+		 *		causing the loop to terminate
+		 */
+		while (last_head->next)
 			last_head = last_head->next;
-		last_head->next = new_node; /*set next of 2nd last node to new_node*/
+		last_head->next = new_node; /*set next of now last node to new_node*/
 	}
 	else /* if list is empty */
 		*head = new_node;
 
 	/**
-	 * sets the previous pointer of the new node to the last node
+	 * sets the previous pointer of the new node to the current last node
 	 *		in the case where the list is not empty.
 	 * if list is empty, last_head will be NULL hence prev node will be NULL
 	 */
