@@ -27,7 +27,9 @@
 	- [21. 0x15. C - File I/O](#21)
 	- [22. 0x16. C - Simple Shell](#22)
 	- [23. 0x17. C - Doubly linked lists](#23)
-	- [24. ](#24)
+	- [24. 0x18. C - Dynamic libraries](#24)
+	- [25. 0x19. C - Stacks, Queues - LIFO, FIFO(monty)](#25)
+	- [26. ](#26)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -252,6 +254,26 @@
 
 ---
 #### 24
+###### [Table of Contents](#table-of-contents)
+### [24. 0x18-dynamic_libraries](./0x18-dynamic_libraries)
+- What is a dynamic library, how does it work, how to create one, and how to use it
+- What is the environment variable `$LD_LIBRARY_PATH` and how to use it
+- What are the differences between static and shared libraries
+- Basic usage `nm`, `ldd`, `ldconfig`
+
+---
+#### 25
+###### [Table of Contents](#table-of-contents)
+### [24. 0x19. C - Stacks, Queues - LIFO, FIFO(monty)](./../monty)
+- What do LIFO and FIFO mean
+- What is a stack, and when to use it
+- What is a queue, and when to use it
+- What are the common implementations of stacks and queues
+- What are the most common use cases of stacks and queues
+- What is the proper way to use global variables
+
+---
+#### 26
 ###### [Table of Contents](#table-of-contents)
 ### [24. ](./)
 
