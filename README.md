@@ -28,7 +28,7 @@
 	- [22. 0x16. C - Simple Shell](#22)
 	- [23. 0x17. C - Doubly linked lists](#23)
 	- [24. 0x18. C - Dynamic libraries](#24)
-	- [25. 0x19. C - Stacks, Queues - LIFO, FIFO(monty)](#25)
+	- [25. 0x19. C - Stacks, Queues - LIFO, FIFO (monty)](#25)
 	- [26. ](#26)
 ---
 ## Author Details
@@ -264,7 +264,7 @@
 ---
 #### 25
 ###### [Table of Contents](#table-of-contents)
-### [24. 0x19. C - Stacks, Queues - LIFO, FIFO(monty)](../../../monty)
+### [24. 0x19. C - Stacks, Queues - LIFO, FIFO (monty)](../../../monty)
 - What do LIFO and FIFO mean
 - What is a stack, and when to use it
 - What is a queue, and when to use it
