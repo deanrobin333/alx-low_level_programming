@@ -264,7 +264,7 @@
 ---
 #### 25
 ###### [Table of Contents](#table-of-contents)
-### [24. 0x19. C - Stacks, Queues - LIFO, FIFO(monty)](./../monty)
+### [24. 0x19. C - Stacks, Queues - LIFO, FIFO(monty)](../../../monty)
 - What do LIFO and FIFO mean
 - What is a stack, and when to use it
 - What is a queue, and when to use it
