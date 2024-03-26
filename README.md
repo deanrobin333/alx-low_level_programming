@@ -29,7 +29,8 @@
 	- [23. 0x17. C - Doubly linked lists](#23)
 	- [24. 0x18. C - Dynamic libraries](#24)
 	- [25. 0x19. C - Stacks, Queues - LIFO, FIFO (monty)](#25)
-	- [26. ](#26)
+	- [26. 0x1A. C - Hash tables](#26)
+	- [27. ](#27)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -264,7 +265,7 @@
 ---
 #### 25
 ###### [Table of Contents](#table-of-contents)
-### [24. 0x19. C - Stacks, Queues - LIFO, FIFO (monty)](../../../monty)
+### [25. 0x19. C - Stacks, Queues - LIFO, FIFO (monty)](../../../monty)
 - What do LIFO and FIFO mean
 - What is a stack, and when to use it
 - What is a queue, and when to use it
@@ -275,7 +276,18 @@
 ---
 #### 26
 ###### [Table of Contents](#table-of-contents)
-### [24. ](./)
+### [26. 0x1A. C - Hash tables](./0x1A-hash_tables)
+- What is a hash function
+- What makes a good hash function
+- What is a hash table, how do they work and how to use them
+- What is a collision and what are the main ways of dealing with collisions in the context of a hash table
+- What are the advantages and drawbacks of using hash tables
+- What are the most common use cases of hash tables
+
+---
+#### 27
+###### [Table of Contents](#table-of-contents)
+### [27. ](./)
 
 ---
 
