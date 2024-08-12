@@ -33,7 +33,7 @@
 	- [27. 0x1B. C - Sorting algorithms & Big O](#27)
 	- [28. 0x1C. C - Makefiles](#28)
 	- [29. 0x1D. C - Binary trees](#29)
-	- [30. ](#30)
+	- [30. 0x1E. C - Search Algorithms](#30)
 	- [31. ](#31)
 	- [32. ](#32)
 ---
@@ -323,7 +323,24 @@
 ---
 #### 30
 ###### [Table of Contents](#table-of-contents)
-### [30. ](./)
+### [30. 0x1E. C - Search Algorithms](./0x1E-search_algorithms)
+- What is a search algorithm
+- What is a linear search
+- What is a binary search
+- What is the best search algorithm to use depending on your needs
+    
+## More Info
+
+- You will be asked to write files containing big O notations. Please use this format:
+	- `O(1)`
+	- `O(n)`
+	- `O(n!)`
+	- n\*m -> `O(nm)`
+	- n square -> `O(n^2)`
+	- sqrt n -> `O(sqrt(n))`
+	- log(n) -> `O(log(n))`
+	- n \* log(n) -> `O(nlog(n))`
+	- …
 
 ---
 #### 31
