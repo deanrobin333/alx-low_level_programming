@@ -288,7 +288,7 @@
 ---
 #### 27
 ###### [Table of Contents](#table-of-contents)
-### [27. 0x1B. C - Sorting algorithms & Big O](../sorting_algorithms)
+### [27. 0x1B. C - Sorting algorithms & Big O](../../../sorting_algorithms)
 - At least four different sorting algorithms
 - What is the Big O notation, and how to evaluate the time complexity of an algorithm
 - How to select the best sorting algorithm for a given input
