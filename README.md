@@ -35,7 +35,6 @@
 	- [29. 0x1D. C - Binary trees](#29)
 	- [30. 0x1E. C - Search Algorithms](#30)
 	- [31. ](#31)
-	- [32. ](#32)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -347,12 +346,6 @@
 ###### [Table of Contents](#table-of-contents)
 ### [31. ](./)
 
----
-#### 32
-###### [Table of Contents](#table-of-contents)
-### [32. ](./)
-
----
 
 <br></br>
 <div align="right">
