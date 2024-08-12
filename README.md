@@ -32,8 +32,10 @@
 	- [26. 0x1A. C - Hash tables](#26)
 	- [27. 0x1B. C - Sorting algorithms & Big O](#27)
 	- [28. 0x1C. C - Makefiles](#28)
-	- [29. ](#29)
+	- [29. 0x1D. C - Binary trees](#29)
 	- [30. ](#30)
+	- [31. ](#31)
+	- [32. ](#32)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -306,10 +308,17 @@
 - What are explicit and implicit rules
 - What are the most common / useful rules
 - What are variables and how to set and use them
+
 ---
 #### 29
 ###### [Table of Contents](#table-of-contents)
-### [29. ](./)
+### [29. 0x1D. C - Binary trees](../../../binary_trees)
+- What is a binary tree
+- What is the difference between a binary tree and a Binary Search Tree
+- What is the possible gain in terms of time complexity compared to linked lists
+- What are the depth, the height, the size of a binary tree
+- What are the different traversal methods to go through a binary tree
+- What is a complete, a full, a perfect, a balanced binary tree
 
 ---
 #### 30
@@ -317,7 +326,16 @@
 ### [30. ](./)
 
 ---
+#### 31
+###### [Table of Contents](#table-of-contents)
+### [31. ](./)
 
+---
+#### 32
+###### [Table of Contents](#table-of-contents)
+### [32. ](./)
+
+---
 
 <br></br>
 <div align="right">
